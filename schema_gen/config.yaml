@@ -1,0 +1,38 @@
+model_categories:
+  regression_base:
+    data_types:
+      string: TEXT
+      categorical: CATEGORICAL
+      numeric: NUMERIC
+
+    field_use_types:
+      id: ID
+      input: INPUT
+      target: TARGET
+
+    schemaFields:
+      fieldName: field_name
+      dataType: data_type
+      fieldUseType: field_use_type
+
+    datasets:
+      abalone:
+        fname: abalone_schema_cfg.csv
+      ailerons:
+        fname: ailerons_schema_cfg.csv
+      auto_prices:
+        fname: auto_prices_schema_cfg.csv
+      computer_activity:
+        fname: computer_activity_schema_cfg.csv
+      diamond:
+        fname: diamond_schema_cfg.csv
+      energy:
+        fname: energy_schema_cfg.csv
+      heart_disease:
+        fname: heart_disease_schema_cfg.csv
+      house_prices:
+        fname: house_prices_schema_cfg.csv
+      medical_costs:
+        fname: medical_costs_schema_cfg.csv
+      white_wine:
+        fname: white_wine_schema_cfg.csv

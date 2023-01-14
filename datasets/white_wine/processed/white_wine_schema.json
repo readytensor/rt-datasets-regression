@@ -1,0 +1,56 @@
+{
+  "problemCategory": "regression_base",
+  "version": "1.0",
+  "inputDatasets": {
+    "regressionBaseMainInput": {
+      "idField": "id",
+      "targetField": "quality",
+      "predictorFields": [
+        {
+          "fieldName": "fixed acidity",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "volatile acidity",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "citric acid",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "residual sugar",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "chlorides",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "free sulfur dioxide",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "total sulfur dioxide",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "density",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "pH",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "sulphates",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "alcohol",
+          "dataType": "NUMERIC"
+        }
+      ]
+    }
+  }
+}

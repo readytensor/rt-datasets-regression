@@ -1,0 +1,28 @@
+{
+  "instances": [
+    {
+      "id": "5670",
+      "lread": 3,
+      "lwrite": 1,
+      "scall": 540,
+      "sread": 96,
+      "swrite": 88,
+      "fork": 0.2,
+      "exec": 0.2,
+      "rchar": 45128,
+      "wchar": 56460,
+      "pgout": 0.0,
+      "ppgout": 0.0,
+      "pgfree": 0.0,
+      "pgscan": 0.0,
+      "atch": 0.0,
+      "pgin": 0.2,
+      "ppgin": 0.2,
+      "pflt": 22.6,
+      "vflt": 17.4,
+      "runqsz": 2.0,
+      "freemem": 1333,
+      "freeswap": 1713242
+    }
+  ]
+}

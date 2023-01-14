@@ -1,0 +1,172 @@
+{
+  "problemCategory": "regression_base",
+  "version": "1.0",
+  "inputDatasets": {
+    "regressionBaseMainInput": {
+      "idField": "id",
+      "targetField": "goal",
+      "predictorFields": [
+        {
+          "fieldName": "climbRate",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "Sgz",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "p",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "q",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "curPitch",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "curRoll",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "absRoll",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffClb",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffRollRate",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffDiffClb",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime1",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime2",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime3",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime4",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime5",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime6",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime7",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime8",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime9",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime10",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime11",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime12",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime13",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SeTime14",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime1",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime2",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime3",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime4",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime5",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime6",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime7",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime8",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime9",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime10",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime11",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime12",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime13",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "diffSeTime14",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "alpha",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "Se",
+          "dataType": "NUMERIC"
+        }
+      ]
+    }
+  }
+}

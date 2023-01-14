@@ -1,0 +1,36 @@
+{
+  "problemCategory": "regression_base",
+  "version": "1.0",
+  "inputDatasets": {
+    "regressionBaseMainInput": {
+      "idField": "id",
+      "targetField": "charges",
+      "predictorFields": [
+        {
+          "fieldName": "age",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "sex",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "bmi",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "children",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "smoker",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "region",
+          "dataType": "CATEGORICAL"
+        }
+      ]
+    }
+  }
+}

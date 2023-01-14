@@ -1,0 +1,14 @@
+field_num,field_name,data_type,field_use_type
+1,id,TEXT,ID
+2,fixed acidity,NUMERIC,INPUT
+3,volatile acidity,NUMERIC,INPUT
+4,citric acid,NUMERIC,INPUT
+5,residual sugar,NUMERIC,INPUT
+6,chlorides,NUMERIC,INPUT
+7,free sulfur dioxide,NUMERIC,INPUT
+8,total sulfur dioxide,NUMERIC,INPUT
+9,density,NUMERIC,INPUT
+10,pH,NUMERIC,INPUT
+11,sulphates,NUMERIC,INPUT
+12,alcohol,NUMERIC,INPUT
+13,quality,NUMERIC,TARGET

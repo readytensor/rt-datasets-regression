@@ -1,0 +1,32 @@
+{
+  "instances": [
+    {
+      "id": "95",
+      "symboling": -1,
+      "normalized-losses": "74",
+      "make": "volvo",
+      "fuel-type": "gas",
+      "aspiration": "turbo",
+      "num-of-doors": "four",
+      "body-style": "wagon",
+      "drive-wheels": "rwd",
+      "engine-location": "front",
+      "wheel-base": 104.3,
+      "length": 188.8,
+      "width": 67.2,
+      "height": 57.5,
+      "curb-weight": 3157,
+      "engine-type": "ohc",
+      "num-of-cylinders": "four",
+      "engine-size": 130,
+      "fuel-system": "mpfi",
+      "bore": "3.62",
+      "stroke": "3.15",
+      "compression-ratio": 7.5,
+      "horsepower": "162",
+      "peak-rpm": "5100",
+      "city-mpg": 17,
+      "highway-mpg": 22
+    }
+  ]
+}

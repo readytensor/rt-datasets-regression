@@ -1,0 +1,64 @@
+{
+  "problemCategory": "regression_base",
+  "version": "1.0",
+  "inputDatasets": {
+    "regressionBaseMainInput": {
+      "idField": "id",
+      "targetField": "num",
+      "predictorFields": [
+        {
+          "fieldName": "age",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "sex",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "cp",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "trestbps",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "chol",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "fbs",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "restecg",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "thalach",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "exang",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "oldpeak",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "slope",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "ca",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "thal",
+          "dataType": "NUMERIC"
+        }
+      ]
+    }
+  }
+}

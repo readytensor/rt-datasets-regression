@@ -1,0 +1,96 @@
+{
+  "problemCategory": "regression_base",
+  "version": "1.0",
+  "inputDatasets": {
+    "regressionBaseMainInput": {
+      "idField": "id",
+      "targetField": "usr",
+      "predictorFields": [
+        {
+          "fieldName": "lread",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "lwrite",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "scall",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "sread",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "swrite",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "fork",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "exec",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "rchar",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "wchar",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "pgout",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "ppgout",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "pgfree",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "pgscan",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "atch",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "pgin",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "ppgin",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "pflt",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "vflt",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "runqsz",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "freemem",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "freeswap",
+          "dataType": "NUMERIC"
+        }
+      ]
+    }
+  }
+}

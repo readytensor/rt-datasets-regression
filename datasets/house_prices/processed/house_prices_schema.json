@@ -1,0 +1,328 @@
+{
+  "problemCategory": "regression_base",
+  "version": "1.0",
+  "inputDatasets": {
+    "regressionBaseMainInput": {
+      "idField": "Id",
+      "targetField": "SalePrice",
+      "predictorFields": [
+        {
+          "fieldName": "MSSubClass",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "MSZoning",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "LotFrontage",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "LotArea",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "Street",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Alley",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "LotShape",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "LandContour",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Utilities",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "LotConfig",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "LandSlope",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Neighborhood",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Condition1",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Condition2",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "BldgType",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "HouseStyle",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "OverallQual",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "OverallCond",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "YearBuilt",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "YearRemodAdd",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "RoofStyle",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "RoofMatl",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Exterior1st",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Exterior2nd",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "MasVnrType",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "MasVnrArea",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "ExterQual",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "ExterCond",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Foundation",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "BsmtQual",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "BsmtCond",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "BsmtExposure",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "BsmtFinType1",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "BsmtFinSF1",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "BsmtFinType2",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "BsmtFinSF2",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "BsmtUnfSF",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "TotalBsmtSF",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "Heating",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "HeatingQC",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "CentralAir",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Electrical",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "1stFlrSF",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "2ndFlrSF",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "LowQualFinSF",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "GrLivArea",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "BsmtFullBath",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "BsmtHalfBath",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "FullBath",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "HalfBath",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "BedroomAbvGr",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "KitchenAbvGr",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "KitchenQual",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "TotRmsAbvGrd",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "Functional",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Fireplaces",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "FireplaceQu",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "GarageType",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "GarageYrBlt",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "GarageFinish",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "GarageCars",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "GarageArea",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "GarageQual",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "GarageCond",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "PavedDrive",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "WoodDeckSF",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "OpenPorchSF",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "EnclosedPorch",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "3SsnPorch",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "ScreenPorch",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "PoolArea",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "PoolQC",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "Fence",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "MiscFeature",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "MiscVal",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "MoSold",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "YrSold",
+          "dataType": "NUMERIC"
+        },
+        {
+          "fieldName": "SaleType",
+          "dataType": "CATEGORICAL"
+        },
+        {
+          "fieldName": "SaleCondition",
+          "dataType": "CATEGORICAL"
+        }
+      ]
+    }
+  }
+}
