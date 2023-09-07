@@ -1,0 +1,11 @@
+field_num,field_name,data_type,field_use_type
+1,Id,TEXT,ID
+2,Relative Compactness,NUMERIC,INPUT
+3,Surface Area,NUMERIC,INPUT
+4,Wall Area,NUMERIC,INPUT
+5,Roof Area,NUMERIC,INPUT
+6,Overall Height,NUMERIC,INPUT
+7,Orientation,CATEGORICAL,INPUT
+8,Glazing Area,CATEGORICAL,INPUT
+9,Glazing Area Distribution,CATEGORICAL,INPUT
+10,Heating Load,NUMERIC,TARGET

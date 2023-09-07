@@ -1,9 +1,0 @@
-field_num,field_name,data_type,field_use_type
-1,id,TEXT,ID
-2,age,NUMERIC,INPUT
-3,sex,CATEGORICAL,INPUT
-4,bmi,NUMERIC,INPUT
-5,children,NUMERIC,INPUT
-6,smoker,CATEGORICAL,INPUT
-7,region,CATEGORICAL,INPUT
-8,charges,NUMERIC,TARGET

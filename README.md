@@ -242,7 +242,7 @@ UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: Uni
 
 #### Description
 
-This is the popular “House prices” dataset (not the same as California Housing Dataset). There are 81 columns and 1,460 samples. The task is to predict an individual house’s sale price given various attributes related to the property such as lot area, lot frontage, year built, number of bedrooms, bathrooms, etc.
+This is the popular “House prices” dataset (not the same as Boston House Prices or California Housing Dataset). There are 81 columns and 1,460 samples. The task is to predict an individual house’s sale price given various attributes related to the property such as lot area, lot frontage, year built, number of bedrooms, bathrooms, etc.
 
 #### Dataset characteristics
 

@@ -1,0 +1,382 @@
+model_category,name,field_num,field_name,field_type,data_type,field_description
+regression,abalone,1,Id,id,TEXT,Unique identifier for sample
+regression,abalone,2,Sex,feature,CATEGORICAL,"Sex / nominal / -- / M, F, and I (infant)"
+regression,abalone,3,Length,feature,NUMERIC,Length / continuous / mm / Longest shell measurement
+regression,abalone,4,Diameter,feature,NUMERIC,"Diameter	/ continuous / mm / perpendicular to length"
+regression,abalone,5,Height,feature,NUMERIC,Height / continuous / mm / with meat in shell
+regression,abalone,6,Whole weight,feature,NUMERIC,Whole weight / continuous / grams / whole abalone
+regression,abalone,7,Shucked weight,feature,NUMERIC,"Shucked weight / continuous	 / grams / weight of meat"
+regression,abalone,8,Viscera weight,feature,NUMERIC,Viscera weight / continuous / grams / gut weight (after bleeding)
+regression,abalone,9,Shell weight,feature,NUMERIC,Shell weight / continuous / grams / after being dried
+regression,abalone,10,Rings,target,NUMERIC,Rings / integer / -- / +1.5 gives the age in years
+regression,ailerons,1,id,id,TEXT,Unique identifier for sample
+regression,ailerons,2,climbRate,feature,NUMERIC,climbRate: continuous.
+regression,ailerons,3,Sgz,feature,NUMERIC,Sgz: continuous.
+regression,ailerons,4,p,feature,NUMERIC,p: continuous.
+regression,ailerons,5,q,feature,NUMERIC,q: continuous.
+regression,ailerons,6,curPitch,feature,NUMERIC,curPitch: continuous.
+regression,ailerons,7,curRoll,feature,NUMERIC,curRoll: continuous.
+regression,ailerons,8,absRoll,feature,NUMERIC,absRoll: continuous.
+regression,ailerons,9,diffClb,feature,NUMERIC,diffClb: continuous.
+regression,ailerons,10,diffRollRate,feature,NUMERIC,diffRollRate: continuous.
+regression,ailerons,11,diffDiffClb,feature,NUMERIC,diffDiffClb: continuous.
+regression,ailerons,12,SeTime1,feature,NUMERIC,SeTime1: continuous.
+regression,ailerons,13,SeTime2,feature,NUMERIC,SeTime2: continuous.
+regression,ailerons,14,SeTime3,feature,NUMERIC,SeTime3: continuous.
+regression,ailerons,15,SeTime4,feature,NUMERIC,SeTime4: continuous.
+regression,ailerons,16,SeTime5,feature,NUMERIC,SeTime5: continuous.
+regression,ailerons,17,SeTime6,feature,NUMERIC,SeTime6: continuous.
+regression,ailerons,18,SeTime7,feature,NUMERIC,SeTime7: continuous.
+regression,ailerons,19,SeTime8,feature,NUMERIC,SeTime8: continuous.
+regression,ailerons,20,SeTime9,feature,NUMERIC,SeTime9: continuous.
+regression,ailerons,21,SeTime10,feature,NUMERIC,SeTime10: continuous.
+regression,ailerons,22,SeTime11,feature,NUMERIC,SeTime11: continuous.
+regression,ailerons,23,SeTime12,feature,NUMERIC,SeTime12: continuous.
+regression,ailerons,24,SeTime13,feature,NUMERIC,SeTime13: continuous.
+regression,ailerons,25,SeTime14,feature,NUMERIC,SeTime14: continuous.
+regression,ailerons,26,diffSeTime1,feature,NUMERIC,diffSeTime1: continuous.
+regression,ailerons,27,diffSeTime2,feature,NUMERIC,diffSeTime2: continuous.
+regression,ailerons,28,diffSeTime3,feature,NUMERIC,diffSeTime3: continuous.
+regression,ailerons,29,diffSeTime4,feature,NUMERIC,diffSeTime4: continuous.
+regression,ailerons,30,diffSeTime5,feature,NUMERIC,diffSeTime5: continuous.
+regression,ailerons,31,diffSeTime6,feature,NUMERIC,diffSeTime6: continuous.
+regression,ailerons,32,diffSeTime7,feature,NUMERIC,diffSeTime7: continuous.
+regression,ailerons,33,diffSeTime8,feature,NUMERIC,diffSeTime8: continuous.
+regression,ailerons,34,diffSeTime9,feature,NUMERIC,diffSeTime9: continuous.
+regression,ailerons,35,diffSeTime10,feature,NUMERIC,diffSeTime10: continuous.
+regression,ailerons,36,diffSeTime11,feature,NUMERIC,diffSeTime11: continuous.
+regression,ailerons,37,diffSeTime12,feature,NUMERIC,diffSeTime12: continuous.
+regression,ailerons,38,diffSeTime13,feature,NUMERIC,diffSeTime13: continuous.
+regression,ailerons,39,diffSeTime14,feature,NUMERIC,diffSeTime14: continuous.
+regression,ailerons,40,alpha,feature,NUMERIC,alpha: continuous.
+regression,ailerons,41,Se,feature,NUMERIC,Se: continuous
+regression,ailerons,42,goal,target,NUMERIC,goal: continuous
+regression,auto_mpg,1,id,id,TEXT,Unique identifier for sample
+regression,auto_mpg,2,mpg,target,NUMERIC,Target: city-cycle fuel consumption in miles per gallon
+regression,auto_mpg,3,cylinders,feature,CATEGORICAL,Number of cylinders in the engine
+regression,auto_mpg,4,displacement,feature,NUMERIC,Engine displacement
+regression,auto_mpg,5,horsepower,feature,NUMERIC,Horsepower of vehicle
+regression,auto_mpg,6,weight,feature,NUMERIC,Weight of vehicle (lbs)
+regression,auto_mpg,7,acceleration,feature,NUMERIC,Acceleration of the car (seconds taken for 0-60mph)
+regression,auto_mpg,8,model year,feature,CATEGORICAL,Model year of the car in the 1900s
+regression,auto_mpg,9,origin,feature,CATEGORICAL,Car origin
+regression,computer_activity,1,id,id,TEXT,Unique identifier for sample
+regression,computer_activity,2,lread,feature,NUMERIC,lread - Reads (transfers per second ) between system memory and user memory.
+regression,computer_activity,3,lwrite,feature,NUMERIC,lwrite - writes (transfers per second) between system memory and user memory.
+regression,computer_activity,4,scall,feature,NUMERIC,scall - Number of system calls of all types per second.
+regression,computer_activity,5,sread,feature,NUMERIC,sread - Number of system read calls per second.
+regression,computer_activity,6,swrite,feature,NUMERIC,swrite - Number of system write calls per second .
+regression,computer_activity,7,fork,feature,NUMERIC,fork - Number of system fork calls per second.
+regression,computer_activity,8,exec,feature,NUMERIC,exec - Number of system exec calls per second.
+regression,computer_activity,9,rchar,feature,NUMERIC,rchar - Number of characters transferred per second by system read calls.
+regression,computer_activity,10,wchar,feature,NUMERIC,wchar - Number of characters transfreed per second by system write calls.
+regression,computer_activity,11,pgout,feature,NUMERIC,pgout - Number of page out requests per second.
+regression,computer_activity,12,ppgout,feature,NUMERIC,"ppgout - Number of pages, paged out per second."
+regression,computer_activity,13,pgfree,feature,NUMERIC,pgfree - Number of pages per second placed on the free list.
+regression,computer_activity,14,pgscan,feature,NUMERIC,pgscan - Number of pages checked if they can be freed per second.
+regression,computer_activity,15,atch,feature,NUMERIC,atch - Number of page attaches (satisfying a page fault by reclaiming a page in memory) per second.
+regression,computer_activity,16,pgin,feature,NUMERIC,pgin - Number of page-in requests per second.
+regression,computer_activity,17,ppgin,feature,NUMERIC,ppgin - Number of pages paged in per second.
+regression,computer_activity,18,pflt,feature,NUMERIC,pflt - Number of page faults caused by protection errors (copy-on-writes).
+regression,computer_activity,19,vflt,feature,NUMERIC,vflt - Number of page faults caused by address translation.
+regression,computer_activity,20,runqsz,feature,NUMERIC,runqsz - Process run queue size.
+regression,computer_activity,21,freemem,feature,NUMERIC,freemem - Number of memory pages available to user processes.
+regression,computer_activity,22,freeswap,feature,NUMERIC,freeswap - Number of disk blocks available for page swapping.
+regression,computer_activity,23,usr,target,NUMERIC,usr - Portion of time (%) that cpus run in user mode.
+regression,diamond_prices,1,Id,id,TEXT,Unique identifier for sample
+regression,diamond_prices,2,Carat Weight,feature,NUMERIC,Carat weight of diamond
+regression,diamond_prices,3,Cut,feature,CATEGORICAL,"Cut of diamond - one of [Signature-Ideal, Ideal, Very Good, Good, Fair]"
+regression,diamond_prices,4,Color,feature,CATEGORICAL,"Color of diamond - one of [D, E, F, G, H, I]"
+regression,diamond_prices,5,Clarity,feature,CATEGORICAL,"Clarity of diamond - one of [SI1, VS1, VS2, VVS2, VVS1, IF, FL]"
+regression,diamond_prices,6,Polish,feature,CATEGORICAL,"Polish of diamond - one of [VG, ID, EX, G]"
+regression,diamond_prices,7,Symmetry,feature,CATEGORICAL,"Symmetry of diamond - one of [EX, ID, VG, G]"
+regression,diamond_prices,8,Report,feature,CATEGORICAL,Report type - GIA or AGSL
+regression,diamond_prices,9,Price,target,NUMERIC,Price of diamond (Target)
+regression,energy_efficiency,1,Id,id,TEXT,Unique identifier for sample
+regression,energy_efficiency,2,Relative Compactness,feature,NUMERIC,Relative Compactness
+regression,energy_efficiency,3,Surface Area,feature,NUMERIC,Surface Area
+regression,energy_efficiency,4,Wall Area,feature,NUMERIC,Wall Area
+regression,energy_efficiency,5,Roof Area,feature,NUMERIC,Roof Area
+regression,energy_efficiency,6,Overall Height,feature,NUMERIC,Overall Height
+regression,energy_efficiency,7,Orientation,feature,CATEGORICAL,Orientation
+regression,energy_efficiency,8,Glazing Area,feature,CATEGORICAL,Glazing Area
+regression,energy_efficiency,9,Glazing Area Distribution,feature,CATEGORICAL,Glazing Area Distribution
+regression,energy_efficiency,10,Heating Load,target,NUMERIC,Heating load requirement of building
+regression,house_prices,1,Id,id,TEXT,Unique identifier for sample
+regression,house_prices,2,MSSubClass,feature,CATEGORICAL,MSSubClass: The building class
+regression,house_prices,3,MSZoning,feature,CATEGORICAL,MSZoning: The general zoning classification
+regression,house_prices,4,LotFrontage,feature,NUMERIC,LotFrontage: Linear feet of street connected to property
+regression,house_prices,5,LotArea,feature,NUMERIC,LotArea: Lot size in square feet
+regression,house_prices,6,Street,feature,CATEGORICAL,Street: Type of road access
+regression,house_prices,7,Alley,feature,CATEGORICAL,Alley: Type of alley access
+regression,house_prices,8,LotShape,feature,CATEGORICAL,LotShape: General shape of property
+regression,house_prices,9,LandContour,feature,CATEGORICAL,LandContour: Flatness of the property
+regression,house_prices,10,Utilities,feature,CATEGORICAL,Utilities: Type of utilities available
+regression,house_prices,11,LotConfig,feature,CATEGORICAL,LotConfig: Lot configuration
+regression,house_prices,12,LandSlope,feature,CATEGORICAL,LandSlope: Slope of property
+regression,house_prices,13,Neighborhood,feature,CATEGORICAL,Neighborhood: Physical locations within Ames city limits
+regression,house_prices,14,Condition1,feature,CATEGORICAL,Condition1: Proximity to main road or railroad
+regression,house_prices,15,Condition2,feature,CATEGORICAL,Condition2: Proximity to main road or railroad (if a second is present)
+regression,house_prices,16,BldgType,feature,CATEGORICAL,BldgType: Type of dwelling
+regression,house_prices,17,HouseStyle,feature,CATEGORICAL,HouseStyle: Style of dwelling
+regression,house_prices,18,OverallQual,feature,NUMERIC,OverallQual: Overall material and finish quality
+regression,house_prices,19,OverallCond,feature,NUMERIC,OverallCond: Overall condition rating
+regression,house_prices,20,YearBuilt,feature,NUMERIC,YearBuilt: Original construction date
+regression,house_prices,21,YearRemodAdd,feature,NUMERIC,YearRemodAdd: Remodel date
+regression,house_prices,22,RoofStyle,feature,CATEGORICAL,RoofStyle: Type of roof
+regression,house_prices,23,RoofMatl,feature,CATEGORICAL,RoofMatl: Roof material
+regression,house_prices,24,Exterior1st,feature,CATEGORICAL,Exterior1st: Exterior covering on house
+regression,house_prices,25,Exterior2nd,feature,CATEGORICAL,Exterior2nd: Exterior covering on house (if more than one material)
+regression,house_prices,26,MasVnrType,feature,CATEGORICAL,MasVnrType: Masonry veneer type
+regression,house_prices,27,MasVnrArea,feature,NUMERIC,MasVnrArea: Masonry veneer area in square feet
+regression,house_prices,28,ExterQual,feature,CATEGORICAL,ExterQual: Exterior material quality
+regression,house_prices,29,ExterCond,feature,CATEGORICAL,ExterCond: Present condition of the material on the exterior
+regression,house_prices,30,Foundation,feature,CATEGORICAL,Foundation: Type of foundation
+regression,house_prices,31,BsmtQual,feature,CATEGORICAL,BsmtQual: Height of the basement
+regression,house_prices,32,BsmtCond,feature,CATEGORICAL,BsmtCond: General condition of the basement
+regression,house_prices,33,BsmtExposure,feature,CATEGORICAL,BsmtExposure: Walkout or garden level basement walls
+regression,house_prices,34,BsmtFinType1,feature,CATEGORICAL,BsmtFinType1: Quality of basement finished area
+regression,house_prices,35,BsmtFinSF1,feature,NUMERIC,BsmtFinSF1: Type 1 finished square feet
+regression,house_prices,36,BsmtFinType2,feature,CATEGORICAL,BsmtFinType2: Quality of second finished area (if present)
+regression,house_prices,37,BsmtFinSF2,feature,NUMERIC,BsmtFinSF2: Type 2 finished square feet
+regression,house_prices,38,BsmtUnfSF,feature,NUMERIC,BsmtUnfSF: Unfinished square feet of basement area
+regression,house_prices,39,TotalBsmtSF,feature,NUMERIC,TotalBsmtSF: Total square feet of basement area
+regression,house_prices,40,Heating,feature,CATEGORICAL,Heating: Type of heating
+regression,house_prices,41,HeatingQC,feature,CATEGORICAL,HeatingQC: Heating quality and condition
+regression,house_prices,42,CentralAir,feature,CATEGORICAL,CentralAir: Central air conditioning
+regression,house_prices,43,Electrical,feature,CATEGORICAL,Electrical: Electrical system
+regression,house_prices,44,1stFlrSF,feature,NUMERIC,1stFlrSF: First Floor square feet
+regression,house_prices,45,2ndFlrSF,feature,NUMERIC,2ndFlrSF: Second floor square feet
+regression,house_prices,46,LowQualFinSF,feature,NUMERIC,LowQualFinSF: Low quality finished square feet (all floors)
+regression,house_prices,47,GrLivArea,feature,NUMERIC,GrLivArea: Above grade (ground) living area square feet
+regression,house_prices,48,BsmtFullBath,feature,NUMERIC,BsmtFullBath: Basement full bathrooms
+regression,house_prices,49,BsmtHalfBath,feature,NUMERIC,BsmtHalfBath: Basement half bathrooms
+regression,house_prices,50,FullBath,feature,NUMERIC,FullBath: Full bathrooms above grade
+regression,house_prices,51,HalfBath,feature,NUMERIC,HalfBath: Half baths above grade
+regression,house_prices,52,BedroomAbvGr,feature,NUMERIC,Bedroom: Number of bedrooms above basement level
+regression,house_prices,53,KitchenAbvGr,feature,NUMERIC,Kitchen: Number of kitchens
+regression,house_prices,54,KitchenQual,feature,CATEGORICAL,KitchenQual: Kitchen quality
+regression,house_prices,55,TotRmsAbvGrd,feature,NUMERIC,TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
+regression,house_prices,56,Functional,feature,CATEGORICAL,Functional: Home functionality rating
+regression,house_prices,57,Fireplaces,feature,NUMERIC,Fireplaces: Number of fireplaces
+regression,house_prices,58,FireplaceQu,feature,CATEGORICAL,FireplaceQu: Fireplace quality
+regression,house_prices,59,GarageType,feature,CATEGORICAL,GarageType: Garage location
+regression,house_prices,60,GarageYrBlt,feature,NUMERIC,GarageYrBlt: Year garage was built
+regression,house_prices,61,GarageFinish,feature,CATEGORICAL,GarageFinish: Interior finish of the garage
+regression,house_prices,62,GarageCars,feature,NUMERIC,GarageCars: Size of garage in car capacity
+regression,house_prices,63,GarageArea,feature,NUMERIC,GarageArea: Size of garage in square feet
+regression,house_prices,64,GarageQual,feature,CATEGORICAL,GarageQual: Garage quality
+regression,house_prices,65,GarageCond,feature,CATEGORICAL,GarageCond: Garage condition
+regression,house_prices,66,PavedDrive,feature,CATEGORICAL,PavedDrive: Paved driveway
+regression,house_prices,67,WoodDeckSF,feature,NUMERIC,WoodDeckSF: Wood deck area in square feet
+regression,house_prices,68,OpenPorchSF,feature,NUMERIC,OpenPorchSF: Open porch area in square feet
+regression,house_prices,69,EnclosedPorch,feature,NUMERIC,EnclosedPorch: Enclosed porch area in square feet
+regression,house_prices,70,3SsnPorch,feature,NUMERIC,3SsnPorch: Three season porch area in square feet
+regression,house_prices,71,ScreenPorch,feature,NUMERIC,ScreenPorch: Screen porch area in square feet
+regression,house_prices,72,PoolArea,feature,NUMERIC,PoolArea: Pool area in square feet
+regression,house_prices,73,PoolQC,feature,CATEGORICAL,PoolQC: Pool quality
+regression,house_prices,74,Fence,feature,CATEGORICAL,Fence: Fence quality
+regression,house_prices,75,MiscFeature,feature,CATEGORICAL,MiscFeature: Miscellaneous feature not covered in other categories
+regression,house_prices,76,MiscVal,feature,NUMERIC,MiscVal: $Value of miscellaneous feature
+regression,house_prices,77,MoSold,feature,NUMERIC,MoSold: Month Sold
+regression,house_prices,78,YrSold,feature,NUMERIC,YrSold: Year Sold
+regression,house_prices,79,SaleType,feature,CATEGORICAL,SaleType: Type of sale
+regression,house_prices,80,SaleCondition,feature,CATEGORICAL,SaleCondition: Condition of sale
+regression,house_prices,81,SalePrice,target,NUMERIC,SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.
+regression,smoke_test_regression,1,id,id,TEXT,Unique identifier for sample
+regression,smoke_test_regression,2,number,feature,NUMERIC,Synthetic numeric feature
+regression,smoke_test_regression,3,color,feature,CATEGORICAL,Synthetic categorical feature
+regression,smoke_test_regression,4,target,target,NUMERIC,Target feature
+regression,sine_waves,1,sample_id,id,TEXT,Unique identifier for sample
+regression,sine_waves,2,feature_1,feature,NUMERIC,Value at time step 1
+regression,sine_waves,3,feature_2,feature,NUMERIC,Value at time step 2
+regression,sine_waves,4,feature_3,feature,NUMERIC,Value at time step 3
+regression,sine_waves,5,feature_4,feature,NUMERIC,Value at time step 4
+regression,sine_waves,6,feature_5,feature,NUMERIC,Value at time step 5
+regression,sine_waves,7,feature_6,feature,NUMERIC,Value at time step 6
+regression,sine_waves,8,feature_7,feature,NUMERIC,Value at time step 7
+regression,sine_waves,9,feature_8,feature,NUMERIC,Value at time step 8
+regression,sine_waves,10,feature_9,feature,NUMERIC,Value at time step 9
+regression,sine_waves,11,feature_10,feature,NUMERIC,Value at time step 10
+regression,sine_waves,12,target,target,NUMERIC,Target feature
+regression,neural_sim_net,1,sample_id,id,TEXT,Unique identifier for sample
+regression,neural_sim_net,2,feature_1,feature,NUMERIC,Input feature 1
+regression,neural_sim_net,3,feature_2,feature,NUMERIC,Input feature 2
+regression,neural_sim_net,4,feature_3,feature,NUMERIC,Input feature 3
+regression,neural_sim_net,5,feature_4,feature,NUMERIC,Input feature 4
+regression,neural_sim_net,6,feature_5,feature,NUMERIC,Input feature 5
+regression,neural_sim_net,7,feature_6,feature,NUMERIC,Input feature 6
+regression,neural_sim_net,8,feature_7,feature,NUMERIC,Input feature 7
+regression,neural_sim_net,9,feature_8,feature,NUMERIC,Input feature 8
+regression,neural_sim_net,10,feature_9,feature,NUMERIC,Input feature 9
+regression,neural_sim_net,11,feature_10,feature,NUMERIC,Input feature 10
+regression,neural_sim_net,12,feature_11,feature,NUMERIC,Input feature 11
+regression,neural_sim_net,13,feature_12,feature,NUMERIC,Input feature 12
+regression,neural_sim_net,14,feature_13,feature,NUMERIC,Input feature 13
+regression,neural_sim_net,15,feature_14,feature,NUMERIC,Input feature 14
+regression,neural_sim_net,16,feature_15,feature,NUMERIC,Input feature 15
+regression,neural_sim_net,17,feature_16,feature,NUMERIC,Input feature 16
+regression,neural_sim_net,18,target,target,NUMERIC,Target for dataset
+regression,fluid_pressure,1,id,id,TEXT,Unique identifier for sample
+regression,fluid_pressure,2,fluid_density,feature,NUMERIC,Fluid density in kg/m^3
+regression,fluid_pressure,3,fluid_velocity,feature,NUMERIC,Fluid velocity in m/s
+regression,fluid_pressure,4,body,feature,CATEGORICAL,"Planetary body - one of ['Earth', 'Moon', 'Mars', 'Jupiter', 'Venus', 'Saturn']"
+regression,fluid_pressure,5,height,feature,NUMERIC,Height in meters
+regression,fluid_pressure,6,pressure_bars,target,NUMERIC,Pressure in bars
+regression,cancer_mortality,1,Geography,id,TEXT,Geography: County name (2013 Census)
+regression,cancer_mortality,2,AvgHouseholdSize,feature,NUMERIC,AvgHouseholdSize: Mean household size of county (2013 Census Estimates)
+regression,cancer_mortality,3,BirthRate,feature,NUMERIC,BirthRate: Number of live births relative to number of women in county (2013 Census Estimates)
+regression,cancer_mortality,4,MedianAge,feature,NUMERIC,MedianAge: Median age of county residents (2013 Census Estimates)
+regression,cancer_mortality,5,MedianAgeFemale,feature,NUMERIC,MedianAgeFemale: Median age of female county residents (2013 Census Estimates)
+regression,cancer_mortality,6,MedianAgeMale,feature,NUMERIC,MedianAgeMale: Median age of male county residents (2013 Census Estimates)
+regression,cancer_mortality,7,PctAsian,feature,NUMERIC,PctAsian: Percent of county residents who identify as Asian (2013 Census Estimates)
+regression,cancer_mortality,8,PctBachDeg18_24,feature,NUMERIC,PctBachDeg18_24: Percent of county residents ages 18-24 highest education attained: bachelor's degree (2013 Census Estimates)
+regression,cancer_mortality,9,PctBachDeg25_Over,feature,NUMERIC,PctBachDeg25_Over: Percent of county residents ages 25 and over highest education attained: bachelor's degree (2013 Census Estimates)
+regression,cancer_mortality,10,PctBlack,feature,NUMERIC,PctBlack: Percent of county residents who identify as Black (2013 Census Estimates)
+regression,cancer_mortality,11,PctEmpPrivCoverage,feature,NUMERIC,PctEmpPrivCoverage: Percent of county residents with employee-provided private health coverage (2013 Census Estimates)
+regression,cancer_mortality,12,PctEmployed16_Over,feature,NUMERIC,PctEmployed16_Over: Percent of county residents ages 16 and over employed (2013 Census Estimates)
+regression,cancer_mortality,13,PctHS18_24,feature,NUMERIC,PctHS18_24: Percent of county residents ages 18-24 highest education attained: high school diploma (2013 Census Estimates)
+regression,cancer_mortality,14,PctHS25_Over,feature,NUMERIC,PctHS25_Over: Percent of county residents ages 25 and over highest education attained: high school diploma (2013 Census Estimates)
+regression,cancer_mortality,15,PctMarriedHouseholds,feature,NUMERIC,PctMarriedHouseholds: Percent of married households (2013 Census Estimates)
+regression,cancer_mortality,16,PctNoHS18_24,feature,NUMERIC,PctNoHS18_24: Percent of county residents ages 18-24 highest education attained: less than high school (2013 Census Estimates)
+regression,cancer_mortality,17,PctOtherRace,feature,NUMERIC,"PctOtherRace: Percent of county residents who identify in a category which is not White, Black, or Asian (2013 Census Estimates)"
+regression,cancer_mortality,18,PctPrivateCoverage,feature,NUMERIC,PctPrivateCoverage: Percent of county residents with private health coverage (2013 Census Estimates)
+regression,cancer_mortality,19,PctPrivateCoverageAlone,feature,NUMERIC,PctPrivateCoverageAlone: Percent of county residents with private health coverage alone (no public assistance) (2013 Census Estimates)
+regression,cancer_mortality,20,PctPublicCoverage,feature,NUMERIC,PctPublicCoverage: Percent of county residents with government-provided health coverage (2013 Census Estimates)
+regression,cancer_mortality,21,PctPublicCoverageAlone,feature,NUMERIC,PctPubliceCoverageAlone: Percent of county residents with government-provided health coverage alone (2013 Census Estimates)
+regression,cancer_mortality,22,PctSomeCol18_24,feature,NUMERIC,PctSomeCol18_24: Percent of county residents ages 18-24 highest education attained: some college (2013 Census Estimates)
+regression,cancer_mortality,23,PctUnemployed16_Over,feature,NUMERIC,PctUnemployed16_Over: Percent of county residents ages 16 and over unemployed (2013 Census Estimates)
+regression,cancer_mortality,24,PctWhite,feature,NUMERIC,PctWhite: Percent of county residents who identify as White (2013 Census Estimates)
+regression,cancer_mortality,25,PercentMarried,feature,NUMERIC,PercentMarried: Percent of county residents who are married (2013 Census Estimates)
+regression,cancer_mortality,26,avgAnnCount,feature,NUMERIC,avgAnnCount: Mean number of reported cases of cancer diagnosed annually(a)
+regression,cancer_mortality,27,avgDeathsPerYear,feature,NUMERIC,avgDeathsPerYear: Mean number of reported mortalities due to cancer(a)
+regression,cancer_mortality,28,incidenceRate,feature,NUMERIC,"incidenceRate: Mean per capita (100,000) cancer diagoses(a)"
+regression,cancer_mortality,29,medIncome,feature,NUMERIC,medianIncome: Median income per county (2013 Census Estimates)
+regression,cancer_mortality,30,popEst2015,feature,NUMERIC,popEst2015: Population of county (2013 Census Estimates)
+regression,cancer_mortality,31,povertyPercent,feature,NUMERIC,povertyPercent: Percent of populace in poverty (2013 Census Estimates)
+regression,cancer_mortality,32,studyPerCap,feature,NUMERIC,studyPerCap: Per capita number of cancer-related clinical trials per county (a)
+regression,cancer_mortality,33,TARGET_deathRate,target,NUMERIC,"TARGET_deathRate: Dependent variable. Mean per capita (100,000) cancer mortalities (years 2010-2016)"
+regression,online_news_popularity,1,id,id,TEXT,Unique identifier for article
+regression,online_news_popularity,2,timedelta,feature,NUMERIC,Days between the article publication and the dataset acquisition
+regression,online_news_popularity,3,n_tokens_title,feature,NUMERIC,Number of words in the title
+regression,online_news_popularity,4,n_tokens_content,feature,NUMERIC,Number of words in the content
+regression,online_news_popularity,5,n_unique_tokens,feature,NUMERIC,Rate of unique words in the content
+regression,online_news_popularity,6,n_non_stop_words,feature,NUMERIC,Rate of non-stop words in the content
+regression,online_news_popularity,7,n_non_stop_unique_tokens,feature,NUMERIC,Rate of unique non-stop words in the content
+regression,online_news_popularity,8,num_hrefs,feature,NUMERIC,Number of links
+regression,online_news_popularity,9,num_self_hrefs,feature,NUMERIC,Number of links to other articles published by Mashable
+regression,online_news_popularity,10,num_imgs,feature,NUMERIC,Number of images
+regression,online_news_popularity,11,num_videos,feature,NUMERIC,Number of videos
+regression,online_news_popularity,12,average_token_length,feature,NUMERIC,Average length of the words in the content
+regression,online_news_popularity,13,num_keywords,feature,NUMERIC,Number of keywords in the metadata
+regression,online_news_popularity,14,data_channel_is_lifestyle,feature,NUMERIC,Is data channel 'Lifestyle'?
+regression,online_news_popularity,15,data_channel_is_entertainment,feature,NUMERIC,Is data channel 'Entertainment'?
+regression,online_news_popularity,16,data_channel_is_bus,feature,NUMERIC,Is data channel 'Business'?
+regression,online_news_popularity,17,data_channel_is_socmed,feature,NUMERIC,Is data channel 'Social Media'?
+regression,online_news_popularity,18,data_channel_is_tech,feature,NUMERIC,Is data channel 'Tech'?
+regression,online_news_popularity,19,data_channel_is_world,feature,NUMERIC,Is data channel 'World'?
+regression,online_news_popularity,20,kw_min_min,feature,NUMERIC,Worst keyword (min. shares)
+regression,online_news_popularity,21,kw_max_min,feature,NUMERIC,Worst keyword (max. shares)
+regression,online_news_popularity,22,kw_avg_min,feature,NUMERIC,Worst keyword (avg. shares)
+regression,online_news_popularity,23,kw_min_max,feature,NUMERIC,Best keyword (min. shares)
+regression,online_news_popularity,24,kw_max_max,feature,NUMERIC,Best keyword (max. shares)
+regression,online_news_popularity,25,kw_avg_max,feature,NUMERIC,Best keyword (avg. shares)
+regression,online_news_popularity,26,kw_min_avg,feature,NUMERIC,Avg. keyword (min. shares)
+regression,online_news_popularity,27,kw_max_avg,feature,NUMERIC,Avg. keyword (max. shares)
+regression,online_news_popularity,28,kw_avg_avg,feature,NUMERIC,Avg. keyword (avg. shares)
+regression,online_news_popularity,29,self_reference_min_shares,feature,NUMERIC,Min. shares of referenced articles in Mashable
+regression,online_news_popularity,30,self_reference_max_shares,feature,NUMERIC,Max. shares of referenced articles in Mashable
+regression,online_news_popularity,31,self_reference_avg_sharess,feature,NUMERIC,Avg. shares of referenced articles in Mashable
+regression,online_news_popularity,32,weekday_is_monday,feature,NUMERIC,Was the article published on a Monday?
+regression,online_news_popularity,33,weekday_is_tuesday,feature,NUMERIC,Was the article published on a Tuesday?
+regression,online_news_popularity,34,weekday_is_wednesday,feature,NUMERIC,Was the article published on a Wednesday?
+regression,online_news_popularity,35,weekday_is_thursday,feature,NUMERIC,Was the article published on a Thursday?
+regression,online_news_popularity,36,weekday_is_friday,feature,NUMERIC,Was the article published on a Friday?
+regression,online_news_popularity,37,weekday_is_saturday,feature,NUMERIC,Was the article published on a Saturday?
+regression,online_news_popularity,38,weekday_is_sunday,feature,NUMERIC,Was the article published on a Sunday?
+regression,online_news_popularity,39,is_weekend,feature,NUMERIC,Was the article published on the weekend?
+regression,online_news_popularity,40,LDA_00,feature,NUMERIC,Closeness to LDA topic 0
+regression,online_news_popularity,41,LDA_01,feature,NUMERIC,Closeness to LDA topic 1
+regression,online_news_popularity,42,LDA_02,feature,NUMERIC,Closeness to LDA topic 2
+regression,online_news_popularity,43,LDA_03,feature,NUMERIC,Closeness to LDA topic 3
+regression,online_news_popularity,44,LDA_04,feature,NUMERIC,Closeness to LDA topic 4
+regression,online_news_popularity,45,global_subjectivity,feature,NUMERIC,Text subjectivity
+regression,online_news_popularity,46,global_sentiment_polarity,feature,NUMERIC,Text sentiment polarity
+regression,online_news_popularity,47,global_rate_positive_words,feature,NUMERIC,Rate of positive words in the content
+regression,online_news_popularity,48,global_rate_negative_words,feature,NUMERIC,Rate of negative words in the content
+regression,online_news_popularity,49,rate_positive_words,feature,NUMERIC,Rate of positive words among non-neutral tokens
+regression,online_news_popularity,50,rate_negative_words,feature,NUMERIC,Rate of negative words among non-neutral tokens
+regression,online_news_popularity,51,avg_positive_polarity,feature,NUMERIC,Avg. polarity of positive words
+regression,online_news_popularity,52,min_positive_polarity,feature,NUMERIC,Min. polarity of positive words
+regression,online_news_popularity,53,max_positive_polarity,feature,NUMERIC,Max. polarity of positive words
+regression,online_news_popularity,54,avg_negative_polarity,feature,NUMERIC,Avg. polarity of negative words
+regression,online_news_popularity,55,min_negative_polarity,feature,NUMERIC,Min. polarity of negative words
+regression,online_news_popularity,56,max_negative_polarity,feature,NUMERIC,Max. polarity of negative words
+regression,online_news_popularity,57,title_subjectivity,feature,NUMERIC,Title subjectivity
+regression,online_news_popularity,58,title_sentiment_polarity,feature,NUMERIC,Title polarity
+regression,online_news_popularity,59,abs_title_subjectivity,feature,NUMERIC,Absolute subjectivity level
+regression,online_news_popularity,60,abs_title_sentiment_polarity,feature,NUMERIC,Absolute polarity level
+regression,online_news_popularity,61,shares,target,NUMERIC,Number of shares (target)
+regression,nfl_elo_game,1,game_id,id,TEXT,Unique identifier for game
+regression,nfl_elo_game,2,season,feature,NUMERIC,season year
+regression,nfl_elo_game,3,month,feature,CATEGORICAL,month of the year
+regression,nfl_elo_game,4,neutral,feature,CATEGORICAL,Whether game venue was neutral
+regression,nfl_elo_game,5,playoff,feature,CATEGORICAL,Whether this was a playoff game
+regression,nfl_elo_game,6,team1,feature,CATEGORICAL,Team 1 involved in the game - has homefield unless venue is indicated as neutral
+regression,nfl_elo_game,7,team2,feature,CATEGORICAL,Team 2 involved in the game
+regression,nfl_elo_game,8,elo1,feature,NUMERIC,Elo rating of team 1 before game
+regression,nfl_elo_game,9,elo2,feature,NUMERIC,Elo rating of team 2 before game
+regression,nfl_elo_game,10,score1,feature,NUMERIC,Points scored by team 1 in the game
+regression,nfl_elo_game,11,score2,target,NUMERIC,Target - Points scored by team 2 in the game
+regression,college_pell_grants,1,unit_id,id,TEXT,Unique identifier for college 
+regression,college_pell_grants,2,act_combined_midrange,feature,NUMERIC,act_combined_midrange
+regression,college_pell_grants,3,act_english_midrange,feature,NUMERIC,act_english_midrange
+regression,college_pell_grants,4,act_math_midrange,feature,NUMERIC,act_math_midrange
+regression,college_pell_grants,5,act_writing_midrange,feature,NUMERIC,act_writing_midrange
+regression,college_pell_grants,6,admission_rate,feature,NUMERIC,admission_rate
+regression,college_pell_grants,7,agege24,feature,NUMERIC,agege24
+regression,college_pell_grants,8,average_cost_academic_year,feature,NUMERIC,average_cost_academic_year
+regression,college_pell_grants,9,average_cost_program_year,feature,NUMERIC,average_cost_program_year
+regression,college_pell_grants,10,carnegie_basic_classification,feature,CATEGORICAL,carnegie_basic_classification
+regression,college_pell_grants,11,carnegie_size,feature,CATEGORICAL,carnegie_size
+regression,college_pell_grants,12,carnegie_undergraduate,feature,CATEGORICAL,carnegie_undergraduate
+regression,college_pell_grants,13,completion_rate,feature,NUMERIC,completion_rate
+regression,college_pell_grants,14,faculty_salary,feature,NUMERIC,faculty_salary
+regression,college_pell_grants,15,faminc,feature,NUMERIC,faminc
+regression,college_pell_grants,16,gender,feature,CATEGORICAL,gender
+regression,college_pell_grants,17,highest_degree,feature,CATEGORICAL,highest_degree
+regression,college_pell_grants,18,mean_earnings_10_years,feature,NUMERIC,mean_earnings_10_years
+regression,college_pell_grants,19,mean_earnings_6_years,feature,NUMERIC,mean_earnings_6_years
+regression,college_pell_grants,20,median_earnings_10_years,feature,NUMERIC,median_earnings_10_years
+regression,college_pell_grants,21,median_earnings_6_years,feature,NUMERIC,median_earnings_6_years
+regression,college_pell_grants,22,ownership,feature,CATEGORICAL,ownership
+regression,college_pell_grants,23,percent_asian,feature,NUMERIC,percent_asian
+regression,college_pell_grants,24,percent_black,feature,NUMERIC,percent_black
+regression,college_pell_grants,25,percent_female,feature,NUMERIC,percent_female
+regression,college_pell_grants,26,percent_hispanic,feature,NUMERIC,percent_hispanic
+regression,college_pell_grants,27,percent_part_time,feature,NUMERIC,percent_part_time
+regression,college_pell_grants,28,percent_part_time_faculty,feature,NUMERIC,percent_part_time_faculty
+regression,college_pell_grants,29,percent_white,feature,NUMERIC,percent_white
+regression,college_pell_grants,30,predominant_degree,feature,CATEGORICAL,predominant_degree
+regression,college_pell_grants,31,region,feature,CATEGORICAL,region
+regression,college_pell_grants,32,religious_affiliation,feature,CATEGORICAL,religious_affiliation
+regression,college_pell_grants,33,sat_math_midrange,feature,NUMERIC,sat_math_midrange
+regression,college_pell_grants,34,sat_total_average,feature,NUMERIC,sat_total_average
+regression,college_pell_grants,35,sat_verbal_midrange,feature,NUMERIC,sat_verbal_midrange
+regression,college_pell_grants,36,sat_writing_midrange,feature,NUMERIC,sat_writing_midrange
+regression,college_pell_grants,37,spend_per_student,feature,NUMERIC,spend_per_student
+regression,college_pell_grants,38,state,feature,CATEGORICAL,state
+regression,college_pell_grants,39,tuition_(instate),feature,NUMERIC,tuition_(instate)
+regression,college_pell_grants,40,tuition_(out_of_state),feature,NUMERIC,tuition_(out_of_state)
+regression,college_pell_grants,41,undergrad_size,feature,NUMERIC,undergrad_size
+regression,college_pell_grants,42,percent_pell_grant,target,NUMERIC,Target variable - percent of undergraduate students awarded Federal Pell Grants
+regression,aquatic_toxicity,1,Id,id,TEXT,
+regression,aquatic_toxicity,2,TPSA(Tot),feature,NUMERIC,TPSA(Tot) (Molecular properties)
+regression,aquatic_toxicity,3,SAacc,feature,NUMERIC,SAacc (Molecular properties)
+regression,aquatic_toxicity,4,H-050,feature,NUMERIC,H-050 (Atom-centred fragments)
+regression,aquatic_toxicity,5,MLOGP,feature,NUMERIC,MLOGP (Molecular properties)
+regression,aquatic_toxicity,6,RDCHI,feature,NUMERIC,RDCHI (Connectivity indices)
+regression,aquatic_toxicity,7,GATS1p,feature,NUMERIC,GATS1p (2D autocorrelations)
+regression,aquatic_toxicity,8,nN,feature,NUMERIC,nN (Constitutional indices)
+regression,aquatic_toxicity,9,C-040,feature,NUMERIC,C-040 (Atom-centred fragments)
+regression,aquatic_toxicity,10,LC50,target,NUMERIC,LC50 - concentration that causes death in 50% of test Daphnia Magma over a test duration of 48 hours
