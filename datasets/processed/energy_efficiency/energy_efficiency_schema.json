@@ -1,0 +1,94 @@
+{
+  "title": "Energy Efficiency",
+  "description": "The Energy Efficiency dataset consists of 8 features from 768 simulated building shapes in Ecotect, designed for regression tasks to predict both heating and cooling load requirements.",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "Id",
+    "description": "Unique identifier for sample"
+  },
+  "target": {
+    "name": "Heating Load",
+    "description": "Heating Load",
+    "example": 15.55
+  },
+  "features": [
+    {
+      "name": "Relative Compactness",
+      "description": "Relative Compactness",
+      "dataType": "NUMERIC",
+      "example": 0.98,
+      "nullable": false
+    },
+    {
+      "name": "Surface Area",
+      "description": "Surface Area",
+      "dataType": "NUMERIC",
+      "example": 514.5,
+      "nullable": false
+    },
+    {
+      "name": "Wall Area",
+      "description": "Wall Area",
+      "dataType": "NUMERIC",
+      "example": 294.0,
+      "nullable": false
+    },
+    {
+      "name": "Roof Area",
+      "description": "Roof Area",
+      "dataType": "NUMERIC",
+      "example": 110.25,
+      "nullable": false
+    },
+    {
+      "name": "Overall Height",
+      "description": "Overall Height",
+      "dataType": "NUMERIC",
+      "example": 7.0,
+      "nullable": false
+    },
+    {
+      "name": "Orientation",
+      "description": "Orientation",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Glazing Area",
+      "description": "Glazing Area",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0.0,
+        0.1,
+        0.25,
+        0.4
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Glazing Area Distribution",
+      "description": "Glazing Area Distribution",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "nullable": false
+    }
+  ]
+}

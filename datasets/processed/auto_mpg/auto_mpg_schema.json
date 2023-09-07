@@ -1,0 +1,94 @@
+{
+  "title": "Auto MPG",
+  "description": "The auto-mpg dataset contains information about various car attributes, such as cylinders, horsepower, and weight, and aims to predict the miles-per-gallon (mpg) fuel efficiency of the cars. The regression task is to use these attributes to accurately predict the mpg, providing insights into the relationships between car characteristics and fuel efficiency. ",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for sample"
+  },
+  "target": {
+    "name": "mpg",
+    "description": "Target: city-cycle fuel consumption in miles per gallon",
+    "example": 18.0
+  },
+  "features": [
+    {
+      "name": "cylinders",
+      "description": "Number of cylinders in the engine",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "nullable": false
+    },
+    {
+      "name": "displacement",
+      "description": "Engine displacement",
+      "dataType": "NUMERIC",
+      "example": 307.0,
+      "nullable": false
+    },
+    {
+      "name": "horsepower",
+      "description": "Horsepower of vehicle",
+      "dataType": "NUMERIC",
+      "example": 130.0,
+      "nullable": true
+    },
+    {
+      "name": "weight",
+      "description": "Weight of vehicle (lbs)",
+      "dataType": "NUMERIC",
+      "example": 3504.0,
+      "nullable": false
+    },
+    {
+      "name": "acceleration",
+      "description": "Acceleration of the car (seconds taken for 0-60mph)",
+      "dataType": "NUMERIC",
+      "example": 12.0,
+      "nullable": false
+    },
+    {
+      "name": "model year",
+      "description": "Model year of the car in the 1900s",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "nullable": false
+    },
+    {
+      "name": "origin",
+      "description": "Car origin",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        1,
+        2,
+        3
+      ],
+      "nullable": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "title": "QSAR Aquatic Toxicity",
+  "description": "This dataset was used to develop quantitative structure-activity relationship (QSAR) models to predict acute aquatic toxicity towards the fish Pimephales promelas (fathead minnow).",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "Id",
+    "description": "Unique identifier for sample"
+  },
+  "target": {
+    "name": "LC50",
+    "description": "Concentration that causes death in 50% of test Daphnia Magma over a test duration of 48 hours",
+    "example": 3.74
+  },
+  "features": [
+    {
+      "name": "TPSA(Tot)",
+      "description": "TPSA(Tot) (Molecular properties)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "SAacc",
+      "description": "SAacc (Molecular properties)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "H-050",
+      "description": "H-050 (Atom-centred fragments)",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "MLOGP",
+      "description": "MLOGP (Molecular properties)",
+      "dataType": "NUMERIC",
+      "example": 2.419,
+      "nullable": false
+    },
+    {
+      "name": "RDCHI",
+      "description": "RDCHI (Connectivity indices)",
+      "dataType": "NUMERIC",
+      "example": 1.225,
+      "nullable": false
+    },
+    {
+      "name": "GATS1p",
+      "description": "GATS1p (2D autocorrelations)",
+      "dataType": "NUMERIC",
+      "example": 0.667,
+      "nullable": false
+    },
+    {
+      "name": "nN",
+      "description": "nN (Constitutional indices)",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "C-040",
+      "description": "C-040 (Atom-centred fragments)",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    }
+  ]
+}

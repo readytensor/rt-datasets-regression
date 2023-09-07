@@ -1,0 +1,301 @@
+{
+  "title": "Ailerons",
+  "description": "The Ailerons dataset provides flight status attributes of an F16 aircraft, aimed at predicting the control action on its ailerons using regression.",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for sample"
+  },
+  "target": {
+    "name": "goal",
+    "description": "Control action on the ailerons of the aircraft",
+    "example": -0.0009
+  },
+  "features": [
+    {
+      "name": "climbRate",
+      "description": "climbRate: continuous.",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "Sgz",
+      "description": "Sgz: continuous.",
+      "dataType": "NUMERIC",
+      "example": -56,
+      "nullable": false
+    },
+    {
+      "name": "p",
+      "description": "p: continuous.",
+      "dataType": "NUMERIC",
+      "example": -0.33,
+      "nullable": false
+    },
+    {
+      "name": "q",
+      "description": "q: continuous.",
+      "dataType": "NUMERIC",
+      "example": -0.09,
+      "nullable": false
+    },
+    {
+      "name": "curPitch",
+      "description": "curPitch: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.9,
+      "nullable": false
+    },
+    {
+      "name": "curRoll",
+      "description": "curRoll: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.2,
+      "nullable": false
+    },
+    {
+      "name": "absRoll",
+      "description": "absRoll: continuous.",
+      "dataType": "NUMERIC",
+      "example": -11,
+      "nullable": false
+    },
+    {
+      "name": "diffClb",
+      "description": "diffClb: continuous.",
+      "dataType": "NUMERIC",
+      "example": 12,
+      "nullable": false
+    },
+    {
+      "name": "diffRollRate",
+      "description": "diffRollRate: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.004,
+      "nullable": false
+    },
+    {
+      "name": "diffDiffClb",
+      "description": "diffDiffClb: continuous.",
+      "dataType": "NUMERIC",
+      "example": -0.1,
+      "nullable": false
+    },
+    {
+      "name": "SeTime1",
+      "description": "SeTime1: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime2",
+      "description": "SeTime2: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime3",
+      "description": "SeTime3: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime4",
+      "description": "SeTime4: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime5",
+      "description": "SeTime5: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime6",
+      "description": "SeTime6: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime7",
+      "description": "SeTime7: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime8",
+      "description": "SeTime8: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime9",
+      "description": "SeTime9: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime10",
+      "description": "SeTime10: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime11",
+      "description": "SeTime11: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime12",
+      "description": "SeTime12: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime13",
+      "description": "SeTime13: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "SeTime14",
+      "description": "SeTime14: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime1",
+      "description": "diffSeTime1: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime2",
+      "description": "diffSeTime2: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime3",
+      "description": "diffSeTime3: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime4",
+      "description": "diffSeTime4: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime5",
+      "description": "diffSeTime5: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime6",
+      "description": "diffSeTime6: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime7",
+      "description": "diffSeTime7: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime8",
+      "description": "diffSeTime8: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime9",
+      "description": "diffSeTime9: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime10",
+      "description": "diffSeTime10: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime11",
+      "description": "diffSeTime11: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime12",
+      "description": "diffSeTime12: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime13",
+      "description": "diffSeTime13: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "diffSeTime14",
+      "description": "diffSeTime14: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "alpha",
+      "description": "alpha: continuous.",
+      "dataType": "NUMERIC",
+      "example": 0.9,
+      "nullable": false
+    },
+    {
+      "name": "Se",
+      "description": "Se: continuous",
+      "dataType": "NUMERIC",
+      "example": 0.032,
+      "nullable": false
+    }
+  ]
+}

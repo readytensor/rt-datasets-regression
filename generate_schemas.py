@@ -77,22 +77,25 @@ def generate_schemas(
         schema["description"] = dataset_row["description"]
         schema["modelCategory"] = dataset_row["model_category"]
         schema["schemaVersion"] = 1.0
-        schema["inputDataFormat"] = "CSV"
+        schema["inputDataFormat"] = {
+            "type": "CSV",
+            "encoding": dataset_row["encoding"]
+        }
 
         schema["id"] = {
             "name": dataset_row["id_name"],
             "description": dataset_row["id_description"]
         }
 
-        schema["target"] = {
-            "name": dataset_row["target_name"],
-            "description": dataset_row["target_description"],
-            "classes": dataset_row["target_classes"].split('|')
-        }
-
         # read dataset
         dataset = pd.read_csv(os.path.join(
             processed_datasets_path, dataset_name, f"{dataset_name}.csv"))
+        
+        schema["target"] = {
+            "name": dataset_row["target_name"],
+            "description": dataset_row["target_description"],
+            "example": dataset[dataset_row["target_name"]].dropna().iloc[0]
+        }
 
         schema["features"] = create_feature_section(
             dataset_name, dataset_row, dataset, features_config)

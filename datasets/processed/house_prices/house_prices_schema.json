@@ -1,0 +1,885 @@
+{
+  "title": "House Prices",
+  "description": "The House Prices dataset comprises 1,460 samples with 81 attributes detailing property features, designed for regression tasks to predict individual house sale prices based on property characteristics.  It is distinct from the Boston and California House Prices datasets.",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "Id",
+    "description": "Unique identifier for sample"
+  },
+  "target": {
+    "name": "SalePrice",
+    "description": "Price of house",
+    "example": 208500
+  },
+  "features": [
+    {
+      "name": "MSSubClass",
+      "description": "MSSubClass: The building class",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        120,
+        160,
+        180,
+        190,
+        20,
+        30,
+        40,
+        45,
+        50,
+        60,
+        70,
+        75,
+        80,
+        85,
+        90
+      ],
+      "nullable": false
+    },
+    {
+      "name": "MSZoning",
+      "description": "MSZoning: The general zoning classification",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "C (all)",
+        "FV",
+        "RH",
+        "RL",
+        "RM"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "LotFrontage",
+      "description": "LotFrontage: Linear feet of street connected to property",
+      "dataType": "NUMERIC",
+      "example": 65.0,
+      "nullable": true
+    },
+    {
+      "name": "LotArea",
+      "description": "LotArea: Lot size in square feet",
+      "dataType": "NUMERIC",
+      "example": 8450,
+      "nullable": false
+    },
+    {
+      "name": "Street",
+      "description": "Street: Type of road access",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Grvl",
+        "Pave"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Alley",
+      "description": "Alley: Type of alley access",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Grvl",
+        "Pave"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "LotShape",
+      "description": "LotShape: General shape of property",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "IR1",
+        "IR2",
+        "IR3",
+        "Reg"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "LandContour",
+      "description": "LandContour: Flatness of the property",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Bnk",
+        "HLS",
+        "Low",
+        "Lvl"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Utilities",
+      "description": "Utilities: Type of utilities available",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "AllPub",
+        "NoSeWa"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "LotConfig",
+      "description": "LotConfig: Lot configuration",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Corner",
+        "CulDSac",
+        "FR2",
+        "FR3",
+        "Inside"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "LandSlope",
+      "description": "LandSlope: Slope of property",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Gtl",
+        "Mod",
+        "Sev"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Neighborhood",
+      "description": "Neighborhood: Physical locations within Ames city limits",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Blmngtn",
+        "Blueste",
+        "BrDale",
+        "BrkSide",
+        "ClearCr",
+        "CollgCr",
+        "Crawfor",
+        "Edwards",
+        "Gilbert",
+        "IDOTRR",
+        "MeadowV",
+        "Mitchel",
+        "NAmes",
+        "NPkVill",
+        "NWAmes",
+        "NoRidge",
+        "NridgHt",
+        "OldTown",
+        "SWISU",
+        "Sawyer",
+        "SawyerW",
+        "Somerst",
+        "StoneBr",
+        "Timber",
+        "Veenker"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Condition1",
+      "description": "Condition1: Proximity to main road or railroad",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Artery",
+        "Feedr",
+        "Norm",
+        "PosA",
+        "PosN",
+        "RRAe",
+        "RRAn",
+        "RRNe",
+        "RRNn"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Condition2",
+      "description": "Condition2: Proximity to main road or railroad (if a second is present)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Artery",
+        "Feedr",
+        "Norm",
+        "PosA",
+        "PosN",
+        "RRAe",
+        "RRAn",
+        "RRNn"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "BldgType",
+      "description": "BldgType: Type of dwelling",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "1Fam",
+        "2fmCon",
+        "Duplex",
+        "Twnhs",
+        "TwnhsE"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "HouseStyle",
+      "description": "HouseStyle: Style of dwelling",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "1.5Fin",
+        "1.5Unf",
+        "1Story",
+        "2.5Fin",
+        "2.5Unf",
+        "2Story",
+        "SFoyer",
+        "SLvl"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "OverallQual",
+      "description": "OverallQual: Overall material and finish quality",
+      "dataType": "NUMERIC",
+      "example": 7,
+      "nullable": false
+    },
+    {
+      "name": "OverallCond",
+      "description": "OverallCond: Overall condition rating",
+      "dataType": "NUMERIC",
+      "example": 5,
+      "nullable": false
+    },
+    {
+      "name": "YearBuilt",
+      "description": "YearBuilt: Original construction date",
+      "dataType": "NUMERIC",
+      "example": 2003,
+      "nullable": false
+    },
+    {
+      "name": "YearRemodAdd",
+      "description": "YearRemodAdd: Remodel date",
+      "dataType": "NUMERIC",
+      "example": 2003,
+      "nullable": false
+    },
+    {
+      "name": "RoofStyle",
+      "description": "RoofStyle: Type of roof",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Flat",
+        "Gable",
+        "Gambrel",
+        "Hip",
+        "Mansard",
+        "Shed"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "RoofMatl",
+      "description": "RoofMatl: Roof material",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "ClyTile",
+        "CompShg",
+        "Membran",
+        "Metal",
+        "Roll",
+        "Tar&Grv",
+        "WdShake",
+        "WdShngl"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Exterior1st",
+      "description": "Exterior1st: Exterior covering on house",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "AsbShng",
+        "AsphShn",
+        "BrkComm",
+        "BrkFace",
+        "CBlock",
+        "CemntBd",
+        "HdBoard",
+        "ImStucc",
+        "MetalSd",
+        "Plywood",
+        "Stone",
+        "Stucco",
+        "VinylSd",
+        "Wd Sdng",
+        "WdShing"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Exterior2nd",
+      "description": "Exterior2nd: Exterior covering on house (if more than one material)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "AsbShng",
+        "AsphShn",
+        "Brk Cmn",
+        "BrkFace",
+        "CBlock",
+        "CmentBd",
+        "HdBoard",
+        "ImStucc",
+        "MetalSd",
+        "Other",
+        "Plywood",
+        "Stone",
+        "Stucco",
+        "VinylSd",
+        "Wd Sdng",
+        "Wd Shng"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "MasVnrType",
+      "description": "MasVnrType: Masonry veneer type",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "BrkCmn",
+        "BrkFace",
+        "None",
+        "Stone"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "MasVnrArea",
+      "description": "MasVnrArea: Masonry veneer area in square feet",
+      "dataType": "NUMERIC",
+      "example": 196.0,
+      "nullable": true
+    },
+    {
+      "name": "ExterQual",
+      "description": "ExterQual: Exterior material quality",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Ex",
+        "Fa",
+        "Gd",
+        "TA"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "ExterCond",
+      "description": "ExterCond: Present condition of the material on the exterior",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Ex",
+        "Fa",
+        "Gd",
+        "Po",
+        "TA"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Foundation",
+      "description": "Foundation: Type of foundation",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "BrkTil",
+        "CBlock",
+        "PConc",
+        "Slab",
+        "Stone",
+        "Wood"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "BsmtQual",
+      "description": "BsmtQual: Height of the basement",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Ex",
+        "Fa",
+        "Gd",
+        "TA"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "BsmtCond",
+      "description": "BsmtCond: General condition of the basement",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Fa",
+        "Gd",
+        "Po",
+        "TA"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "BsmtExposure",
+      "description": "BsmtExposure: Walkout or garden level basement walls",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Av",
+        "Gd",
+        "Mn",
+        "No"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "BsmtFinType1",
+      "description": "BsmtFinType1: Quality of basement finished area",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "ALQ",
+        "BLQ",
+        "GLQ",
+        "LwQ",
+        "Rec",
+        "Unf"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "BsmtFinSF1",
+      "description": "BsmtFinSF1: Type 1 finished square feet",
+      "dataType": "NUMERIC",
+      "example": 706,
+      "nullable": false
+    },
+    {
+      "name": "BsmtFinType2",
+      "description": "BsmtFinType2: Quality of second finished area (if present)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "ALQ",
+        "BLQ",
+        "GLQ",
+        "LwQ",
+        "Rec",
+        "Unf"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "BsmtFinSF2",
+      "description": "BsmtFinSF2: Type 2 finished square feet",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "BsmtUnfSF",
+      "description": "BsmtUnfSF: Unfinished square feet of basement area",
+      "dataType": "NUMERIC",
+      "example": 150,
+      "nullable": false
+    },
+    {
+      "name": "TotalBsmtSF",
+      "description": "TotalBsmtSF: Total square feet of basement area",
+      "dataType": "NUMERIC",
+      "example": 856,
+      "nullable": false
+    },
+    {
+      "name": "Heating",
+      "description": "Heating: Type of heating",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Floor",
+        "GasA",
+        "GasW",
+        "Grav",
+        "OthW",
+        "Wall"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "HeatingQC",
+      "description": "HeatingQC: Heating quality and condition",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Ex",
+        "Fa",
+        "Gd",
+        "Po",
+        "TA"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "CentralAir",
+      "description": "CentralAir: Central air conditioning",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "N",
+        "Y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Electrical",
+      "description": "Electrical: Electrical system",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "FuseA",
+        "FuseF",
+        "FuseP",
+        "Mix",
+        "SBrkr"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "1stFlrSF",
+      "description": "1stFlrSF: First Floor square feet",
+      "dataType": "NUMERIC",
+      "example": 856,
+      "nullable": false
+    },
+    {
+      "name": "2ndFlrSF",
+      "description": "2ndFlrSF: Second floor square feet",
+      "dataType": "NUMERIC",
+      "example": 854,
+      "nullable": false
+    },
+    {
+      "name": "LowQualFinSF",
+      "description": "LowQualFinSF: Low quality finished square feet (all floors)",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "GrLivArea",
+      "description": "GrLivArea: Above grade (ground) living area square feet",
+      "dataType": "NUMERIC",
+      "example": 1710,
+      "nullable": false
+    },
+    {
+      "name": "BsmtFullBath",
+      "description": "BsmtFullBath: Basement full bathrooms",
+      "dataType": "NUMERIC",
+      "example": 1,
+      "nullable": false
+    },
+    {
+      "name": "BsmtHalfBath",
+      "description": "BsmtHalfBath: Basement half bathrooms",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "FullBath",
+      "description": "FullBath: Full bathrooms above grade",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "HalfBath",
+      "description": "HalfBath: Half baths above grade",
+      "dataType": "NUMERIC",
+      "example": 1,
+      "nullable": false
+    },
+    {
+      "name": "BedroomAbvGr",
+      "description": "Bedroom: Number of bedrooms above basement level",
+      "dataType": "NUMERIC",
+      "example": 3,
+      "nullable": false
+    },
+    {
+      "name": "KitchenAbvGr",
+      "description": "Kitchen: Number of kitchens",
+      "dataType": "NUMERIC",
+      "example": 1,
+      "nullable": false
+    },
+    {
+      "name": "KitchenQual",
+      "description": "KitchenQual: Kitchen quality",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Ex",
+        "Fa",
+        "Gd",
+        "TA"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "TotRmsAbvGrd",
+      "description": "TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)",
+      "dataType": "NUMERIC",
+      "example": 8,
+      "nullable": false
+    },
+    {
+      "name": "Functional",
+      "description": "Functional: Home functionality rating",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Maj1",
+        "Maj2",
+        "Min1",
+        "Min2",
+        "Mod",
+        "Sev",
+        "Typ"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Fireplaces",
+      "description": "Fireplaces: Number of fireplaces",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "FireplaceQu",
+      "description": "FireplaceQu: Fireplace quality",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Ex",
+        "Fa",
+        "Gd",
+        "Po",
+        "TA"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "GarageType",
+      "description": "GarageType: Garage location",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "2Types",
+        "Attchd",
+        "Basment",
+        "BuiltIn",
+        "CarPort",
+        "Detchd"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "GarageYrBlt",
+      "description": "GarageYrBlt: Year garage was built",
+      "dataType": "NUMERIC",
+      "example": 2003.0,
+      "nullable": true
+    },
+    {
+      "name": "GarageFinish",
+      "description": "GarageFinish: Interior finish of the garage",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Fin",
+        "RFn",
+        "Unf"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "GarageCars",
+      "description": "GarageCars: Size of garage in car capacity",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "GarageArea",
+      "description": "GarageArea: Size of garage in square feet",
+      "dataType": "NUMERIC",
+      "example": 548,
+      "nullable": false
+    },
+    {
+      "name": "GarageQual",
+      "description": "GarageQual: Garage quality",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Ex",
+        "Fa",
+        "Gd",
+        "Po",
+        "TA"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "GarageCond",
+      "description": "GarageCond: Garage condition",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Ex",
+        "Fa",
+        "Gd",
+        "Po",
+        "TA"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "PavedDrive",
+      "description": "PavedDrive: Paved driveway",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "N",
+        "P",
+        "Y"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "WoodDeckSF",
+      "description": "WoodDeckSF: Wood deck area in square feet",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "OpenPorchSF",
+      "description": "OpenPorchSF: Open porch area in square feet",
+      "dataType": "NUMERIC",
+      "example": 61,
+      "nullable": false
+    },
+    {
+      "name": "EnclosedPorch",
+      "description": "EnclosedPorch: Enclosed porch area in square feet",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "3SsnPorch",
+      "description": "3SsnPorch: Three season porch area in square feet",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "ScreenPorch",
+      "description": "ScreenPorch: Screen porch area in square feet",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "PoolArea",
+      "description": "PoolArea: Pool area in square feet",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "PoolQC",
+      "description": "PoolQC: Pool quality",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Ex",
+        "Fa",
+        "Gd"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "Fence",
+      "description": "Fence: Fence quality",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "GdPrv",
+        "GdWo",
+        "MnPrv",
+        "MnWw"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "MiscFeature",
+      "description": "MiscFeature: Miscellaneous feature not covered in other categories",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Gar2",
+        "Othr",
+        "Shed",
+        "TenC"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "MiscVal",
+      "description": "MiscVal: $Value of miscellaneous feature",
+      "dataType": "NUMERIC",
+      "example": 0,
+      "nullable": false
+    },
+    {
+      "name": "MoSold",
+      "description": "MoSold: Month Sold",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "YrSold",
+      "description": "YrSold: Year Sold",
+      "dataType": "NUMERIC",
+      "example": 2008,
+      "nullable": false
+    },
+    {
+      "name": "SaleType",
+      "description": "SaleType: Type of sale",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "COD",
+        "CWD",
+        "Con",
+        "ConLD",
+        "ConLI",
+        "ConLw",
+        "New",
+        "Oth",
+        "WD"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "SaleCondition",
+      "description": "SaleCondition: Condition of sale",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Abnorml",
+        "AdjLand",
+        "Alloca",
+        "Family",
+        "Normal",
+        "Partial"
+      ],
+      "nullable": false
+    }
+  ]
+}

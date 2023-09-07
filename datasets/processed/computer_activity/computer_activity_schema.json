@@ -1,0 +1,168 @@
+{
+  "title": "Computer Activity",
+  "description": "The Computer Activity dataset captures system metrics from a multi-user Sun Sparcstation 20/712 at 5-second intervals, intended for regression analysis to predict system performance based on varied user tasks.",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for sample"
+  },
+  "target": {
+    "name": "usr",
+    "description": "Portion of time (%) that cpus run in user mode.",
+    "example": 90
+  },
+  "features": [
+    {
+      "name": "lread",
+      "description": "lread - Reads (transfers per second ) between system memory and user memory.",
+      "dataType": "NUMERIC",
+      "example": 6,
+      "nullable": false
+    },
+    {
+      "name": "lwrite",
+      "description": "lwrite - writes (transfers per second) between system memory and user memory.",
+      "dataType": "NUMERIC",
+      "example": 2,
+      "nullable": false
+    },
+    {
+      "name": "scall",
+      "description": "scall - Number of system calls of all types per second.",
+      "dataType": "NUMERIC",
+      "example": 1036,
+      "nullable": false
+    },
+    {
+      "name": "sread",
+      "description": "sread - Number of system read calls per second.",
+      "dataType": "NUMERIC",
+      "example": 103,
+      "nullable": false
+    },
+    {
+      "name": "swrite",
+      "description": "swrite - Number of system write calls per second .",
+      "dataType": "NUMERIC",
+      "example": 114,
+      "nullable": false
+    },
+    {
+      "name": "fork",
+      "description": "fork - Number of system fork calls per second.",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "exec",
+      "description": "exec - Number of system exec calls per second.",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "rchar",
+      "description": "rchar - Number of characters transferred per second by system read calls.",
+      "dataType": "NUMERIC",
+      "example": 172076,
+      "nullable": false
+    },
+    {
+      "name": "wchar",
+      "description": "wchar - Number of characters transfreed per second by system write calls.",
+      "dataType": "NUMERIC",
+      "example": 355965,
+      "nullable": false
+    },
+    {
+      "name": "pgout",
+      "description": "pgout - Number of page out requests per second.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "ppgout",
+      "description": "ppgout - Number of pages, paged out per second.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "pgfree",
+      "description": "pgfree - Number of pages per second placed on the free list.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "pgscan",
+      "description": "pgscan - Number of pages checked if they can be freed per second.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "atch",
+      "description": "atch - Number of page attaches (satisfying a page fault by reclaiming a page in memory) per second.",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "pgin",
+      "description": "pgin - Number of page-in requests per second.",
+      "dataType": "NUMERIC",
+      "example": 2.0,
+      "nullable": false
+    },
+    {
+      "name": "ppgin",
+      "description": "ppgin - Number of pages paged in per second.",
+      "dataType": "NUMERIC",
+      "example": 4.0,
+      "nullable": false
+    },
+    {
+      "name": "pflt",
+      "description": "pflt - Number of page faults caused by protection errors (copy-on-writes).",
+      "dataType": "NUMERIC",
+      "example": 73.6,
+      "nullable": false
+    },
+    {
+      "name": "vflt",
+      "description": "vflt - Number of page faults caused by address translation.",
+      "dataType": "NUMERIC",
+      "example": 89.0,
+      "nullable": false
+    },
+    {
+      "name": "runqsz",
+      "description": "runqsz - Process run queue size.",
+      "dataType": "NUMERIC",
+      "example": 2.0,
+      "nullable": false
+    },
+    {
+      "name": "freemem",
+      "description": "freemem - Number of memory pages available to user processes.",
+      "dataType": "NUMERIC",
+      "example": 6527,
+      "nullable": false
+    },
+    {
+      "name": "freeswap",
+      "description": "freeswap - Number of disk blocks available for page swapping.",
+      "dataType": "NUMERIC",
+      "example": 1851864,
+      "nullable": false
+    }
+  ]
+}

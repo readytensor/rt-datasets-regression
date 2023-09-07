@@ -1,0 +1,38 @@
+{
+  "instances": [
+    {
+      "Geography": "Kitsap County, Washington",
+      "AvgHouseholdSize": 2.54,
+      "BirthRate": 6.118831029,
+      "MedianAge": 39.3,
+      "MedianAgeFemale": 41.7,
+      "MedianAgeMale": 36.9,
+      "PctAsian": 4.821857102,
+      "PctBachDeg18_24": 6.9,
+      "PctBachDeg25_Over": 19.6,
+      "PctBlack": 2.594728333,
+      "PctEmpPrivCoverage": 41.6,
+      "PctEmployed16_Over": 51.9,
+      "PctHS18_24": 39.5,
+      "PctHS25_Over": 23.2,
+      "PctMarriedHouseholds": 52.85607588,
+      "PctNoHS18_24": 11.5,
+      "PctOtherRace": 1.843478533,
+      "PctPrivateCoverage": 75.1,
+      "PctPrivateCoverageAlone": null,
+      "PctPublicCoverage": 32.9,
+      "PctPublicCoverageAlone": 14.0,
+      "PctSomeCol18_24": 42.1,
+      "PctUnemployed16_Over": 8.0,
+      "PctWhite": 81.78052858,
+      "PercentMarried": 52.5,
+      "avgAnnCount": 1397.0,
+      "avgDeathsPerYear": 469,
+      "incidenceRate": 489.8,
+      "medIncome": 61898,
+      "popEst2015": 260131,
+      "povertyPercent": 11.2,
+      "studyPerCap": 499.7482038
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Abalone",
+  "description": "Dataset for predicting the age of abalone from physical measurements. The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain, are used to predict the age.",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "Id",
+    "description": "Unique identifier for sample"
+  },
+  "target": {
+    "name": "Rings",
+    "description": "Numbe of rings; +1.5 gives the age in years",
+    "example": 15
+  },
+  "features": [
+    {
+      "name": "Sex",
+      "description": "Sex / nominal / -- / M, F, and I (infant)",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "F",
+        "I",
+        "M"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Length",
+      "description": "Length / continuous / mm / Longest shell measurement",
+      "dataType": "NUMERIC",
+      "example": 0.455,
+      "nullable": false
+    },
+    {
+      "name": "Diameter",
+      "description": "Diameter\t/ continuous / mm / perpendicular to length",
+      "dataType": "NUMERIC",
+      "example": 0.365,
+      "nullable": false
+    },
+    {
+      "name": "Height",
+      "description": "Height / continuous / mm / with meat in shell",
+      "dataType": "NUMERIC",
+      "example": 0.095,
+      "nullable": false
+    },
+    {
+      "name": "Whole weight",
+      "description": "Whole weight / continuous / grams / whole abalone",
+      "dataType": "NUMERIC",
+      "example": 0.514,
+      "nullable": false
+    },
+    {
+      "name": "Shucked weight",
+      "description": "Shucked weight / continuous\t / grams / weight of meat",
+      "dataType": "NUMERIC",
+      "example": 0.2245,
+      "nullable": false
+    },
+    {
+      "name": "Viscera weight",
+      "description": "Viscera weight / continuous / grams / gut weight (after bleeding)",
+      "dataType": "NUMERIC",
+      "example": 0.101,
+      "nullable": false
+    },
+    {
+      "name": "Shell weight",
+      "description": "Shell weight / continuous / grams / after being dried",
+      "dataType": "NUMERIC",
+      "example": 0.15,
+      "nullable": false
+    }
+  ]
+}

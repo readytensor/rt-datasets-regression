@@ -1,0 +1,434 @@
+{
+  "title": "Online News Popularity",
+  "description": "This dataset summarizes a heterogeneous set of features about articles published by Mashable in a period of two years. The goal is to predict the number of shares in social networks (popularity).",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for article"
+  },
+  "target": {
+    "name": "shares",
+    "description": "Number of shares (target) of the article",
+    "example": 593
+  },
+  "features": [
+    {
+      "name": "timedelta",
+      "description": "Days between the article publication and the dataset acquisition",
+      "dataType": "NUMERIC",
+      "example": 731.0,
+      "nullable": false
+    },
+    {
+      "name": "n_tokens_title",
+      "description": "Number of words in the title",
+      "dataType": "NUMERIC",
+      "example": 12.0,
+      "nullable": false
+    },
+    {
+      "name": "n_tokens_content",
+      "description": "Number of words in the content",
+      "dataType": "NUMERIC",
+      "example": 219.0,
+      "nullable": false
+    },
+    {
+      "name": "n_unique_tokens",
+      "description": "Rate of unique words in the content",
+      "dataType": "NUMERIC",
+      "example": 0.663594466988,
+      "nullable": false
+    },
+    {
+      "name": "n_non_stop_words",
+      "description": "Rate of non-stop words in the content",
+      "dataType": "NUMERIC",
+      "example": 0.999999992308,
+      "nullable": false
+    },
+    {
+      "name": "n_non_stop_unique_tokens",
+      "description": "Rate of unique non-stop words in the content",
+      "dataType": "NUMERIC",
+      "example": 0.815384609112,
+      "nullable": false
+    },
+    {
+      "name": "num_hrefs",
+      "description": "Number of links",
+      "dataType": "NUMERIC",
+      "example": 4.0,
+      "nullable": false
+    },
+    {
+      "name": "num_self_hrefs",
+      "description": "Number of links to other articles published by Mashable",
+      "dataType": "NUMERIC",
+      "example": 2.0,
+      "nullable": false
+    },
+    {
+      "name": "num_imgs",
+      "description": "Number of images",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "num_videos",
+      "description": "Number of videos",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "average_token_length",
+      "description": "Average length of the words in the content",
+      "dataType": "NUMERIC",
+      "example": 4.6803652968,
+      "nullable": false
+    },
+    {
+      "name": "num_keywords",
+      "description": "Number of keywords in the metadata",
+      "dataType": "NUMERIC",
+      "example": 5.0,
+      "nullable": false
+    },
+    {
+      "name": "data_channel_is_lifestyle",
+      "description": "Is data channel 'Lifestyle'?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "data_channel_is_entertainment",
+      "description": "Is data channel 'Entertainment'?",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "data_channel_is_bus",
+      "description": "Is data channel 'Business'?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "data_channel_is_socmed",
+      "description": "Is data channel 'Social Media'?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "data_channel_is_tech",
+      "description": "Is data channel 'Tech'?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "data_channel_is_world",
+      "description": "Is data channel 'World'?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "kw_min_min",
+      "description": "Worst keyword (min. shares)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "kw_max_min",
+      "description": "Worst keyword (max. shares)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "kw_avg_min",
+      "description": "Worst keyword (avg. shares)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "kw_min_max",
+      "description": "Best keyword (min. shares)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "kw_max_max",
+      "description": "Best keyword (max. shares)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "kw_avg_max",
+      "description": "Best keyword (avg. shares)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "kw_min_avg",
+      "description": "Avg. keyword (min. shares)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "kw_max_avg",
+      "description": "Avg. keyword (max. shares)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "kw_avg_avg",
+      "description": "Avg. keyword (avg. shares)",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "self_reference_min_shares",
+      "description": "Min. shares of referenced articles in Mashable",
+      "dataType": "NUMERIC",
+      "example": 496.0,
+      "nullable": false
+    },
+    {
+      "name": "self_reference_max_shares",
+      "description": "Max. shares of referenced articles in Mashable",
+      "dataType": "NUMERIC",
+      "example": 496.0,
+      "nullable": false
+    },
+    {
+      "name": "self_reference_avg_sharess",
+      "description": "Avg. shares of referenced articles in Mashable",
+      "dataType": "NUMERIC",
+      "example": 496.0,
+      "nullable": false
+    },
+    {
+      "name": "weekday_is_monday",
+      "description": "Was the article published on a Monday?",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": false
+    },
+    {
+      "name": "weekday_is_tuesday",
+      "description": "Was the article published on a Tuesday?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "weekday_is_wednesday",
+      "description": "Was the article published on a Wednesday?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "weekday_is_thursday",
+      "description": "Was the article published on a Thursday?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "weekday_is_friday",
+      "description": "Was the article published on a Friday?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "weekday_is_saturday",
+      "description": "Was the article published on a Saturday?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "weekday_is_sunday",
+      "description": "Was the article published on a Sunday?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "is_weekend",
+      "description": "Was the article published on the weekend?",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "LDA_00",
+      "description": "Closeness to LDA topic 0",
+      "dataType": "NUMERIC",
+      "example": 0.500331204081,
+      "nullable": false
+    },
+    {
+      "name": "LDA_01",
+      "description": "Closeness to LDA topic 1",
+      "dataType": "NUMERIC",
+      "example": 0.378278929586,
+      "nullable": false
+    },
+    {
+      "name": "LDA_02",
+      "description": "Closeness to LDA topic 2",
+      "dataType": "NUMERIC",
+      "example": 0.0400046751006,
+      "nullable": false
+    },
+    {
+      "name": "LDA_03",
+      "description": "Closeness to LDA topic 3",
+      "dataType": "NUMERIC",
+      "example": 0.0412626477296,
+      "nullable": false
+    },
+    {
+      "name": "LDA_04",
+      "description": "Closeness to LDA topic 4",
+      "dataType": "NUMERIC",
+      "example": 0.0401225435029,
+      "nullable": false
+    },
+    {
+      "name": "global_subjectivity",
+      "description": "Text subjectivity",
+      "dataType": "NUMERIC",
+      "example": 0.521617145481,
+      "nullable": false
+    },
+    {
+      "name": "global_sentiment_polarity",
+      "description": "Text sentiment polarity",
+      "dataType": "NUMERIC",
+      "example": 0.0925619834711,
+      "nullable": false
+    },
+    {
+      "name": "global_rate_positive_words",
+      "description": "Rate of positive words in the content",
+      "dataType": "NUMERIC",
+      "example": 0.0456621004566,
+      "nullable": false
+    },
+    {
+      "name": "global_rate_negative_words",
+      "description": "Rate of negative words in the content",
+      "dataType": "NUMERIC",
+      "example": 0.013698630137,
+      "nullable": false
+    },
+    {
+      "name": "rate_positive_words",
+      "description": "Rate of positive words among non-neutral tokens",
+      "dataType": "NUMERIC",
+      "example": 0.769230769231,
+      "nullable": false
+    },
+    {
+      "name": "rate_negative_words",
+      "description": "Rate of negative words among non-neutral tokens",
+      "dataType": "NUMERIC",
+      "example": 0.230769230769,
+      "nullable": false
+    },
+    {
+      "name": "avg_positive_polarity",
+      "description": "Avg. polarity of positive words",
+      "dataType": "NUMERIC",
+      "example": 0.378636363636,
+      "nullable": false
+    },
+    {
+      "name": "min_positive_polarity",
+      "description": "Min. polarity of positive words",
+      "dataType": "NUMERIC",
+      "example": 0.1,
+      "nullable": false
+    },
+    {
+      "name": "max_positive_polarity",
+      "description": "Max. polarity of positive words",
+      "dataType": "NUMERIC",
+      "example": 0.7,
+      "nullable": false
+    },
+    {
+      "name": "avg_negative_polarity",
+      "description": "Avg. polarity of negative words",
+      "dataType": "NUMERIC",
+      "example": -0.35,
+      "nullable": false
+    },
+    {
+      "name": "min_negative_polarity",
+      "description": "Min. polarity of negative words",
+      "dataType": "NUMERIC",
+      "example": -0.6,
+      "nullable": false
+    },
+    {
+      "name": "max_negative_polarity",
+      "description": "Max. polarity of negative words",
+      "dataType": "NUMERIC",
+      "example": -0.2,
+      "nullable": false
+    },
+    {
+      "name": "title_subjectivity",
+      "description": "Title subjectivity",
+      "dataType": "NUMERIC",
+      "example": 0.5,
+      "nullable": false
+    },
+    {
+      "name": "title_sentiment_polarity",
+      "description": "Title polarity",
+      "dataType": "NUMERIC",
+      "example": -0.1875,
+      "nullable": false
+    },
+    {
+      "name": "abs_title_subjectivity",
+      "description": "Absolute subjectivity level",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": false
+    },
+    {
+      "name": "abs_title_sentiment_polarity",
+      "description": "Absolute polarity level",
+      "dataType": "NUMERIC",
+      "example": 0.1875,
+      "nullable": false
+    }
+  ]
+}

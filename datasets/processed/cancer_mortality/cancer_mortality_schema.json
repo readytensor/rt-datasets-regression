@@ -1,0 +1,238 @@
+{
+  "title": "Cancer Mortality Rates by U.S. County (2010-2016)",
+  "description": "This dataset, aggregated from sources like the American Community Survey, clinicaltrials.gov, and cancer.gov, is designed for regression tasks to predict cancer mortality rates in US counties from 2010 to 2016. It incorporates 2013 census data, including county-level features such as population, income, households, and other demographic attributes.",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "Geography",
+    "description": "County name (unique identifier)"
+  },
+  "target": {
+    "name": "TARGET_deathRate",
+    "description": "Dependent variable. Mean per capita (100,000) cancer mortalities from years 2010-2016",
+    "example": 164.9
+  },
+  "features": [
+    {
+      "name": "AvgHouseholdSize",
+      "description": "AvgHouseholdSize:\u00a0Mean household size of county (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 2.54,
+      "nullable": false
+    },
+    {
+      "name": "BirthRate",
+      "description": "BirthRate:\u00a0Number of live births relative to number of women in county (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 6.118831029,
+      "nullable": false
+    },
+    {
+      "name": "MedianAge",
+      "description": "MedianAge:\u00a0Median age of county residents (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 39.3,
+      "nullable": false
+    },
+    {
+      "name": "MedianAgeFemale",
+      "description": "MedianAgeFemale:\u00a0Median age of female county residents (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 41.7,
+      "nullable": false
+    },
+    {
+      "name": "MedianAgeMale",
+      "description": "MedianAgeMale:\u00a0Median age of male county residents (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 36.9,
+      "nullable": false
+    },
+    {
+      "name": "PctAsian",
+      "description": "PctAsian:\u00a0Percent of county residents who identify as Asian (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 4.821857102,
+      "nullable": false
+    },
+    {
+      "name": "PctBachDeg18_24",
+      "description": "PctBachDeg18_24:\u00a0Percent of county residents ages 18-24 highest education attained: bachelor's degree (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 6.9,
+      "nullable": false
+    },
+    {
+      "name": "PctBachDeg25_Over",
+      "description": "PctBachDeg25_Over:\u00a0Percent of county residents ages 25 and over highest education attained: bachelor's degree (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 19.6,
+      "nullable": false
+    },
+    {
+      "name": "PctBlack",
+      "description": "PctBlack:\u00a0Percent of county residents who identify as Black (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 2.594728333,
+      "nullable": false
+    },
+    {
+      "name": "PctEmpPrivCoverage",
+      "description": "PctEmpPrivCoverage:\u00a0Percent of county residents with employee-provided private health coverage (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 41.6,
+      "nullable": false
+    },
+    {
+      "name": "PctEmployed16_Over",
+      "description": "PctEmployed16_Over:\u00a0Percent of county residents ages 16 and over employed (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 51.9,
+      "nullable": true
+    },
+    {
+      "name": "PctHS18_24",
+      "description": "PctHS18_24:\u00a0Percent of county residents ages 18-24 highest education attained: high school diploma (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 39.5,
+      "nullable": false
+    },
+    {
+      "name": "PctHS25_Over",
+      "description": "PctHS25_Over:\u00a0Percent of county residents ages 25 and over highest education attained: high school diploma (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 23.2,
+      "nullable": false
+    },
+    {
+      "name": "PctMarriedHouseholds",
+      "description": "PctMarriedHouseholds:\u00a0Percent of married households (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 52.85607588,
+      "nullable": false
+    },
+    {
+      "name": "PctNoHS18_24",
+      "description": "PctNoHS18_24:\u00a0Percent of county residents ages 18-24 highest education attained: less than high school (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 11.5,
+      "nullable": false
+    },
+    {
+      "name": "PctOtherRace",
+      "description": "PctOtherRace:\u00a0Percent of county residents who identify in a category which is not White, Black, or Asian (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 1.843478533,
+      "nullable": false
+    },
+    {
+      "name": "PctPrivateCoverage",
+      "description": "PctPrivateCoverage:\u00a0Percent of county residents with private health coverage (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 75.1,
+      "nullable": false
+    },
+    {
+      "name": "PctPrivateCoverageAlone",
+      "description": "PctPrivateCoverageAlone:\u00a0Percent of county residents with private health coverage alone (no public assistance) (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 53.8,
+      "nullable": true
+    },
+    {
+      "name": "PctPublicCoverage",
+      "description": "PctPublicCoverage:\u00a0Percent of county residents with government-provided health coverage (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 32.9,
+      "nullable": false
+    },
+    {
+      "name": "PctPublicCoverageAlone",
+      "description": "PctPubliceCoverageAlone:\u00a0Percent of county residents with government-provided health coverage alone (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 14.0,
+      "nullable": false
+    },
+    {
+      "name": "PctSomeCol18_24",
+      "description": "PctSomeCol18_24:\u00a0Percent of county residents ages 18-24 highest education attained: some college (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 42.1,
+      "nullable": true
+    },
+    {
+      "name": "PctUnemployed16_Over",
+      "description": "PctUnemployed16_Over:\u00a0Percent of county residents ages 16 and over unemployed (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 8.0,
+      "nullable": false
+    },
+    {
+      "name": "PctWhite",
+      "description": "PctWhite:\u00a0Percent of county residents who identify as White (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 81.78052858,
+      "nullable": false
+    },
+    {
+      "name": "PercentMarried",
+      "description": "PercentMarried:\u00a0Percent of county residents who are married (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 52.5,
+      "nullable": false
+    },
+    {
+      "name": "avgAnnCount",
+      "description": "avgAnnCount:\u00a0Mean number of reported cases of cancer diagnosed annually(a)",
+      "dataType": "NUMERIC",
+      "example": 1397.0,
+      "nullable": false
+    },
+    {
+      "name": "avgDeathsPerYear",
+      "description": "avgDeathsPerYear:\u00a0Mean number of reported mortalities due to cancer(a)",
+      "dataType": "NUMERIC",
+      "example": 469,
+      "nullable": false
+    },
+    {
+      "name": "incidenceRate",
+      "description": "incidenceRate:\u00a0Mean\u00a0per capita\u00a0(100,000) cancer diagoses(a)",
+      "dataType": "NUMERIC",
+      "example": 489.8,
+      "nullable": false
+    },
+    {
+      "name": "medIncome",
+      "description": "medianIncome:\u00a0Median income per county (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 61898,
+      "nullable": false
+    },
+    {
+      "name": "popEst2015",
+      "description": "popEst2015:\u00a0Population of county (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 260131,
+      "nullable": false
+    },
+    {
+      "name": "povertyPercent",
+      "description": "povertyPercent:\u00a0Percent of populace in poverty (2013 Census Estimates)",
+      "dataType": "NUMERIC",
+      "example": 11.2,
+      "nullable": false
+    },
+    {
+      "name": "studyPerCap",
+      "description": "studyPerCap:\u00a0Per capita\u00a0number of cancer-related clinical trials per county (a)",
+      "dataType": "NUMERIC",
+      "example": 499.7482038,
+      "nullable": false
+    }
+  ]
+}

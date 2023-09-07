@@ -1,0 +1,104 @@
+{
+  "title": "Diamond Prices",
+  "description": "Dataset is based on a case study called \"Sarah Gets a Diamond\". This case was presented in the first year decision analysis course at Darden School of Business (University of Virginia). The task is to predict the price of a diamond given attributes such as carat weight, cut, color, clarity, polish, symmetry and report (grading agency which reported the qualities of the diamond).",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "Id",
+    "description": "Unique identifier for sample"
+  },
+  "target": {
+    "name": "Price",
+    "description": "Price of diamond",
+    "example": 5169
+  },
+  "features": [
+    {
+      "name": "Carat Weight",
+      "description": "Carat weight of diamond",
+      "dataType": "NUMERIC",
+      "example": 1.1,
+      "nullable": false
+    },
+    {
+      "name": "Cut",
+      "description": "Cut of diamond - one of [Signature-Ideal, Ideal, Very Good, Good, Fair]",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Fair",
+        "Good",
+        "Ideal",
+        "Signature-Ideal",
+        "Very Good"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Color",
+      "description": "Color of diamond - one of [D, E, F, G, H, I]",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Clarity",
+      "description": "Clarity of diamond - one of [SI1, VS1, VS2, VVS2, VVS1, IF, FL]",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "FL",
+        "IF",
+        "SI1",
+        "VS1",
+        "VS2",
+        "VVS1",
+        "VVS2"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Polish",
+      "description": "Polish of diamond - one of [VG, ID, EX, G]",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "EX",
+        "G",
+        "ID",
+        "VG"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Symmetry",
+      "description": "Symmetry of diamond - one of [EX, ID, VG, G]",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "EX",
+        "G",
+        "ID",
+        "VG"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Report",
+      "description": "Report type - GIA or AGSL",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "AGSL",
+        "GIA"
+      ],
+      "nullable": false
+    }
+  ]
+}

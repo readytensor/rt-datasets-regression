@@ -51,6 +51,16 @@ regression,ailerons,39,diffSeTime14,feature,NUMERIC,diffSeTime14: continuous.
 regression,ailerons,40,alpha,feature,NUMERIC,alpha: continuous.
 regression,ailerons,41,Se,feature,NUMERIC,Se: continuous
 regression,ailerons,42,goal,target,NUMERIC,goal: continuous
+regression,aquatic_toxicity,1,Id,id,TEXT,
+regression,aquatic_toxicity,2,TPSA(Tot),feature,NUMERIC,TPSA(Tot) (Molecular properties)
+regression,aquatic_toxicity,3,SAacc,feature,NUMERIC,SAacc (Molecular properties)
+regression,aquatic_toxicity,4,H-050,feature,NUMERIC,H-050 (Atom-centred fragments)
+regression,aquatic_toxicity,5,MLOGP,feature,NUMERIC,MLOGP (Molecular properties)
+regression,aquatic_toxicity,6,RDCHI,feature,NUMERIC,RDCHI (Connectivity indices)
+regression,aquatic_toxicity,7,GATS1p,feature,NUMERIC,GATS1p (2D autocorrelations)
+regression,aquatic_toxicity,8,nN,feature,NUMERIC,nN (Constitutional indices)
+regression,aquatic_toxicity,9,C-040,feature,NUMERIC,C-040 (Atom-centred fragments)
+regression,aquatic_toxicity,10,LC50,target,NUMERIC,LC50 - concentration that causes death in 50% of test Daphnia Magma over a test duration of 48 hours
 regression,auto_mpg,1,id,id,TEXT,Unique identifier for sample
 regression,auto_mpg,2,mpg,target,NUMERIC,Target: city-cycle fuel consumption in miles per gallon
 regression,auto_mpg,3,cylinders,feature,CATEGORICAL,Number of cylinders in the engine
@@ -60,6 +70,81 @@ regression,auto_mpg,6,weight,feature,NUMERIC,Weight of vehicle (lbs)
 regression,auto_mpg,7,acceleration,feature,NUMERIC,Acceleration of the car (seconds taken for 0-60mph)
 regression,auto_mpg,8,model year,feature,CATEGORICAL,Model year of the car in the 1900s
 regression,auto_mpg,9,origin,feature,CATEGORICAL,Car origin
+regression,cancer_mortality,1,Geography,id,TEXT,Geography: County name (2013 Census)
+regression,cancer_mortality,2,AvgHouseholdSize,feature,NUMERIC,AvgHouseholdSize: Mean household size of county (2013 Census Estimates)
+regression,cancer_mortality,3,BirthRate,feature,NUMERIC,BirthRate: Number of live births relative to number of women in county (2013 Census Estimates)
+regression,cancer_mortality,4,MedianAge,feature,NUMERIC,MedianAge: Median age of county residents (2013 Census Estimates)
+regression,cancer_mortality,5,MedianAgeFemale,feature,NUMERIC,MedianAgeFemale: Median age of female county residents (2013 Census Estimates)
+regression,cancer_mortality,6,MedianAgeMale,feature,NUMERIC,MedianAgeMale: Median age of male county residents (2013 Census Estimates)
+regression,cancer_mortality,7,PctAsian,feature,NUMERIC,PctAsian: Percent of county residents who identify as Asian (2013 Census Estimates)
+regression,cancer_mortality,8,PctBachDeg18_24,feature,NUMERIC,PctBachDeg18_24: Percent of county residents ages 18-24 highest education attained: bachelor's degree (2013 Census Estimates)
+regression,cancer_mortality,9,PctBachDeg25_Over,feature,NUMERIC,PctBachDeg25_Over: Percent of county residents ages 25 and over highest education attained: bachelor's degree (2013 Census Estimates)
+regression,cancer_mortality,10,PctBlack,feature,NUMERIC,PctBlack: Percent of county residents who identify as Black (2013 Census Estimates)
+regression,cancer_mortality,11,PctEmpPrivCoverage,feature,NUMERIC,PctEmpPrivCoverage: Percent of county residents with employee-provided private health coverage (2013 Census Estimates)
+regression,cancer_mortality,12,PctEmployed16_Over,feature,NUMERIC,PctEmployed16_Over: Percent of county residents ages 16 and over employed (2013 Census Estimates)
+regression,cancer_mortality,13,PctHS18_24,feature,NUMERIC,PctHS18_24: Percent of county residents ages 18-24 highest education attained: high school diploma (2013 Census Estimates)
+regression,cancer_mortality,14,PctHS25_Over,feature,NUMERIC,PctHS25_Over: Percent of county residents ages 25 and over highest education attained: high school diploma (2013 Census Estimates)
+regression,cancer_mortality,15,PctMarriedHouseholds,feature,NUMERIC,PctMarriedHouseholds: Percent of married households (2013 Census Estimates)
+regression,cancer_mortality,16,PctNoHS18_24,feature,NUMERIC,PctNoHS18_24: Percent of county residents ages 18-24 highest education attained: less than high school (2013 Census Estimates)
+regression,cancer_mortality,17,PctOtherRace,feature,NUMERIC,"PctOtherRace: Percent of county residents who identify in a category which is not White, Black, or Asian (2013 Census Estimates)"
+regression,cancer_mortality,18,PctPrivateCoverage,feature,NUMERIC,PctPrivateCoverage: Percent of county residents with private health coverage (2013 Census Estimates)
+regression,cancer_mortality,19,PctPrivateCoverageAlone,feature,NUMERIC,PctPrivateCoverageAlone: Percent of county residents with private health coverage alone (no public assistance) (2013 Census Estimates)
+regression,cancer_mortality,20,PctPublicCoverage,feature,NUMERIC,PctPublicCoverage: Percent of county residents with government-provided health coverage (2013 Census Estimates)
+regression,cancer_mortality,21,PctPublicCoverageAlone,feature,NUMERIC,PctPubliceCoverageAlone: Percent of county residents with government-provided health coverage alone (2013 Census Estimates)
+regression,cancer_mortality,22,PctSomeCol18_24,feature,NUMERIC,PctSomeCol18_24: Percent of county residents ages 18-24 highest education attained: some college (2013 Census Estimates)
+regression,cancer_mortality,23,PctUnemployed16_Over,feature,NUMERIC,PctUnemployed16_Over: Percent of county residents ages 16 and over unemployed (2013 Census Estimates)
+regression,cancer_mortality,24,PctWhite,feature,NUMERIC,PctWhite: Percent of county residents who identify as White (2013 Census Estimates)
+regression,cancer_mortality,25,PercentMarried,feature,NUMERIC,PercentMarried: Percent of county residents who are married (2013 Census Estimates)
+regression,cancer_mortality,26,avgAnnCount,feature,NUMERIC,avgAnnCount: Mean number of reported cases of cancer diagnosed annually(a)
+regression,cancer_mortality,27,avgDeathsPerYear,feature,NUMERIC,avgDeathsPerYear: Mean number of reported mortalities due to cancer(a)
+regression,cancer_mortality,28,incidenceRate,feature,NUMERIC,"incidenceRate: Mean per capita (100,000) cancer diagoses(a)"
+regression,cancer_mortality,29,medIncome,feature,NUMERIC,medianIncome: Median income per county (2013 Census Estimates)
+regression,cancer_mortality,30,popEst2015,feature,NUMERIC,popEst2015: Population of county (2013 Census Estimates)
+regression,cancer_mortality,31,povertyPercent,feature,NUMERIC,povertyPercent: Percent of populace in poverty (2013 Census Estimates)
+regression,cancer_mortality,32,studyPerCap,feature,NUMERIC,studyPerCap: Per capita number of cancer-related clinical trials per county (a)
+regression,cancer_mortality,33,TARGET_deathRate,target,NUMERIC,"TARGET_deathRate: Dependent variable. Mean per capita (100,000) cancer mortalities (years 2010-2016)"
+regression,college_pell_grants,1,unit_id,id,TEXT,Unique identifier for college 
+regression,college_pell_grants,2,act_combined_midrange,feature,NUMERIC,act_combined_midrange
+regression,college_pell_grants,3,act_english_midrange,feature,NUMERIC,act_english_midrange
+regression,college_pell_grants,4,act_math_midrange,feature,NUMERIC,act_math_midrange
+regression,college_pell_grants,5,act_writing_midrange,feature,NUMERIC,act_writing_midrange
+regression,college_pell_grants,6,admission_rate,feature,NUMERIC,admission_rate
+regression,college_pell_grants,7,agege24,feature,NUMERIC,agege24
+regression,college_pell_grants,8,average_cost_academic_year,feature,NUMERIC,average_cost_academic_year
+regression,college_pell_grants,9,average_cost_program_year,feature,NUMERIC,average_cost_program_year
+regression,college_pell_grants,10,carnegie_basic_classification,feature,CATEGORICAL,carnegie_basic_classification
+regression,college_pell_grants,11,carnegie_size,feature,CATEGORICAL,carnegie_size
+regression,college_pell_grants,12,carnegie_undergraduate,feature,CATEGORICAL,carnegie_undergraduate
+regression,college_pell_grants,13,completion_rate,feature,NUMERIC,completion_rate
+regression,college_pell_grants,14,faculty_salary,feature,NUMERIC,faculty_salary
+regression,college_pell_grants,15,faminc,feature,NUMERIC,faminc
+regression,college_pell_grants,16,gender,feature,CATEGORICAL,gender
+regression,college_pell_grants,17,highest_degree,feature,CATEGORICAL,highest_degree
+regression,college_pell_grants,18,mean_earnings_10_years,feature,NUMERIC,mean_earnings_10_years
+regression,college_pell_grants,19,mean_earnings_6_years,feature,NUMERIC,mean_earnings_6_years
+regression,college_pell_grants,20,median_earnings_10_years,feature,NUMERIC,median_earnings_10_years
+regression,college_pell_grants,21,median_earnings_6_years,feature,NUMERIC,median_earnings_6_years
+regression,college_pell_grants,22,ownership,feature,CATEGORICAL,ownership
+regression,college_pell_grants,23,percent_asian,feature,NUMERIC,percent_asian
+regression,college_pell_grants,24,percent_black,feature,NUMERIC,percent_black
+regression,college_pell_grants,25,percent_female,feature,NUMERIC,percent_female
+regression,college_pell_grants,26,percent_hispanic,feature,NUMERIC,percent_hispanic
+regression,college_pell_grants,27,percent_part_time,feature,NUMERIC,percent_part_time
+regression,college_pell_grants,28,percent_part_time_faculty,feature,NUMERIC,percent_part_time_faculty
+regression,college_pell_grants,29,percent_white,feature,NUMERIC,percent_white
+regression,college_pell_grants,30,predominant_degree,feature,CATEGORICAL,predominant_degree
+regression,college_pell_grants,31,region,feature,CATEGORICAL,region
+regression,college_pell_grants,32,religious_affiliation,feature,CATEGORICAL,religious_affiliation
+regression,college_pell_grants,33,sat_math_midrange,feature,NUMERIC,sat_math_midrange
+regression,college_pell_grants,34,sat_total_average,feature,NUMERIC,sat_total_average
+regression,college_pell_grants,35,sat_verbal_midrange,feature,NUMERIC,sat_verbal_midrange
+regression,college_pell_grants,36,sat_writing_midrange,feature,NUMERIC,sat_writing_midrange
+regression,college_pell_grants,37,spend_per_student,feature,NUMERIC,spend_per_student
+regression,college_pell_grants,38,state,feature,CATEGORICAL,state
+regression,college_pell_grants,39,tuition_(instate),feature,NUMERIC,tuition_(instate)
+regression,college_pell_grants,40,tuition_(out_of_state),feature,NUMERIC,tuition_(out_of_state)
+regression,college_pell_grants,41,undergrad_size,feature,NUMERIC,undergrad_size
+regression,college_pell_grants,42,percent_pell_grant,target,NUMERIC,Target variable - percent of undergraduate students awarded Federal Pell Grants
 regression,computer_activity,1,id,id,TEXT,Unique identifier for sample
 regression,computer_activity,2,lread,feature,NUMERIC,lread - Reads (transfers per second ) between system memory and user memory.
 regression,computer_activity,3,lwrite,feature,NUMERIC,lwrite - writes (transfers per second) between system memory and user memory.
@@ -102,6 +187,12 @@ regression,energy_efficiency,7,Orientation,feature,CATEGORICAL,Orientation
 regression,energy_efficiency,8,Glazing Area,feature,CATEGORICAL,Glazing Area
 regression,energy_efficiency,9,Glazing Area Distribution,feature,CATEGORICAL,Glazing Area Distribution
 regression,energy_efficiency,10,Heating Load,target,NUMERIC,Heating load requirement of building
+regression,fluid_pressure,1,id,id,TEXT,Unique identifier for sample
+regression,fluid_pressure,2,fluid_density,feature,NUMERIC,Fluid density in kg/m^3
+regression,fluid_pressure,3,fluid_velocity,feature,NUMERIC,Fluid velocity in m/s
+regression,fluid_pressure,4,body,feature,CATEGORICAL,"Planetary body - one of ['Earth', 'Moon', 'Mars', 'Jupiter', 'Venus', 'Saturn']"
+regression,fluid_pressure,5,height,feature,NUMERIC,Height in meters
+regression,fluid_pressure,6,pressure_bars,target,NUMERIC,Pressure in bars
 regression,house_prices,1,Id,id,TEXT,Unique identifier for sample
 regression,house_prices,2,MSSubClass,feature,CATEGORICAL,MSSubClass: The building class
 regression,house_prices,3,MSZoning,feature,CATEGORICAL,MSZoning: The general zoning classification
@@ -183,79 +274,35 @@ regression,house_prices,78,YrSold,feature,NUMERIC,YrSold: Year Sold
 regression,house_prices,79,SaleType,feature,CATEGORICAL,SaleType: Type of sale
 regression,house_prices,80,SaleCondition,feature,CATEGORICAL,SaleCondition: Condition of sale
 regression,house_prices,81,SalePrice,target,NUMERIC,SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.
-regression,smoke_test_regression,1,id,id,TEXT,Unique identifier for sample
-regression,smoke_test_regression,2,number,feature,NUMERIC,Synthetic numeric feature
-regression,smoke_test_regression,3,color,feature,CATEGORICAL,Synthetic categorical feature
-regression,smoke_test_regression,4,target,target,NUMERIC,Target feature
-regression,sine_waves,1,sample_id,id,TEXT,Unique identifier for sample
-regression,sine_waves,2,feature_1,feature,NUMERIC,Value at time step 1
-regression,sine_waves,3,feature_2,feature,NUMERIC,Value at time step 2
-regression,sine_waves,4,feature_3,feature,NUMERIC,Value at time step 3
-regression,sine_waves,5,feature_4,feature,NUMERIC,Value at time step 4
-regression,sine_waves,6,feature_5,feature,NUMERIC,Value at time step 5
-regression,sine_waves,7,feature_6,feature,NUMERIC,Value at time step 6
-regression,sine_waves,8,feature_7,feature,NUMERIC,Value at time step 7
-regression,sine_waves,9,feature_8,feature,NUMERIC,Value at time step 8
-regression,sine_waves,10,feature_9,feature,NUMERIC,Value at time step 9
-regression,sine_waves,11,feature_10,feature,NUMERIC,Value at time step 10
-regression,sine_waves,12,target,target,NUMERIC,Target feature
-regression,neural_sim_net,1,sample_id,id,TEXT,Unique identifier for sample
-regression,neural_sim_net,2,feature_1,feature,NUMERIC,Input feature 1
-regression,neural_sim_net,3,feature_2,feature,NUMERIC,Input feature 2
-regression,neural_sim_net,4,feature_3,feature,NUMERIC,Input feature 3
-regression,neural_sim_net,5,feature_4,feature,NUMERIC,Input feature 4
-regression,neural_sim_net,6,feature_5,feature,NUMERIC,Input feature 5
-regression,neural_sim_net,7,feature_6,feature,NUMERIC,Input feature 6
-regression,neural_sim_net,8,feature_7,feature,NUMERIC,Input feature 7
-regression,neural_sim_net,9,feature_8,feature,NUMERIC,Input feature 8
-regression,neural_sim_net,10,feature_9,feature,NUMERIC,Input feature 9
-regression,neural_sim_net,11,feature_10,feature,NUMERIC,Input feature 10
-regression,neural_sim_net,12,feature_11,feature,NUMERIC,Input feature 11
-regression,neural_sim_net,13,feature_12,feature,NUMERIC,Input feature 12
-regression,neural_sim_net,14,feature_13,feature,NUMERIC,Input feature 13
-regression,neural_sim_net,15,feature_14,feature,NUMERIC,Input feature 14
-regression,neural_sim_net,16,feature_15,feature,NUMERIC,Input feature 15
-regression,neural_sim_net,17,feature_16,feature,NUMERIC,Input feature 16
-regression,neural_sim_net,18,target,target,NUMERIC,Target for dataset
-regression,fluid_pressure,1,id,id,TEXT,Unique identifier for sample
-regression,fluid_pressure,2,fluid_density,feature,NUMERIC,Fluid density in kg/m^3
-regression,fluid_pressure,3,fluid_velocity,feature,NUMERIC,Fluid velocity in m/s
-regression,fluid_pressure,4,body,feature,CATEGORICAL,"Planetary body - one of ['Earth', 'Moon', 'Mars', 'Jupiter', 'Venus', 'Saturn']"
-regression,fluid_pressure,5,height,feature,NUMERIC,Height in meters
-regression,fluid_pressure,6,pressure_bars,target,NUMERIC,Pressure in bars
-regression,cancer_mortality,1,Geography,id,TEXT,Geography: County name (2013 Census)
-regression,cancer_mortality,2,AvgHouseholdSize,feature,NUMERIC,AvgHouseholdSize: Mean household size of county (2013 Census Estimates)
-regression,cancer_mortality,3,BirthRate,feature,NUMERIC,BirthRate: Number of live births relative to number of women in county (2013 Census Estimates)
-regression,cancer_mortality,4,MedianAge,feature,NUMERIC,MedianAge: Median age of county residents (2013 Census Estimates)
-regression,cancer_mortality,5,MedianAgeFemale,feature,NUMERIC,MedianAgeFemale: Median age of female county residents (2013 Census Estimates)
-regression,cancer_mortality,6,MedianAgeMale,feature,NUMERIC,MedianAgeMale: Median age of male county residents (2013 Census Estimates)
-regression,cancer_mortality,7,PctAsian,feature,NUMERIC,PctAsian: Percent of county residents who identify as Asian (2013 Census Estimates)
-regression,cancer_mortality,8,PctBachDeg18_24,feature,NUMERIC,PctBachDeg18_24: Percent of county residents ages 18-24 highest education attained: bachelor's degree (2013 Census Estimates)
-regression,cancer_mortality,9,PctBachDeg25_Over,feature,NUMERIC,PctBachDeg25_Over: Percent of county residents ages 25 and over highest education attained: bachelor's degree (2013 Census Estimates)
-regression,cancer_mortality,10,PctBlack,feature,NUMERIC,PctBlack: Percent of county residents who identify as Black (2013 Census Estimates)
-regression,cancer_mortality,11,PctEmpPrivCoverage,feature,NUMERIC,PctEmpPrivCoverage: Percent of county residents with employee-provided private health coverage (2013 Census Estimates)
-regression,cancer_mortality,12,PctEmployed16_Over,feature,NUMERIC,PctEmployed16_Over: Percent of county residents ages 16 and over employed (2013 Census Estimates)
-regression,cancer_mortality,13,PctHS18_24,feature,NUMERIC,PctHS18_24: Percent of county residents ages 18-24 highest education attained: high school diploma (2013 Census Estimates)
-regression,cancer_mortality,14,PctHS25_Over,feature,NUMERIC,PctHS25_Over: Percent of county residents ages 25 and over highest education attained: high school diploma (2013 Census Estimates)
-regression,cancer_mortality,15,PctMarriedHouseholds,feature,NUMERIC,PctMarriedHouseholds: Percent of married households (2013 Census Estimates)
-regression,cancer_mortality,16,PctNoHS18_24,feature,NUMERIC,PctNoHS18_24: Percent of county residents ages 18-24 highest education attained: less than high school (2013 Census Estimates)
-regression,cancer_mortality,17,PctOtherRace,feature,NUMERIC,"PctOtherRace: Percent of county residents who identify in a category which is not White, Black, or Asian (2013 Census Estimates)"
-regression,cancer_mortality,18,PctPrivateCoverage,feature,NUMERIC,PctPrivateCoverage: Percent of county residents with private health coverage (2013 Census Estimates)
-regression,cancer_mortality,19,PctPrivateCoverageAlone,feature,NUMERIC,PctPrivateCoverageAlone: Percent of county residents with private health coverage alone (no public assistance) (2013 Census Estimates)
-regression,cancer_mortality,20,PctPublicCoverage,feature,NUMERIC,PctPublicCoverage: Percent of county residents with government-provided health coverage (2013 Census Estimates)
-regression,cancer_mortality,21,PctPublicCoverageAlone,feature,NUMERIC,PctPubliceCoverageAlone: Percent of county residents with government-provided health coverage alone (2013 Census Estimates)
-regression,cancer_mortality,22,PctSomeCol18_24,feature,NUMERIC,PctSomeCol18_24: Percent of county residents ages 18-24 highest education attained: some college (2013 Census Estimates)
-regression,cancer_mortality,23,PctUnemployed16_Over,feature,NUMERIC,PctUnemployed16_Over: Percent of county residents ages 16 and over unemployed (2013 Census Estimates)
-regression,cancer_mortality,24,PctWhite,feature,NUMERIC,PctWhite: Percent of county residents who identify as White (2013 Census Estimates)
-regression,cancer_mortality,25,PercentMarried,feature,NUMERIC,PercentMarried: Percent of county residents who are married (2013 Census Estimates)
-regression,cancer_mortality,26,avgAnnCount,feature,NUMERIC,avgAnnCount: Mean number of reported cases of cancer diagnosed annually(a)
-regression,cancer_mortality,27,avgDeathsPerYear,feature,NUMERIC,avgDeathsPerYear: Mean number of reported mortalities due to cancer(a)
-regression,cancer_mortality,28,incidenceRate,feature,NUMERIC,"incidenceRate: Mean per capita (100,000) cancer diagoses(a)"
-regression,cancer_mortality,29,medIncome,feature,NUMERIC,medianIncome: Median income per county (2013 Census Estimates)
-regression,cancer_mortality,30,popEst2015,feature,NUMERIC,popEst2015: Population of county (2013 Census Estimates)
-regression,cancer_mortality,31,povertyPercent,feature,NUMERIC,povertyPercent: Percent of populace in poverty (2013 Census Estimates)
-regression,cancer_mortality,32,studyPerCap,feature,NUMERIC,studyPerCap: Per capita number of cancer-related clinical trials per county (a)
-regression,cancer_mortality,33,TARGET_deathRate,target,NUMERIC,"TARGET_deathRate: Dependent variable. Mean per capita (100,000) cancer mortalities (years 2010-2016)"
+regression,neural_sim_reg,1,sample_id,id,TEXT,Unique identifier for sample
+regression,neural_sim_reg,2,feature_1,feature,NUMERIC,Input feature 1
+regression,neural_sim_reg,3,feature_2,feature,NUMERIC,Input feature 2
+regression,neural_sim_reg,4,feature_3,feature,NUMERIC,Input feature 3
+regression,neural_sim_reg,5,feature_4,feature,NUMERIC,Input feature 4
+regression,neural_sim_reg,6,feature_5,feature,NUMERIC,Input feature 5
+regression,neural_sim_reg,7,feature_6,feature,NUMERIC,Input feature 6
+regression,neural_sim_reg,8,feature_7,feature,NUMERIC,Input feature 7
+regression,neural_sim_reg,9,feature_8,feature,NUMERIC,Input feature 8
+regression,neural_sim_reg,10,feature_9,feature,NUMERIC,Input feature 9
+regression,neural_sim_reg,11,feature_10,feature,NUMERIC,Input feature 10
+regression,neural_sim_reg,12,feature_11,feature,NUMERIC,Input feature 11
+regression,neural_sim_reg,13,feature_12,feature,NUMERIC,Input feature 12
+regression,neural_sim_reg,14,feature_13,feature,NUMERIC,Input feature 13
+regression,neural_sim_reg,15,feature_14,feature,NUMERIC,Input feature 14
+regression,neural_sim_reg,16,feature_15,feature,NUMERIC,Input feature 15
+regression,neural_sim_reg,17,feature_16,feature,NUMERIC,Input feature 16
+regression,neural_sim_reg,18,target,target,NUMERIC,Target for dataset
+regression,nfl_elo_game,1,game_id,id,TEXT,Unique identifier for game
+regression,nfl_elo_game,2,season,feature,NUMERIC,season year
+regression,nfl_elo_game,3,month,feature,CATEGORICAL,month of the year
+regression,nfl_elo_game,4,neutral,feature,CATEGORICAL,Whether game venue was neutral
+regression,nfl_elo_game,5,playoff,feature,CATEGORICAL,Whether this was a playoff game
+regression,nfl_elo_game,6,team1,feature,CATEGORICAL,Team 1 involved in the game - has homefield unless venue is indicated as neutral
+regression,nfl_elo_game,7,team2,feature,CATEGORICAL,Team 2 involved in the game
+regression,nfl_elo_game,8,elo1,feature,NUMERIC,Elo rating of team 1 before game
+regression,nfl_elo_game,9,elo2,feature,NUMERIC,Elo rating of team 2 before game
+regression,nfl_elo_game,10,score1,feature,NUMERIC,Points scored by team 1 in the game
+regression,nfl_elo_game,11,score2,target,NUMERIC,Target - Points scored by team 2 in the game
 regression,online_news_popularity,1,id,id,TEXT,Unique identifier for article
 regression,online_news_popularity,2,timedelta,feature,NUMERIC,Days between the article publication and the dataset acquisition
 regression,online_news_popularity,3,n_tokens_title,feature,NUMERIC,Number of words in the title
@@ -317,66 +364,19 @@ regression,online_news_popularity,58,title_sentiment_polarity,feature,NUMERIC,Ti
 regression,online_news_popularity,59,abs_title_subjectivity,feature,NUMERIC,Absolute subjectivity level
 regression,online_news_popularity,60,abs_title_sentiment_polarity,feature,NUMERIC,Absolute polarity level
 regression,online_news_popularity,61,shares,target,NUMERIC,Number of shares (target)
-regression,nfl_elo_game,1,game_id,id,TEXT,Unique identifier for game
-regression,nfl_elo_game,2,season,feature,NUMERIC,season year
-regression,nfl_elo_game,3,month,feature,CATEGORICAL,month of the year
-regression,nfl_elo_game,4,neutral,feature,CATEGORICAL,Whether game venue was neutral
-regression,nfl_elo_game,5,playoff,feature,CATEGORICAL,Whether this was a playoff game
-regression,nfl_elo_game,6,team1,feature,CATEGORICAL,Team 1 involved in the game - has homefield unless venue is indicated as neutral
-regression,nfl_elo_game,7,team2,feature,CATEGORICAL,Team 2 involved in the game
-regression,nfl_elo_game,8,elo1,feature,NUMERIC,Elo rating of team 1 before game
-regression,nfl_elo_game,9,elo2,feature,NUMERIC,Elo rating of team 2 before game
-regression,nfl_elo_game,10,score1,feature,NUMERIC,Points scored by team 1 in the game
-regression,nfl_elo_game,11,score2,target,NUMERIC,Target - Points scored by team 2 in the game
-regression,college_pell_grants,1,unit_id,id,TEXT,Unique identifier for college 
-regression,college_pell_grants,2,act_combined_midrange,feature,NUMERIC,act_combined_midrange
-regression,college_pell_grants,3,act_english_midrange,feature,NUMERIC,act_english_midrange
-regression,college_pell_grants,4,act_math_midrange,feature,NUMERIC,act_math_midrange
-regression,college_pell_grants,5,act_writing_midrange,feature,NUMERIC,act_writing_midrange
-regression,college_pell_grants,6,admission_rate,feature,NUMERIC,admission_rate
-regression,college_pell_grants,7,agege24,feature,NUMERIC,agege24
-regression,college_pell_grants,8,average_cost_academic_year,feature,NUMERIC,average_cost_academic_year
-regression,college_pell_grants,9,average_cost_program_year,feature,NUMERIC,average_cost_program_year
-regression,college_pell_grants,10,carnegie_basic_classification,feature,CATEGORICAL,carnegie_basic_classification
-regression,college_pell_grants,11,carnegie_size,feature,CATEGORICAL,carnegie_size
-regression,college_pell_grants,12,carnegie_undergraduate,feature,CATEGORICAL,carnegie_undergraduate
-regression,college_pell_grants,13,completion_rate,feature,NUMERIC,completion_rate
-regression,college_pell_grants,14,faculty_salary,feature,NUMERIC,faculty_salary
-regression,college_pell_grants,15,faminc,feature,NUMERIC,faminc
-regression,college_pell_grants,16,gender,feature,CATEGORICAL,gender
-regression,college_pell_grants,17,highest_degree,feature,CATEGORICAL,highest_degree
-regression,college_pell_grants,18,mean_earnings_10_years,feature,NUMERIC,mean_earnings_10_years
-regression,college_pell_grants,19,mean_earnings_6_years,feature,NUMERIC,mean_earnings_6_years
-regression,college_pell_grants,20,median_earnings_10_years,feature,NUMERIC,median_earnings_10_years
-regression,college_pell_grants,21,median_earnings_6_years,feature,NUMERIC,median_earnings_6_years
-regression,college_pell_grants,22,ownership,feature,CATEGORICAL,ownership
-regression,college_pell_grants,23,percent_asian,feature,NUMERIC,percent_asian
-regression,college_pell_grants,24,percent_black,feature,NUMERIC,percent_black
-regression,college_pell_grants,25,percent_female,feature,NUMERIC,percent_female
-regression,college_pell_grants,26,percent_hispanic,feature,NUMERIC,percent_hispanic
-regression,college_pell_grants,27,percent_part_time,feature,NUMERIC,percent_part_time
-regression,college_pell_grants,28,percent_part_time_faculty,feature,NUMERIC,percent_part_time_faculty
-regression,college_pell_grants,29,percent_white,feature,NUMERIC,percent_white
-regression,college_pell_grants,30,predominant_degree,feature,CATEGORICAL,predominant_degree
-regression,college_pell_grants,31,region,feature,CATEGORICAL,region
-regression,college_pell_grants,32,religious_affiliation,feature,CATEGORICAL,religious_affiliation
-regression,college_pell_grants,33,sat_math_midrange,feature,NUMERIC,sat_math_midrange
-regression,college_pell_grants,34,sat_total_average,feature,NUMERIC,sat_total_average
-regression,college_pell_grants,35,sat_verbal_midrange,feature,NUMERIC,sat_verbal_midrange
-regression,college_pell_grants,36,sat_writing_midrange,feature,NUMERIC,sat_writing_midrange
-regression,college_pell_grants,37,spend_per_student,feature,NUMERIC,spend_per_student
-regression,college_pell_grants,38,state,feature,CATEGORICAL,state
-regression,college_pell_grants,39,tuition_(instate),feature,NUMERIC,tuition_(instate)
-regression,college_pell_grants,40,tuition_(out_of_state),feature,NUMERIC,tuition_(out_of_state)
-regression,college_pell_grants,41,undergrad_size,feature,NUMERIC,undergrad_size
-regression,college_pell_grants,42,percent_pell_grant,target,NUMERIC,Target variable - percent of undergraduate students awarded Federal Pell Grants
-regression,aquatic_toxicity,1,Id,id,TEXT,
-regression,aquatic_toxicity,2,TPSA(Tot),feature,NUMERIC,TPSA(Tot) (Molecular properties)
-regression,aquatic_toxicity,3,SAacc,feature,NUMERIC,SAacc (Molecular properties)
-regression,aquatic_toxicity,4,H-050,feature,NUMERIC,H-050 (Atom-centred fragments)
-regression,aquatic_toxicity,5,MLOGP,feature,NUMERIC,MLOGP (Molecular properties)
-regression,aquatic_toxicity,6,RDCHI,feature,NUMERIC,RDCHI (Connectivity indices)
-regression,aquatic_toxicity,7,GATS1p,feature,NUMERIC,GATS1p (2D autocorrelations)
-regression,aquatic_toxicity,8,nN,feature,NUMERIC,nN (Constitutional indices)
-regression,aquatic_toxicity,9,C-040,feature,NUMERIC,C-040 (Atom-centred fragments)
-regression,aquatic_toxicity,10,LC50,target,NUMERIC,LC50 - concentration that causes death in 50% of test Daphnia Magma over a test duration of 48 hours
+regression,sine_waves,1,sample_id,id,TEXT,Unique identifier for sample
+regression,sine_waves,2,time_step_1,feature,NUMERIC,Value at time step 1
+regression,sine_waves,3,time_step_2,feature,NUMERIC,Value at time step 2
+regression,sine_waves,4,time_step_3,feature,NUMERIC,Value at time step 3
+regression,sine_waves,5,time_step_4,feature,NUMERIC,Value at time step 4
+regression,sine_waves,6,time_step_5,feature,NUMERIC,Value at time step 5
+regression,sine_waves,7,time_step_6,feature,NUMERIC,Value at time step 6
+regression,sine_waves,8,time_step_7,feature,NUMERIC,Value at time step 7
+regression,sine_waves,9,time_step_8,feature,NUMERIC,Value at time step 8
+regression,sine_waves,10,time_step_9,feature,NUMERIC,Value at time step 9
+regression,sine_waves,11,time_step_10,feature,NUMERIC,Value at time step 10
+regression,sine_waves,12,target,target,NUMERIC,Target feature
+regression,smoke_test_regression,1,id,id,TEXT,Unique identifier for sample
+regression,smoke_test_regression,2,number,feature,NUMERIC,Synthetic numeric feature
+regression,smoke_test_regression,3,color,feature,CATEGORICAL,Synthetic categorical feature
+regression,smoke_test_regression,4,target,target,NUMERIC,Target feature

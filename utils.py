@@ -45,7 +45,7 @@ def load_features_config(features_cfg_path: str) -> pd.DataFrame:
     pd.DataFrame: The data features configuration.
     """
     # Load the data features configuration
-    data_features_config = pd.read_csv(features_cfg_path)
+    data_features_config = pd.read_csv(features_cfg_path, encoding='ISO-8859-1')
     return data_features_config
 
 def load_dataset(dataset_name:str, processed_datasets_path:str):

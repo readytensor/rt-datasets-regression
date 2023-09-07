@@ -1,0 +1,14 @@
+{
+  "instances": [
+    {
+      "id": "0",
+      "cylinders": 8,
+      "displacement": 307.0,
+      "horsepower": 130.0,
+      "weight": 3504.0,
+      "acceleration": 12.0,
+      "model year": 70,
+      "origin": 1
+    }
+  ]
+}

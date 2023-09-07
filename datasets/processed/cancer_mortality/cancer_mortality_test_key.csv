@@ -1,0 +1,611 @@
+Geography,TARGET_deathRate
+"Ware County, Georgia",180.1
+"Staunton city, Virginia",176.1
+"Madison County, Arkansas",195.3
+"Cass County, Texas",179.0
+"Craig County, Virginia",169.4
+"Edgar County, Illinois",177.0
+"Grant Parish, Louisiana",222.7
+"Pope County, Minnesota",154.5
+"Lincoln County, Wisconsin",184.4
+"Howell County, Missouri",204.4
+"Lake County, Illinois",160.0
+"Sumner County, Tennessee",162.5
+"Atascosa County, Texas",169.1
+"Wayne County, Iowa",150.9
+"Yadkin County, North Carolina",179.7
+"Chariton County, Missouri",166.7
+"Martin County, Texas",153.2
+"Monroe County, Wisconsin",179.8
+"McLean County, Kentucky",215.1
+"Susquehanna County, Pennsylvania",163.6
+"Seward County, Kansas",164.4
+"Adair County, Oklahoma",220.9
+"Pike County, Kentucky",238.4
+"Hunt County, Texas",198.5
+"Cumberland County, Virginia",179.2
+"Madison County, Kentucky",205.0
+"Towner County, North Dakota",169.4
+"Delaware County, New York",160.7
+"Berrien County, Michigan",179.0
+"Parker County, Texas",176.4
+"Bucks County, Pennsylvania",168.7
+"Grand Isle County, Vermont",206.1
+"Johnson County, Arkansas",176.9
+"Kiowa County, Kansas",141.4
+"Adams County, Wisconsin",206.0
+"Carter County, Oklahoma",206.1
+"Kemper County, Mississippi",171.0
+"Vernon County, Missouri",194.4
+"Quay County, New Mexico",190.6
+"Hillsborough County, Florida",168.9
+"Marshall County, Mississippi",213.6
+"Valencia County, New Mexico",163.1
+"Clatsop County, Oregon",180.2
+"Iberville Parish, Louisiana",225.1
+"Iron County, Wisconsin",195.8
+"Henry County, Ohio",162.8
+"Lassen County, California",169.9
+"Reeves County, Texas",148.3
+"Grant County, South Dakota",150.3
+"Elkhart County, Indiana",170.1
+"Westchester County, New York",145.3
+"Bureau County, Illinois",172.2
+"Dewey County, Oklahoma",202.1
+"Washington County, Kentucky",180.2
+"Jones County, Mississippi",178.6
+"Keokuk County, Iowa",169.3
+"Graham County, Kansas",134.0
+"Power County, Idaho",114.3
+"Goochland County, Virginia",153.4
+"Jack County, Texas",166.4
+"Kalkaska County, Michigan",200.7
+"Letcher County, Kentucky",226.5
+"Hughes County, South Dakota",162.5
+"Highland County, Ohio",199.8
+"Stewart County, Georgia",228.8
+"Atchison County, Missouri",222.4
+"Ramsey County, North Dakota",164.9
+"Sullivan County, New Hampshire",171.9
+"Webster County, Georgia",143.1
+"Sublette County, Wyoming",126.9
+"Hale County, Texas",173.4
+"Bonneville County, Idaho",137.4
+"Brazos County, Texas",151.8
+"Waupaca County, Wisconsin",189.4
+"Young County, Texas",191.1
+"Jasper County, South Carolina",179.1
+"Yoakum County, Texas",158.8
+"Butler County, Iowa",156.6
+"Houston County, Texas",176.8
+"Amelia County, Virginia",216.5
+"Martin County, Florida",146.5
+"Morris County, Kansas",193.4
+"Perry County, Missouri",174.4
+"Lafayette County, Wisconsin",166.0
+"Uintah County, Utah",133.2
+"Webster County, Missouri",166.7
+"Ector County, Texas",190.1
+"Polk County, Wisconsin",168.1
+"Tattnall County, Georgia",216.4
+"Greene County, North Carolina",183.2
+"Washington County, Maryland",181.0
+"Miami County, Ohio",177.8
+"Mercer County, Illinois",179.9
+"Houston County, Minnesota",141.8
+"Cole County, Missouri",168.6
+"Phillips County, Montana",151.2
+"Warren County, North Carolina",185.4
+"Doña Ana County, New Mexico",150.8
+"Zapata County, Texas",112.5
+"Perquimans County, North Carolina",159.5
+"Dawson County, Montana",178.3
+"Pottawatomie County, Oklahoma",190.0
+"Stephens County, Texas",211.3
+"Beaver County, Utah",168.7
+"Delaware County, Oklahoma",182.4
+"Marshall County, South Dakota",187.6
+"Shiawassee County, Michigan",184.9
+"Sullivan County, Tennessee",187.2
+"Orange County, North Carolina",157.3
+"Medina County, Ohio",167.4
+"Bayfield County, Wisconsin",171.7
+"Upson County, Georgia",189.5
+"McKenzie County, North Dakota",124.6
+"Sherman County, Nebraska",187.4
+"Wheatland County, Montana",149.4
+"Brown County, Wisconsin",158.6
+"Kalamazoo County, Michigan",171.0
+"Morgan County, Tennessee",191.1
+"Alexander County, North Carolina",174.4
+"Chattooga County, Georgia",203.9
+"Morris County, New Jersey",150.3
+"Chicot County, Arkansas",229.0
+"Saline County, Nebraska",181.9
+"Kings County, California",147.7
+"Baldwin County, Georgia",186.1
+"Fillmore County, Minnesota",152.7
+"Floyd County, Virginia",138.0
+"Wheeler County, Texas",193.7
+"St. Louis city, Missouri",214.3
+"Richmond County, Georgia",197.6
+"Jackson County, Wisconsin",173.0
+"Mecosta County, Michigan",177.2
+"Monroe County, New York",169.5
+"Thayer County, Nebraska",120.2
+"Cochise County, Arizona",154.6
+"Aroostook County, Maine",188.2
+"Crawford County, Iowa",148.6
+"Sierra County, New Mexico",190.3
+"Powell County, Kentucky",292.5
+"Grayson County, Kentucky",230.6
+"Gloucester County, Virginia",200.4
+"Warren County, Tennessee",209.6
+"Bristol city, Virginia",226.6
+"Caldwell County, Missouri",199.3
+"Allegany County, Maryland",172.2
+"Jennings County, Indiana",206.0
+"Falls County, Texas",151.9
+"Leon County, Texas",205.4
+"Greene County, Pennsylvania",193.5
+"Seminole County, Georgia",180.1
+"Izard County, Arkansas",184.1
+"Rhea County, Tennessee",193.5
+"Flathead County, Montana",150.6
+"Nodaway County, Missouri",168.8
+"Logan County, West Virginia",240.1
+"Fremont County, Idaho",140.9
+"Valley County, Idaho",131.6
+"Edmunds County, South Dakota",162.6
+"Hinds County, Mississippi",175.5
+"Mariposa County, California",147.6
+"Fulton County, Pennsylvania",177.5
+"Putnam County, Tennessee",189.2
+"Antrim County, Michigan",167.7
+"Rush County, Indiana",222.0
+"Steuben County, Indiana",172.6
+"Banks County, Georgia",138.7
+"Mason County, West Virginia",209.5
+"Golden Valley County, Montana",231.0
+"Williamson County, Illinois",207.4
+"Hamlin County, South Dakota",145.4
+"Jackson County, Oklahoma",209.2
+"Sabine Parish, Louisiana",202.5
+"Dallas County, Arkansas",250.0
+"Marion County, Arkansas",213.7
+"Oswego County, New York",194.4
+"Elk County, Pennsylvania",189.9
+"Marion County, Kansas",143.8
+"Sitka City and Borough, Alaska",150.1
+"Harvey County, Kansas",162.2
+"Marion County, Illinois",219.1
+"Campbell County, Virginia",160.1
+"Putnam County, Missouri",205.0
+"Merrimack County, New Hampshire",173.1
+"Wapello County, Iowa",182.7
+"Taney County, Missouri",173.6
+"Poweshiek County, Iowa",154.2
+"Meigs County, Tennessee",229.6
+"Clay County, Missouri",176.4
+"Henderson County, North Carolina",151.8
+"Piscataquis County, Maine",194.0
+"Middlesex County, Connecticut",154.9
+"Claiborne Parish, Louisiana",177.8
+"Suwannee County, Florida",198.7
+"Lake County, Ohio",182.5
+"Hardin County, Texas",190.7
+"Adams County, Idaho",121.0
+"Stutsman County, North Dakota",172.5
+"Treutlen County, Georgia",193.7
+"Ford County, Kansas",153.9
+"Columbia County, Arkansas",210.0
+"Lee County, Florida",142.1
+"Duchesne County, Utah",155.5
+"Macon County, Missouri",141.8
+"Monroe County, Kentucky",227.9
+"Scurry County, Texas",203.5
+"Grady County, Oklahoma",193.7
+"Fairfax County, Virginia",126.9
+"Saunders County, Nebraska",176.2
+"Beckham County, Oklahoma",182.4
+"Meagher County, Montana",198.6
+"Webster County, Iowa",169.2
+"Johnson County, Missouri",183.4
+"Nicholas County, Kentucky",267.6
+"Columbia County, Wisconsin",176.6
+"Mitchell County, Kansas",151.3
+"Greenbrier County, West Virginia",195.1
+"Blaine County, Oklahoma",180.2
+"Jackson County, Oregon",172.4
+"Contra Costa County, California",151.5
+"Washington County, Wisconsin",153.0
+"Lafayette County, Mississippi",168.3
+"Washington County, Arkansas",173.1
+"Macon County, Tennessee",211.2
+"McDonald County, Missouri",201.2
+"Geauga County, Ohio",142.4
+"Oceana County, Michigan",153.3
+"Stephens County, Oklahoma",189.1
+"Linn County, Iowa",169.4
+"Phelps County, Nebraska",173.5
+"Owen County, Kentucky",159.8
+"Hancock County, Mississippi",179.8
+"Reynolds County, Missouri",181.8
+"San Juan County, Utah",123.9
+"Levy County, Florida",232.0
+"Crawford County, Illinois",191.5
+"Licking County, Ohio",188.8
+"Stanton County, Nebraska",138.2
+"Alpena County, Michigan",179.3
+"Floyd County, Kentucky",248.2
+"Kane County, Illinois",156.6
+"Marin County, California",135.2
+"Stoddard County, Missouri",206.6
+"Chautauqua County, Kansas",194.2
+"Richland County, Ohio",186.0
+"Hays County, Texas",149.5
+"Irwin County, Georgia",192.8
+"Calhoun County, South Carolina",150.9
+"Chaffee County, Colorado",140.8
+"Georgetown County, South Carolina",190.9
+"Weld County, Colorado",150.7
+"Trinity County, California",189.4
+"Wilson County, North Carolina",199.1
+"Fresno County, California",152.8
+"Telfair County, Georgia",159.8
+"Milwaukee County, Wisconsin",189.9
+"Park County, Wyoming",152.0
+"Andrews County, Texas",182.2
+"Anderson County, Texas",245.2
+"Washington County, Pennsylvania",186.3
+"St. John the Baptist Parish, Louisiana",200.6
+"Beaverhead County, Montana",121.4
+"Scott County, Virginia",196.1
+"Amador County, California",166.6
+"Perkins County, South Dakota",209.6
+"Austin County, Texas",160.1
+"Sanders County, Montana",151.3
+"Clinton County, Iowa",191.8
+"Scotland County, Missouri",195.4
+"Grayson County, Texas",182.3
+"Anson County, North Carolina",186.1
+"Fisher County, Texas",163.3
+"Madison County, Iowa",172.2
+"Clark County, Indiana",189.8
+"Greene County, Tennessee",194.7
+"King and Queen County, Virginia",180.3
+"Benton County, Iowa",163.2
+"Scott County, Iowa",185.1
+"Oldham County, Kentucky",163.6
+"Tippecanoe County, Indiana",169.1
+"Herkimer County, New York",150.9
+"Sawyer County, Wisconsin",208.5
+"Fulton County, Ohio",181.2
+"Jefferson County, Florida",173.5
+"Nevada County, Arkansas",210.7
+"Fulton County, Indiana",208.3
+"Lincoln County, South Dakota",120.0
+"Jefferson Parish, Louisiana",188.6
+"Montgomery County, Ohio",186.9
+"Posey County, Indiana",168.7
+"Smith County, Texas",157.5
+"Grundy County, Illinois",193.1
+"Cape May County, New Jersey",193.1
+"Schuyler County, New York",184.2
+"Page County, Virginia",199.2
+"Wilson County, Tennessee",179.2
+"Walworth County, Wisconsin",185.6
+"Grant County, New Mexico",159.4
+"Pawnee County, Kansas",182.5
+"Miller County, Arkansas",212.3
+"Fulton County, Arkansas",175.0
+"Essex County, Vermont",171.3
+"Kitsap County, Washington",164.9
+"Moniteau County, Missouri",179.9
+"Big Horn County, Montana",140.6
+"Rowan County, Kentucky",235.2
+"Logan County, Ohio",205.6
+"Boundary County, Idaho",161.0
+"Haywood County, North Carolina",157.6
+"Butler County, Nebraska",167.3
+"Van Buren County, Tennessee",174.1
+"Charlottesville city, Virginia",178.2
+"Northumberland County, Virginia",190.5
+"Red Lake County, Minnesota",157.6
+"Warren County, New York",177.9
+"Rabun County, Georgia",169.0
+"Hall County, Texas",223.2
+"Dorchester County, South Carolina",172.9
+"Menard County, Texas",173.9
+"Ohio County, Kentucky",222.1
+"Darke County, Ohio",179.6
+"Union County, Iowa",173.4
+"Waukesha County, Wisconsin",155.3
+"Larimer County, Colorado",134.1
+"Cumberland County, Kentucky",185.7
+"Schuylkill County, Pennsylvania",186.6
+"Van Buren County, Michigan",188.2
+"Knox County, Maine",169.4
+"Colonial Heights city, Virginia",159.3
+"Codington County, South Dakota",166.4
+"Luzerne County, Pennsylvania",181.1
+"Natchitoches Parish, Louisiana",181.5
+"Rosebud County, Montana",164.6
+"Greenwood County, Kansas",155.4
+"Hitchcock County, Nebraska",183.7
+"Butler County, Kentucky",202.9
+"Washington County, Kansas",172.4
+"Jasper County, Indiana",204.7
+"Wilbarger County, Texas",181.5
+"Pershing County, Nevada",121.8
+"Morgan County, Georgia",172.3
+"Gates County, North Carolina",171.5
+"Ventura County, California",146.1
+"Yalobusha County, Mississippi",235.8
+"Kingsbury County, South Dakota",165.5
+"Rock County, Wisconsin",186.8
+"McDowell County, West Virginia",234.8
+"Muskegon County, Michigan",189.2
+"Osage County, Oklahoma",173.6
+"Brule County, South Dakota",174.9
+"Passaic County, New Jersey",159.1
+"Thomas County, Kansas",154.5
+"Cameron Parish, Louisiana",133.3
+"Anoka County, Minnesota",167.9
+"Dodge County, Wisconsin",178.9
+"Buena Vista County, Iowa",149.1
+"Forsyth County, Georgia",129.9
+"Mesa County, Colorado",153.9
+"Midland County, Michigan",154.4
+"Fayette County, Pennsylvania",198.7
+"Marathon County, Wisconsin",153.9
+"Shelby County, Indiana",184.1
+"Anderson County, Kansas",174.8
+"Clinton County, Missouri",196.5
+"Leake County, Mississippi",236.0
+"Johnston County, Oklahoma",215.0
+"Harper County, Kansas",194.7
+"Jefferson County, Arkansas",204.1
+"Ouachita Parish, Louisiana",199.7
+"Somerset County, Maryland",216.5
+"Seneca County, Ohio",174.0
+"Dawes County, Nebraska",155.4
+"Camp County, Texas",182.2
+"Honolulu County, Hawaii",135.0
+"York County, Virginia",152.3
+"Paulding County, Georgia",173.2
+"Gogebic County, Michigan",195.2
+"Trego County, Kansas",177.9
+"Haskell County, Kansas",122.6
+"Caroline County, Maryland",185.6
+"Wayne County, Utah",129.3
+"Monroe County, Iowa",207.4
+"Tom Green County, Texas",159.3
+"Lincoln County, Colorado",147.4
+"Marion County, Oregon",168.9
+"Adair County, Iowa",178.9
+"Manitowoc County, Wisconsin",165.9
+"Emmons County, North Dakota",166.9
+"Teton County, Wyoming",136.9
+"Effingham County, Illinois",180.1
+"Chambers County, Alabama",208.5
+"Tate County, Mississippi",215.5
+"Davis County, Iowa",158.6
+"Sierra County, California",158.0
+"Wright County, Minnesota",165.2
+"Faribault County, Minnesota",158.9
+"Ontario County, New York",162.9
+"Pinellas County, Florida",165.0
+"Floyd County, Texas",173.5
+"Cass County, Illinois",195.3
+"Owsley County, Kentucky",263.1
+"Lafayette County, Arkansas",195.2
+"Pend Oreille County, Washington",190.5
+"Cook County, Minnesota",128.7
+"Mills County, Texas",135.8
+"Wetzel County, West Virginia",202.6
+"Tyrrell County, North Carolina",222.3
+"Newton County, Texas",200.7
+"Northwest Arctic Borough, Alaska",199.3
+"Modoc County, California",160.8
+"Giles County, Tennessee",199.9
+"White County, Arkansas",201.4
+"Newton County, Arkansas",203.6
+"Rock County, Nebraska",187.3
+"Sebastian County, Arkansas",187.5
+"Yuma County, Colorado",184.3
+"Bottineau County, North Dakota",174.1
+"Becker County, Minnesota",189.3
+"Refugio County, Texas",217.1
+"Sullivan County, Missouri",196.5
+"Tyler County, Texas",188.1
+"Sherburne County, Minnesota",170.5
+"Greene County, New York",187.3
+"Jones County, North Carolina",205.2
+"Nuckolls County, Nebraska",154.3
+"Mitchell County, North Carolina",180.9
+"Monroe County, Florida",168.5
+"Comal County, Texas",158.3
+"Boone County, Arkansas",198.2
+"Nelson County, Virginia",194.3
+"Texas County, Oklahoma",153.1
+"Turner County, Georgia",197.0
+"Cattaraugus County, New York",167.9
+"Tucker County, West Virginia",168.1
+"Baltimore city, Maryland",226.0
+"Boyd County, Nebraska",135.2
+"Cheshire County, New Hampshire",162.8
+"Pleasants County, West Virginia",213.3
+"Hockley County, Texas",155.2
+"Hocking County, Ohio",205.9
+"Edmonson County, Kentucky",202.5
+"Crawford County, Wisconsin",176.4
+"St. Croix County, Wisconsin",163.8
+"Freeborn County, Minnesota",164.1
+"Clermont County, Ohio",178.7
+"Gilchrist County, Florida",209.2
+"Franklin County, Georgia",198.3
+"Jefferson County, Texas",187.7
+"Washita County, Oklahoma",186.9
+"Socorro County, New Mexico",167.8
+"Guadalupe County, New Mexico",142.8
+"Wayne County, Indiana",202.8
+"Tarrant County, Texas",164.3
+"Huron County, Michigan",181.6
+"Greene County, Virginia",156.5
+"Whatcom County, Washington",163.3
+"Jay County, Indiana",202.5
+"White County, Tennessee",203.7
+"Prince Edward County, Virginia",188.8
+"Jackson County, Illinois",171.5
+"Jefferson County, New York",177.0
+"Garfield County, Nebraska",141.0
+"Tazewell County, Illinois",192.2
+"Moody County, South Dakota",166.0
+"DeSoto County, Mississippi",193.9
+"Carter County, Kentucky",232.1
+"Greenville County, South Carolina",175.4
+"Scott County, Kansas",160.5
+"Cheyenne County, Colorado",124.5
+"Cibola County, New Mexico",146.5
+"Richland County, Illinois",179.3
+"Jackson County, Tennessee",196.5
+"Montgomery County, Alabama",189.8
+"Lincoln County, Nebraska",167.0
+"Barton County, Kansas",178.3
+"Kootenai County, Idaho",173.4
+"Pulaski County, Arkansas",182.7
+"East Baton Rouge Parish, Louisiana",178.8
+"Grant County, Kentucky",205.4
+"Bear Lake County, Idaho",143.2
+"Haines Borough, Alaska",126.3
+"Lawrence County, Mississippi",211.9
+"Albemarle County, Virginia",143.8
+"Rush County, Kansas",114.3
+"Franklin County, Alabama",198.2
+"Marquette County, Wisconsin",217.8
+"Crowley County, Colorado",110.7
+"Union County, South Carolina",207.1
+"DeKalb County, Alabama",170.6
+"Johnson County, Illinois",175.2
+"Russell County, Virginia",212.0
+"Autauga County, Alabama",178.3
+"Independence County, Arkansas",170.1
+"Calcasieu Parish, Louisiana",192.2
+"Trumbull County, Ohio",187.0
+"Watauga County, North Carolina",136.0
+"Lawrence County, Kentucky",269.2
+"Lunenburg County, Virginia",189.8
+"Deer Lodge County, Montana",196.9
+"Utah County, Utah",120.4
+"Allamakee County, Iowa",142.4
+"Ottawa County, Kansas",151.2
+"Blaine County, Montana",170.1
+"Nemaha County, Kansas",147.7
+"Graham County, Arizona",174.0
+"Osceola County, Iowa",162.0
+"Howard County, Nebraska",155.2
+"Conway County, Arkansas",167.2
+"Lincoln County, Missouri",191.5
+"Chautauqua County, New York",173.2
+"LaPorte County, Indiana",192.5
+"Columbia County, Florida",203.3
+"Albany County, New York",176.1
+"Harmon County, Oklahoma",223.9
+"Norman County, Minnesota",169.9
+"Phillips County, Arkansas",248.7
+"Clearwater County, Minnesota",184.9
+"Edwards County, Texas",122.6
+"Copiah County, Mississippi",194.9
+"Alleghany County, Virginia",189.5
+"Hood River County, Oregon",166.7
+"Juniata County, Pennsylvania",162.9
+"Anderson County, Tennessee",195.6
+"Grundy County, Iowa",151.8
+"Lake County, Minnesota",164.5
+"Moffat County, Colorado",164.1
+"Daviess County, Missouri",206.3
+"Hillsborough County, New Hampshire",163.2
+"Cleburne County, Arkansas",188.5
+"Laurens County, South Carolina",202.6
+"Guadalupe County, Texas",162.9
+"Warren County, Mississippi",192.1
+"Gage County, Nebraska",165.2
+"Pulaski County, Kentucky",219.5
+"Clark County, Kansas",153.7
+"Charleston County, South Carolina",173.7
+"Montgomery County, Pennsylvania",161.8
+"Aiken County, South Carolina",164.3
+"Plumas County, California",167.2
+"Iowa County, Iowa",163.4
+"Santa Clara County, California",135.0
+"Northumberland County, Pennsylvania",177.5
+"Franklin County, Mississippi",157.0
+"Atlantic County, New Jersey",179.5
+"Palo Pinto County, Texas",183.7
+"Carroll County, Virginia",172.5
+"Garvin County, Oklahoma",227.9
+"Morgan County, Missouri",203.7
+"Lonoke County, Arkansas",204.9
+"Benewah County, Idaho",222.2
+"Radford city, Virginia",193.1
+"Wabash County, Indiana",185.3
+"Howard County, Maryland",131.9
+"Muscatine County, Iowa",170.9
+"Grand Traverse County, Michigan",151.8
+"Lawrence County, Missouri",178.5
+"Bladen County, North Carolina",161.4
+"Sherman County, Kansas",161.6
+"Hansford County, Texas",129.1
+"Pasquotank County, North Carolina",203.9
+"Jones County, Texas",179.9
+"Sonoma County, California",163.1
+"Polk County, Oregon",165.5
+"Valley County, Montana",129.5
+"Yellow Medicine County, Minnesota",151.9
+"Howard County, Indiana",172.2
+"Whitley County, Indiana",179.7
+"Collingsworth County, Texas",187.2
+"Dane County, Wisconsin",153.8
+"Preston County, West Virginia",169.8
+"Clinton County, Pennsylvania",196.6
+"Wexford County, Michigan",199.2
+"Gibson County, Tennessee",214.7
+"Sampson County, North Carolina",183.6
+"Ste. Genevieve County, Missouri",187.7
+"Sussex County, Delaware",168.7
+"Carlisle County, Kentucky",213.4
+"Franklin County, Iowa",165.3
+"New London County, Connecticut",162.6
+"Sequatchie County, Tennessee",227.4
+"Madison County, New York",174.2
+"Clare County, Michigan",203.8
+"Beaver County, Pennsylvania",180.2
+"Currituck County, North Carolina",199.0
+"Le Flore County, Oklahoma",214.4
+"Douglas County, Kansas",153.7
+"Maries County, Missouri",187.4
+"Greeley County, Kansas",156.9
+"Flagler County, Florida",174.6
+"Montcalm County, Michigan",184.5
+"Van Wert County, Ohio",172.1
+"Canyon County, Idaho",154.8
+"Jasper County, Missouri",187.3
+"Sedgwick County, Kansas",171.5
+"Stone County, Arkansas",171.7
+"Yell County, Arkansas",207.9
+"Hardeman County, Texas",142.3
+"Dawson County, Georgia",179.0
+"Lewis County, West Virginia",218.4
+"Lyon County, Nevada",195.7
+"Alexander County, Illinois",181.1
+"Hancock County, Kentucky",223.6
+"Ashland County, Wisconsin",217.5
+"Whitfield County, Georgia",182.8
+"Natrona County, Wyoming",168.2
+"Norton city, Virginia",197.3
+"Bastrop County, Texas",181.8
+"Dawson County, Nebraska",139.7
+"Saginaw County, Michigan",175.3
+"Murray County, Oklahoma",203.3
+"Peoria County, Illinois",194.4

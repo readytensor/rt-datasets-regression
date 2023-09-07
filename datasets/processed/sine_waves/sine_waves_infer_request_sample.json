@@ -1,0 +1,17 @@
+{
+  "instances": [
+    {
+      "sample_id": "0",
+      "time_step_1": -0.1598,
+      "time_step_2": -0.5874,
+      "time_step_3": -0.8834,
+      "time_step_4": -0.8949,
+      "time_step_5": -0.7986,
+      "time_step_6": -0.4143,
+      "time_step_7": 0.1083,
+      "time_step_8": 0.5506,
+      "time_step_9": 1.0077,
+      "time_step_10": 1.0561
+    }
+  ]
+}

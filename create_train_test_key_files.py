@@ -18,7 +18,7 @@ def split_dataset(
     Returns:
         Tuple[DataFrame, DataFrame]: The train and test datasets.
     """
-    train_df, test_df = train_test_split(dataset, test_size=test_size, random_state=42)
+    train_df, test_df = train_test_split(dataset, test_size=test_size, random_state=77)
     return train_df, test_df
 
 def save_train_data(

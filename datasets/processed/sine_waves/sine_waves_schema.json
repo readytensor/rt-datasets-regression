@@ -1,0 +1,91 @@
+{
+  "title": "Sine Waves Regression Dataset",
+  "description": "This dataset captures time steps from a sine wave to predict subsequent sine values for regression. It includes Gaussian noise, variable intervals between samples, and occasional missing values, making it a complex representation of real-world sequential data scenarios.",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "sample_id",
+    "description": "Unique identifier for sample"
+  },
+  "target": {
+    "name": "target",
+    "description": "Target variable",
+    "example": 0.7542
+  },
+  "features": [
+    {
+      "name": "time_step_1",
+      "description": "Value at time step 1",
+      "dataType": "NUMERIC",
+      "example": -0.1598,
+      "nullable": true
+    },
+    {
+      "name": "time_step_2",
+      "description": "Value at time step 2",
+      "dataType": "NUMERIC",
+      "example": -0.5874,
+      "nullable": true
+    },
+    {
+      "name": "time_step_3",
+      "description": "Value at time step 3",
+      "dataType": "NUMERIC",
+      "example": -0.8834,
+      "nullable": true
+    },
+    {
+      "name": "time_step_4",
+      "description": "Value at time step 4",
+      "dataType": "NUMERIC",
+      "example": -0.8949,
+      "nullable": true
+    },
+    {
+      "name": "time_step_5",
+      "description": "Value at time step 5",
+      "dataType": "NUMERIC",
+      "example": -0.7986,
+      "nullable": true
+    },
+    {
+      "name": "time_step_6",
+      "description": "Value at time step 6",
+      "dataType": "NUMERIC",
+      "example": -0.4143,
+      "nullable": true
+    },
+    {
+      "name": "time_step_7",
+      "description": "Value at time step 7",
+      "dataType": "NUMERIC",
+      "example": 0.1083,
+      "nullable": true
+    },
+    {
+      "name": "time_step_8",
+      "description": "Value at time step 8",
+      "dataType": "NUMERIC",
+      "example": 0.5506,
+      "nullable": true
+    },
+    {
+      "name": "time_step_9",
+      "description": "Value at time step 9",
+      "dataType": "NUMERIC",
+      "example": 1.0077,
+      "nullable": true
+    },
+    {
+      "name": "time_step_10",
+      "description": "Value at time step 10",
+      "dataType": "NUMERIC",
+      "example": 1.0561,
+      "nullable": true
+    }
+  ]
+}

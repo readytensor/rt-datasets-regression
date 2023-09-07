@@ -1,0 +1,56 @@
+{
+  "title": "Fluid Dynamics Pressure Estimation Dataset",
+  "description": "This dataset, inspired by Bernoulli's fluid dynamics principles, is designed for regression tasks to predict fluid pressure based on properties like density, velocity, height, and a celestial body representing gravitational acceleration. It includes missing data points and abstract representations, challenging regression models to capture inherent physical relationships and handle imperfections.",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for sample"
+  },
+  "target": {
+    "name": "pressure_bars",
+    "description": "Target variable representing pressure in bars",
+    "example": -2.907725
+  },
+  "features": [
+    {
+      "name": "fluid_density",
+      "description": "Fluid density in kg/m^3",
+      "dataType": "NUMERIC",
+      "example": 1961.484446,
+      "nullable": true
+    },
+    {
+      "name": "fluid_velocity",
+      "description": "Fluid velocity in m/s",
+      "dataType": "NUMERIC",
+      "example": 14.243012,
+      "nullable": true
+    },
+    {
+      "name": "body",
+      "description": "Planetary body - one of ['Earth', 'Moon', 'Mars', 'Jupiter', 'Venus', 'Saturn']",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Earth",
+        "Jupiter",
+        "Mars",
+        "Moon",
+        "Saturn",
+        "Venus"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "height",
+      "description": "Height in meters",
+      "dataType": "NUMERIC",
+      "example": 26.358794,
+      "nullable": true
+    }
+  ]
+}

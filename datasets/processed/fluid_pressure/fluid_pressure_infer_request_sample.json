@@ -1,0 +1,11 @@
+{
+  "instances": [
+    {
+      "id": "0",
+      "fluid_density": 1961.484446,
+      "fluid_velocity": 14.243012,
+      "body": "Mars",
+      "height": 26.358794
+    }
+  ]
+}

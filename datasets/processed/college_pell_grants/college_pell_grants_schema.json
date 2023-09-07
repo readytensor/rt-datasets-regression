@@ -1,0 +1,512 @@
+{
+  "title": "College Pell Grant Dataset ",
+  "description": "Modified version for the automl benchmark. Regroups information for about 7800 different US colleges. Including geographical information, stats about the population attending and post graduation career earnings. Dataset is used to predict the percent of students with Pell Grants given various attributes regarding the college and its student population. \n\n\n",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "unit_id",
+    "description": "Unique identifier for each college"
+  },
+  "target": {
+    "name": "percent_pell_grant",
+    "description": "Target variable - percent of undergraduate students awarded Federal Pell Grants",
+    "example": 0.7115
+  },
+  "features": [
+    {
+      "name": "act_combined_midrange",
+      "description": "act_combined_midrange",
+      "dataType": "NUMERIC",
+      "example": 17.0,
+      "nullable": true
+    },
+    {
+      "name": "act_english_midrange",
+      "description": "act_english_midrange",
+      "dataType": "NUMERIC",
+      "example": 17.0,
+      "nullable": true
+    },
+    {
+      "name": "act_math_midrange",
+      "description": "act_math_midrange",
+      "dataType": "NUMERIC",
+      "example": 17.0,
+      "nullable": true
+    },
+    {
+      "name": "act_writing_midrange",
+      "description": "act_writing_midrange",
+      "dataType": "NUMERIC",
+      "example": 7.0,
+      "nullable": true
+    },
+    {
+      "name": "admission_rate",
+      "description": "admission_rate",
+      "dataType": "NUMERIC",
+      "example": 0.8989,
+      "nullable": true
+    },
+    {
+      "name": "agege24",
+      "description": "agege24",
+      "dataType": "NUMERIC",
+      "example": 0.07999999821186,
+      "nullable": true
+    },
+    {
+      "name": "average_cost_academic_year",
+      "description": "average_cost_academic_year",
+      "dataType": "NUMERIC",
+      "example": 18888.0,
+      "nullable": true
+    },
+    {
+      "name": "average_cost_program_year",
+      "description": "average_cost_program_year",
+      "dataType": "NUMERIC",
+      "example": 13482.0,
+      "nullable": true
+    },
+    {
+      "name": "carnegie_basic_classification",
+      "description": "carnegie_basic_classification",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Associate\\s--Private For-profit 4-year Primarily Associate\\'s'",
+        "Associate\\s--Private For-profit'",
+        "Associate\\s--Private Not-for-profit 4-year Primarily Associate\\'s'",
+        "Associate\\s--Private Not-for-profit'",
+        "Associate\\s--Public 2-year colleges under 4-year universities'",
+        "Associate\\s--Public 4-year Primarily Associate\\'s'",
+        "Associate\\s--Public Rural-serving Large'",
+        "Associate\\s--Public Rural-serving Medium'",
+        "Associate\\s--Public Rural-serving Small'",
+        "Associate\\s--Public Special Use'",
+        "Associate\\s--Public Suburban-serving Multicampus'",
+        "Associate\\s--Public Suburban-serving Single Campus'",
+        "Associate\\s--Public Urban-serving Multicampus'",
+        "Associate\\s--Public Urban-serving Single Campus'",
+        "Baccalaureate Colleges--Arts & Sciences",
+        "Baccalaureate Colleges--Diverse Fields",
+        "Baccalaureate/Associate\\s Colleges'",
+        "Doctoral/Research Universities",
+        "Master\\s Colleges and Universities (larger programs)'",
+        "Master\\s Colleges and Universities (medium programs)'",
+        "Master\\s Colleges and Universities (smaller programs)'",
+        "Research Universities (high research activity)",
+        "Research Universities (very high research activity)",
+        "Special Focus Institutions--Medical schools and medical centers",
+        "Special Focus Institutions--Other health professions schools",
+        "Special Focus Institutions--Other special-focus institutions",
+        "Special Focus Institutions--Other technology-related schools",
+        "Special Focus Institutions--Schools of art, music, and design",
+        "Special Focus Institutions--Schools of business and management",
+        "Special Focus Institutions--Schools of engineering",
+        "Special Focus Institutions--Schools of law",
+        "Special Focus Institutions--Theological seminaries, Bible colleges, and other faith-related institutions",
+        "Tribal Colleges"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "carnegie_size",
+      "description": "carnegie_size",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Large 2-year ( 5000 to 9,999)",
+        "Large 4-year, highly residential (over 9,999)",
+        "Large 4-year, primarily nonresidential (over 9,999)",
+        "Large 4-year, primarily residential (over 9,999)",
+        "Medium 2-year (2000 to 4,999)",
+        "Medium 4-year, highly residential (3,000 to 9,999)",
+        "Medium 4-year, primarily nonresidential (3,000 to 9,999)",
+        "Medium 4-year, primarily residential (3,000 to 9,999)",
+        "Small 2-year (500 to 1,999)",
+        "Small 4-year, highly residential (1,000 to 2,999)",
+        "Small 4-year, primarily nonresidential (1,000 to 2,999)",
+        "Small 4-year, primarily residential (1,000 to 2,999)",
+        "Very large 2-year (10,000 or more)",
+        "Very small 2-year (less than 500)",
+        "Very small 4-year, highly residential (less than 1,000)",
+        "Very small 4-year, primarily nonresidential (less than 1,000,)",
+        "Very small 4-year, primarily residential (less than 1,000)"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "carnegie_undergraduate",
+      "description": "carnegie_undergraduate",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Full-time four-year, inclusive",
+        "Full-time four-year, more selective, higher transfer-in",
+        "Full-time four-year, more selective, lower transfer-in",
+        "Full-time four-year, selective, higher transfer-in",
+        "Full-time four-year, selective, lower transfer-in",
+        "Higher full-time two-year",
+        "Higher part-time four-year",
+        "Higher part-time two-year",
+        "Medium full-time four-year, inclusivestudents with varying levels academic preparation and achievement)",
+        "Medium full-time four-year, selective, higher transfer-in",
+        "Medium full-time four-year, selective, lower transfer-in",
+        "Medium full-time two-year",
+        "Mixed part/full-time two-year"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "completion_rate",
+      "description": "completion_rate",
+      "dataType": "NUMERIC",
+      "example": 0.2914,
+      "nullable": true
+    },
+    {
+      "name": "faculty_salary",
+      "description": "faculty_salary",
+      "dataType": "NUMERIC",
+      "example": 7079.0,
+      "nullable": true
+    },
+    {
+      "name": "faminc",
+      "description": "faminc",
+      "dataType": "NUMERIC",
+      "example": 40211.22,
+      "nullable": true
+    },
+    {
+      "name": "gender",
+      "description": "gender",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "COED",
+        "MENONLY",
+        "WOMENONLY"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "highest_degree",
+      "description": "highest_degree",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Associate",
+        "Bachelors",
+        "Certificate",
+        "Graduate",
+        "Non-degree"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "mean_earnings_10_years",
+      "description": "mean_earnings_10_years",
+      "dataType": "NUMERIC",
+      "example": 35300.0,
+      "nullable": true
+    },
+    {
+      "name": "mean_earnings_6_years",
+      "description": "mean_earnings_6_years",
+      "dataType": "NUMERIC",
+      "example": 26100.0,
+      "nullable": true
+    },
+    {
+      "name": "median_earnings_10_years",
+      "description": "median_earnings_10_years",
+      "dataType": "NUMERIC",
+      "example": 31400.0,
+      "nullable": true
+    },
+    {
+      "name": "median_earnings_6_years",
+      "description": "median_earnings_6_years",
+      "dataType": "NUMERIC",
+      "example": 22800.0,
+      "nullable": true
+    },
+    {
+      "name": "ownership",
+      "description": "ownership",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Private for-profit",
+        "Private nonprofit",
+        "Public"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "percent_asian",
+      "description": "percent_asian",
+      "dataType": "NUMERIC",
+      "example": 0.0022,
+      "nullable": true
+    },
+    {
+      "name": "percent_black",
+      "description": "percent_black",
+      "dataType": "NUMERIC",
+      "example": 0.9501,
+      "nullable": true
+    },
+    {
+      "name": "percent_female",
+      "description": "percent_female",
+      "dataType": "NUMERIC",
+      "example": 0.52999997138977,
+      "nullable": true
+    },
+    {
+      "name": "percent_hispanic",
+      "description": "percent_hispanic",
+      "dataType": "NUMERIC",
+      "example": 0.0089,
+      "nullable": true
+    },
+    {
+      "name": "percent_part_time",
+      "description": "percent_part_time",
+      "dataType": "NUMERIC",
+      "example": 0.0622,
+      "nullable": true
+    },
+    {
+      "name": "percent_part_time_faculty",
+      "description": "percent_part_time_faculty",
+      "dataType": "NUMERIC",
+      "example": 0.8856,
+      "nullable": true
+    },
+    {
+      "name": "percent_white",
+      "description": "percent_white",
+      "dataType": "NUMERIC",
+      "example": 0.0279,
+      "nullable": true
+    },
+    {
+      "name": "predominant_degree",
+      "description": "predominant_degree",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Associate",
+        "Bachelors",
+        "Certificate"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "region",
+      "description": "region",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "Far West (AK, CA, HI, NV, OR, WA)",
+        "Great Lakes (IL, IN, MI, OH, WI)",
+        "Mid East (DE, DC, MD, NJ, NY, PA)",
+        "New England (CT, ME, MA, NH, RI, VT)",
+        "Outlying Areas (AS, FM,GU, MH, MP, PR, PW, VI)",
+        "Plains (IA, KS, MN, MO, NE, ND, SD)",
+        "Rocky Mountains (CO, ID,MT, UT, WY)",
+        "Southeast (AL, AR, FL, GA, KY, LA, MS, NC, SC, TN, VA, WV)",
+        "Southwest (AZ, NM, OK, TX)",
+        "US Services Schools"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "religious_affiliation",
+      "description": "religious_affiliation",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "African Methodist Episcopal",
+        "African Methodist Episcopal Zion Church",
+        "American Baptist",
+        "American Evangelical Lutheran Church",
+        "Assemblies of God Church",
+        "Baptist",
+        "Brethren Church",
+        "Christ and Missionary Alliance Church",
+        "Christian Church (Disciples of Christ)",
+        "Christian Churches and Churches of Christ",
+        "Christian Methodist Episcopal",
+        "Christian Reformed Church",
+        "Church of Brethren",
+        "Church of God",
+        "Church of the Nazarene",
+        "Churches of Christ",
+        "Cumberland Presbyterian",
+        "Episcopal Church, Reformed",
+        "Evangelical Christian",
+        "Evangelical Covenant Church of America",
+        "Evangelical Free Church of America",
+        "Evangelical Lutheran Church",
+        "Free Methodist",
+        "Free Will Baptist Church",
+        "Friends",
+        "Greek Orthodox",
+        "Interdenominational",
+        "Jewish",
+        "Latter Day Saints (Mormon Church)",
+        "Lutheran Church - Missouri Synod",
+        "Lutheran Church in America",
+        "Mennonite Brethren Church",
+        "Mennonite Church",
+        "Missionary Church Inc",
+        "Moravian Church",
+        "Multiple Protestant Denomination",
+        "Original Free Will Baptist",
+        "Other (none of the above)",
+        "Other Protestant",
+        "Pentecostal Holiness Church",
+        "Presbyterian",
+        "Presbyterian Church (USA)",
+        "Protestant Episcopal",
+        "Reformed Church in America",
+        "Reformed Presbyterian Church",
+        "Roman Catholic",
+        "Seventh Day Adventists",
+        "Southern Baptist",
+        "The Presbyterian Church in America",
+        "Undenominational",
+        "United Brethren Church",
+        "United Church of Christ",
+        "United Methodist",
+        "Wesleyan",
+        "Wisconsin Evangelical Lutheran Synod"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "sat_math_midrange",
+      "description": "sat_math_midrange",
+      "dataType": "NUMERIC",
+      "example": 400.0,
+      "nullable": true
+    },
+    {
+      "name": "sat_total_average",
+      "description": "sat_total_average",
+      "dataType": "NUMERIC",
+      "example": 823.0,
+      "nullable": true
+    },
+    {
+      "name": "sat_verbal_midrange",
+      "description": "sat_verbal_midrange",
+      "dataType": "NUMERIC",
+      "example": 410.0,
+      "nullable": true
+    },
+    {
+      "name": "sat_writing_midrange",
+      "description": "sat_writing_midrange",
+      "dataType": "NUMERIC",
+      "example": 540.0,
+      "nullable": true
+    },
+    {
+      "name": "spend_per_student",
+      "description": "spend_per_student",
+      "dataType": "NUMERIC",
+      "example": 7459.0,
+      "nullable": true
+    },
+    {
+      "name": "state",
+      "description": "state",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "AK",
+        "AL",
+        "AR",
+        "AS",
+        "AZ",
+        "CA",
+        "CO",
+        "CT",
+        "DC",
+        "DE",
+        "FL",
+        "FM",
+        "GA",
+        "GU",
+        "HI",
+        "IA",
+        "ID",
+        "IL",
+        "IN",
+        "KS",
+        "KY",
+        "LA",
+        "MA",
+        "MD",
+        "ME",
+        "MH",
+        "MI",
+        "MN",
+        "MO",
+        "MP",
+        "MS",
+        "MT",
+        "NC",
+        "ND",
+        "NE",
+        "NH",
+        "NJ",
+        "NM",
+        "NV",
+        "NY",
+        "OH",
+        "OK",
+        "OR",
+        "PA",
+        "PR",
+        "PW",
+        "RI",
+        "SC",
+        "SD",
+        "TN",
+        "TX",
+        "UT",
+        "VA",
+        "VI",
+        "VT",
+        "WA",
+        "WI",
+        "WV",
+        "WY"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "tuition_(instate)",
+      "description": "tuition_(instate)",
+      "dataType": "NUMERIC",
+      "example": 7182.0,
+      "nullable": true
+    },
+    {
+      "name": "tuition_(out_of_state)",
+      "description": "tuition_(out_of_state)",
+      "dataType": "NUMERIC",
+      "example": 12774.0,
+      "nullable": true
+    },
+    {
+      "name": "undergrad_size",
+      "description": "undergrad_size",
+      "dataType": "NUMERIC",
+      "example": 4051.0,
+      "nullable": true
+    }
+  ]
+}
