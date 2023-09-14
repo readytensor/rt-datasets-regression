@@ -182,7 +182,7 @@ This dataset represents a comprehensive collection of audio features for songs t
 - Hot Latin Songs
 - Smooth Jazz Songs
 
-For each song listed on these charts, the corresponding audio features were sourced from the Spotify API. There were instances where certain songs from the Billboard charts could not be matched with their counterparts on Spotify. Such mismatches could be attributed to variations in song names or other discrepancies. The dataset encompasses a total of 8,927 songs.
+For each song listed on these charts, the corresponding audio features were sourced from the Spotify API. There were instances where certain songs from the Billboard charts could not be matched with their counterparts on Spotify. Such mismatches could be attributed to variations in song names or other discrepancies.
 
 #### Dataset characteristics
 
