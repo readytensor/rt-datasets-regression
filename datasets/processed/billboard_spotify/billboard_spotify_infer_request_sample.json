@@ -1,0 +1,25 @@
+{
+  "instances": [
+    {
+      "id": "4qE9yOgBNsARadpZTAb6RH",
+      "energy": 0.0137,
+      "key": 0,
+      "loudness": -22.812,
+      "mode": 0,
+      "speechiness": 0.047,
+      "acousticness": 0.979,
+      "instrumentalness": 0.956,
+      "liveness": 0.0869,
+      "valence": 0.037,
+      "tempo": 78.824,
+      "duration_ms": 134490,
+      "time_signature": 5,
+      "country-songs": 0,
+      "dance-electronic-songs": 0,
+      "hot-rock-songs": 1,
+      "jazz-songs": 0,
+      "latin-songs": 0,
+      "r-b-hip-hop-songs": 0
+    }
+  ]
+}

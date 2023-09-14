@@ -1,0 +1,186 @@
+{
+  "title": "Billboard Spotify Audio Features",
+  "description": "This dataset represents a collection of audio features for songs that made their mark on various Billboard charts spanning the years 1961 through 2022. The dataset is formulated as a regression task to predict the \"danceability\" of a track given other audio features. ",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "id",
+    "description": "Unique identifier for each track"
+  },
+  "target": {
+    "name": "danceability",
+    "description": "Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.",
+    "example": 0.0729
+  },
+  "features": [
+    {
+      "name": "energy",
+      "description": "Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.",
+      "dataType": "NUMERIC",
+      "example": 0.0137,
+      "nullable": false
+    },
+    {
+      "name": "key",
+      "description": "The key the track is in. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C?/D?, 2 = D, and so on. If no key was detected, the value is -1. Range: -1 - 11",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1,
+        10,
+        11,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "nullable": false
+    },
+    {
+      "name": "loudness",
+      "description": "The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typically range between -60 and 0 db.",
+      "dataType": "NUMERIC",
+      "example": -22.812,
+      "nullable": false
+    },
+    {
+      "name": "mode",
+      "description": "Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0.",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "speechiness",
+      "description": "Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.",
+      "dataType": "NUMERIC",
+      "example": 0.047,
+      "nullable": false
+    },
+    {
+      "name": "acousticness",
+      "description": "Confidence measure of whether the track is acoustic. Range: 0 - 1",
+      "dataType": "NUMERIC",
+      "example": 0.979,
+      "nullable": false
+    },
+    {
+      "name": "instrumentalness",
+      "description": "Predicts whether a track contains no vocals. \"Ooh\" and \"aah\" sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly \"vocal\". The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.",
+      "dataType": "NUMERIC",
+      "example": 0.956,
+      "nullable": false
+    },
+    {
+      "name": "liveness",
+      "description": "Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.",
+      "dataType": "NUMERIC",
+      "example": 0.0869,
+      "nullable": false
+    },
+    {
+      "name": "valence",
+      "description": "A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry). Range: 0 - 1",
+      "dataType": "NUMERIC",
+      "example": 0.037,
+      "nullable": false
+    },
+    {
+      "name": "tempo",
+      "description": "The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.",
+      "dataType": "NUMERIC",
+      "example": 78.824,
+      "nullable": false
+    },
+    {
+      "name": "duration_ms",
+      "description": "Duration of the track in milliseconds.",
+      "dataType": "NUMERIC",
+      "example": 134490,
+      "nullable": false
+    },
+    {
+      "name": "time_signature",
+      "description": "An estimated time signature. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure). The time signature ranges from 3 to 7 indicating time signatures of \"3/4\", to \"7/4\". Range: 3 - 7",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "nullable": false
+    },
+    {
+      "name": "country-songs",
+      "description": "Whether song featured on the Hot Country Songs chart. ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "dance-electronic-songs",
+      "description": "Whether song featured on the Hot Rock & Alternative Songs chart. ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "hot-rock-songs",
+      "description": "Whether song featured on the Hot R&B/Hip-Hop Songs chart. ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "jazz-songs",
+      "description": "Whether song featured on the Hot Dance/Electronic Songs chart. ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "latin-songs",
+      "description": "Whether song featured on the Hot Latin Songs chart. ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    },
+    {
+      "name": "r-b-hip-hop-songs",
+      "description": "Whether song featured on the Smooth Jazz Songs chart. ",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        0,
+        1
+      ],
+      "nullable": false
+    }
+  ]
+}

@@ -70,6 +70,26 @@ regression,auto_mpg,6,weight,feature,NUMERIC,Weight of vehicle (lbs)
 regression,auto_mpg,7,acceleration,feature,NUMERIC,Acceleration of the car (seconds taken for 0-60mph)
 regression,auto_mpg,8,model year,feature,CATEGORICAL,Model year of the car in the 1900s
 regression,auto_mpg,9,origin,feature,CATEGORICAL,Car origin
+regression,billboard_spotify,1,id,id,TEXT,Unique Spotify identifier for each track
+regression,billboard_spotify,2,energy,feature,NUMERIC,"Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy."
+regression,billboard_spotify,3,key,feature,CATEGORICAL,"The key the track is in. Integers map to pitches using standard Pitch Class notation. E.g. 0 = C, 1 = C?/D?, 2 = D, and so on. If no key was detected, the value is -1. Range: -1 - 11"
+regression,billboard_spotify,4,loudness,feature,NUMERIC,The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typically range between -60 and 0 db.
+regression,billboard_spotify,5,mode,feature,CATEGORICAL,"Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived. Major is represented by 1 and minor is 0."
+regression,billboard_spotify,6,speechiness,feature,NUMERIC,"Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks."
+regression,billboard_spotify,7,acousticness,feature,NUMERIC,Confidence measure of whether the track is acoustic. Range: 0 - 1
+regression,billboard_spotify,8,instrumentalness,feature,NUMERIC,"Predicts whether a track contains no vocals. ""Ooh"" and ""aah"" sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly ""vocal"". The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0."
+regression,billboard_spotify,9,liveness,feature,NUMERIC,Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.
+regression,billboard_spotify,10,valence,feature,NUMERIC,"A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry). Range: 0 - 1"
+regression,billboard_spotify,11,tempo,feature,NUMERIC,"The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration."
+regression,billboard_spotify,12,duration_ms,feature,NUMERIC,Duration of the track in milliseconds.
+regression,billboard_spotify,13,time_signature,feature,CATEGORICAL,"An estimated time signature. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure). The time signature ranges from 3 to 7 indicating time signatures of ""3/4"", to ""7/4"". Range: 3 - 7"
+regression,billboard_spotify,14,country-songs,feature,CATEGORICAL,Whether song featured on the Hot Country Songs chart. 
+regression,billboard_spotify,15,dance-electronic-songs,feature,CATEGORICAL,Whether song featured on the Hot Rock & Alternative Songs chart. 
+regression,billboard_spotify,16,hot-rock-songs,feature,CATEGORICAL,Whether song featured on the Hot R&B/Hip-Hop Songs chart. 
+regression,billboard_spotify,17,jazz-songs,feature,CATEGORICAL,Whether song featured on the Hot Dance/Electronic Songs chart. 
+regression,billboard_spotify,18,latin-songs,feature,CATEGORICAL,Whether song featured on the Hot Latin Songs chart. 
+regression,billboard_spotify,19,r-b-hip-hop-songs,feature,CATEGORICAL,Whether song featured on the Smooth Jazz Songs chart. 
+regression,billboard_spotify,20,danceability,target,NUMERIC,"Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable."
 regression,cancer_mortality,1,Geography,id,TEXT,Geography: County name (2013 Census)
 regression,cancer_mortality,2,AvgHouseholdSize,feature,NUMERIC,AvgHouseholdSize: Mean household size of county (2013 Census Estimates)
 regression,cancer_mortality,3,BirthRate,feature,NUMERIC,BirthRate: Number of live births relative to number of women in county (2013 Census Estimates)
@@ -274,6 +294,37 @@ regression,house_prices,78,YrSold,feature,NUMERIC,YrSold: Year Sold
 regression,house_prices,79,SaleType,feature,CATEGORICAL,SaleType: Type of sale
 regression,house_prices,80,SaleCondition,feature,CATEGORICAL,SaleCondition: Condition of sale
 regression,house_prices,81,SalePrice,target,NUMERIC,SalePrice - the property's sale price in dollars. This is the target variable that you're trying to predict.
+regression,nba_seasons_count,1,Name,id,TEXT,Name of NBA Player
+regression,nba_seasons_count,2,Season,feature,CATEGORICAL,NBA season
+regression,nba_seasons_count,3,Age,feature,NUMERIC,Age of player in rookie season
+regression,nba_seasons_count,4,Tm,feature,CATEGORICAL,Team the player played for in their rookie season
+regression,nba_seasons_count,5,Pos,feature,CATEGORICAL,Position played
+regression,nba_seasons_count,6,G,feature,NUMERIC,Number of regular season games played
+regression,nba_seasons_count,7,MP,feature,NUMERIC,Minutes played per game
+regression,nba_seasons_count,8,FG,feature,NUMERIC,Field goals per game
+regression,nba_seasons_count,9,FGA,feature,NUMERIC,Field goal attempts per game
+regression,nba_seasons_count,10,FG%,feature,NUMERIC,Field goal percentage
+regression,nba_seasons_count,11,3P,feature,NUMERIC,3-point field goals per game
+regression,nba_seasons_count,12,3PA,feature,NUMERIC,3-point field goal attempts per game
+regression,nba_seasons_count,13,3P%,feature,NUMERIC,3-point field goal percentage
+regression,nba_seasons_count,14,2P,feature,NUMERIC,2-point field goals per game
+regression,nba_seasons_count,15,2PA,feature,NUMERIC,2-point field goal attempts per game
+regression,nba_seasons_count,16,2P%,feature,NUMERIC,2-point field goal percentage
+regression,nba_seasons_count,17,eFG%,feature,NUMERIC,Effective field goal percentage. This statistic adjusts for a fact that a 3-point field goal is worth one more point than a 2-point field goal. 
+regression,nba_seasons_count,18,FT,feature,NUMERIC,Free throws per game
+regression,nba_seasons_count,19,FTA,feature,NUMERIC,Free throw attempts per game
+regression,nba_seasons_count,20,FT%,feature,NUMERIC,Free throw percentage
+regression,nba_seasons_count,21,ORB,feature,NUMERIC,Offensive rebounds per game
+regression,nba_seasons_count,22,DRB,feature,NUMERIC,Defensive rebounds per game
+regression,nba_seasons_count,23,TRB,feature,NUMERIC,Total rebounds per game
+regression,nba_seasons_count,24,AST,feature,NUMERIC,Assists per game
+regression,nba_seasons_count,25,STL,feature,NUMERIC,Steals per game
+regression,nba_seasons_count,26,BLK,feature,NUMERIC,Blocks per game
+regression,nba_seasons_count,27,TOV,feature,NUMERIC,Turnovers per game
+regression,nba_seasons_count,28,PF,feature,NUMERIC,Personal fouls per game
+regression,nba_seasons_count,29,PTS,feature,NUMERIC,Points per game
+regression,nba_seasons_count,30,GS,feature,NUMERIC,Games started
+regression,nba_seasons_count,31,Future Seasons Played,target,NUMERIC,Number of NBA seasons played excluding rookie season
 regression,neural_sim_reg,1,sample_id,id,TEXT,Unique identifier for sample
 regression,neural_sim_reg,2,feature_1,feature,NUMERIC,Input feature 1
 regression,neural_sim_reg,3,feature_2,feature,NUMERIC,Input feature 2
@@ -292,78 +343,6 @@ regression,neural_sim_reg,15,feature_14,feature,NUMERIC,Input feature 14
 regression,neural_sim_reg,16,feature_15,feature,NUMERIC,Input feature 15
 regression,neural_sim_reg,17,feature_16,feature,NUMERIC,Input feature 16
 regression,neural_sim_reg,18,target,target,NUMERIC,Target for dataset
-regression,nfl_elo_game,1,game_id,id,TEXT,Unique identifier for game
-regression,nfl_elo_game,2,season,feature,NUMERIC,season year
-regression,nfl_elo_game,3,month,feature,CATEGORICAL,month of the year
-regression,nfl_elo_game,4,neutral,feature,CATEGORICAL,Whether game venue was neutral
-regression,nfl_elo_game,5,playoff,feature,CATEGORICAL,Whether this was a playoff game
-regression,nfl_elo_game,6,team1,feature,CATEGORICAL,Team 1 involved in the game - has homefield unless venue is indicated as neutral
-regression,nfl_elo_game,7,team2,feature,CATEGORICAL,Team 2 involved in the game
-regression,nfl_elo_game,8,elo1,feature,NUMERIC,Elo rating of team 1 before game
-regression,nfl_elo_game,9,elo2,feature,NUMERIC,Elo rating of team 2 before game
-regression,nfl_elo_game,10,score1,feature,NUMERIC,Points scored by team 1 in the game
-regression,nfl_elo_game,11,score2,target,NUMERIC,Target - Points scored by team 2 in the game
-regression,online_news_popularity,1,id,id,TEXT,Unique identifier for article
-regression,online_news_popularity,2,timedelta,feature,NUMERIC,Days between the article publication and the dataset acquisition
-regression,online_news_popularity,3,n_tokens_title,feature,NUMERIC,Number of words in the title
-regression,online_news_popularity,4,n_tokens_content,feature,NUMERIC,Number of words in the content
-regression,online_news_popularity,5,n_unique_tokens,feature,NUMERIC,Rate of unique words in the content
-regression,online_news_popularity,6,n_non_stop_words,feature,NUMERIC,Rate of non-stop words in the content
-regression,online_news_popularity,7,n_non_stop_unique_tokens,feature,NUMERIC,Rate of unique non-stop words in the content
-regression,online_news_popularity,8,num_hrefs,feature,NUMERIC,Number of links
-regression,online_news_popularity,9,num_self_hrefs,feature,NUMERIC,Number of links to other articles published by Mashable
-regression,online_news_popularity,10,num_imgs,feature,NUMERIC,Number of images
-regression,online_news_popularity,11,num_videos,feature,NUMERIC,Number of videos
-regression,online_news_popularity,12,average_token_length,feature,NUMERIC,Average length of the words in the content
-regression,online_news_popularity,13,num_keywords,feature,NUMERIC,Number of keywords in the metadata
-regression,online_news_popularity,14,data_channel_is_lifestyle,feature,NUMERIC,Is data channel 'Lifestyle'?
-regression,online_news_popularity,15,data_channel_is_entertainment,feature,NUMERIC,Is data channel 'Entertainment'?
-regression,online_news_popularity,16,data_channel_is_bus,feature,NUMERIC,Is data channel 'Business'?
-regression,online_news_popularity,17,data_channel_is_socmed,feature,NUMERIC,Is data channel 'Social Media'?
-regression,online_news_popularity,18,data_channel_is_tech,feature,NUMERIC,Is data channel 'Tech'?
-regression,online_news_popularity,19,data_channel_is_world,feature,NUMERIC,Is data channel 'World'?
-regression,online_news_popularity,20,kw_min_min,feature,NUMERIC,Worst keyword (min. shares)
-regression,online_news_popularity,21,kw_max_min,feature,NUMERIC,Worst keyword (max. shares)
-regression,online_news_popularity,22,kw_avg_min,feature,NUMERIC,Worst keyword (avg. shares)
-regression,online_news_popularity,23,kw_min_max,feature,NUMERIC,Best keyword (min. shares)
-regression,online_news_popularity,24,kw_max_max,feature,NUMERIC,Best keyword (max. shares)
-regression,online_news_popularity,25,kw_avg_max,feature,NUMERIC,Best keyword (avg. shares)
-regression,online_news_popularity,26,kw_min_avg,feature,NUMERIC,Avg. keyword (min. shares)
-regression,online_news_popularity,27,kw_max_avg,feature,NUMERIC,Avg. keyword (max. shares)
-regression,online_news_popularity,28,kw_avg_avg,feature,NUMERIC,Avg. keyword (avg. shares)
-regression,online_news_popularity,29,self_reference_min_shares,feature,NUMERIC,Min. shares of referenced articles in Mashable
-regression,online_news_popularity,30,self_reference_max_shares,feature,NUMERIC,Max. shares of referenced articles in Mashable
-regression,online_news_popularity,31,self_reference_avg_sharess,feature,NUMERIC,Avg. shares of referenced articles in Mashable
-regression,online_news_popularity,32,weekday_is_monday,feature,NUMERIC,Was the article published on a Monday?
-regression,online_news_popularity,33,weekday_is_tuesday,feature,NUMERIC,Was the article published on a Tuesday?
-regression,online_news_popularity,34,weekday_is_wednesday,feature,NUMERIC,Was the article published on a Wednesday?
-regression,online_news_popularity,35,weekday_is_thursday,feature,NUMERIC,Was the article published on a Thursday?
-regression,online_news_popularity,36,weekday_is_friday,feature,NUMERIC,Was the article published on a Friday?
-regression,online_news_popularity,37,weekday_is_saturday,feature,NUMERIC,Was the article published on a Saturday?
-regression,online_news_popularity,38,weekday_is_sunday,feature,NUMERIC,Was the article published on a Sunday?
-regression,online_news_popularity,39,is_weekend,feature,NUMERIC,Was the article published on the weekend?
-regression,online_news_popularity,40,LDA_00,feature,NUMERIC,Closeness to LDA topic 0
-regression,online_news_popularity,41,LDA_01,feature,NUMERIC,Closeness to LDA topic 1
-regression,online_news_popularity,42,LDA_02,feature,NUMERIC,Closeness to LDA topic 2
-regression,online_news_popularity,43,LDA_03,feature,NUMERIC,Closeness to LDA topic 3
-regression,online_news_popularity,44,LDA_04,feature,NUMERIC,Closeness to LDA topic 4
-regression,online_news_popularity,45,global_subjectivity,feature,NUMERIC,Text subjectivity
-regression,online_news_popularity,46,global_sentiment_polarity,feature,NUMERIC,Text sentiment polarity
-regression,online_news_popularity,47,global_rate_positive_words,feature,NUMERIC,Rate of positive words in the content
-regression,online_news_popularity,48,global_rate_negative_words,feature,NUMERIC,Rate of negative words in the content
-regression,online_news_popularity,49,rate_positive_words,feature,NUMERIC,Rate of positive words among non-neutral tokens
-regression,online_news_popularity,50,rate_negative_words,feature,NUMERIC,Rate of negative words among non-neutral tokens
-regression,online_news_popularity,51,avg_positive_polarity,feature,NUMERIC,Avg. polarity of positive words
-regression,online_news_popularity,52,min_positive_polarity,feature,NUMERIC,Min. polarity of positive words
-regression,online_news_popularity,53,max_positive_polarity,feature,NUMERIC,Max. polarity of positive words
-regression,online_news_popularity,54,avg_negative_polarity,feature,NUMERIC,Avg. polarity of negative words
-regression,online_news_popularity,55,min_negative_polarity,feature,NUMERIC,Min. polarity of negative words
-regression,online_news_popularity,56,max_negative_polarity,feature,NUMERIC,Max. polarity of negative words
-regression,online_news_popularity,57,title_subjectivity,feature,NUMERIC,Title subjectivity
-regression,online_news_popularity,58,title_sentiment_polarity,feature,NUMERIC,Title polarity
-regression,online_news_popularity,59,abs_title_subjectivity,feature,NUMERIC,Absolute subjectivity level
-regression,online_news_popularity,60,abs_title_sentiment_polarity,feature,NUMERIC,Absolute polarity level
-regression,online_news_popularity,61,shares,target,NUMERIC,Number of shares (target)
 regression,sine_waves,1,sample_id,id,TEXT,Unique identifier for sample
 regression,sine_waves,2,time_step_1,feature,NUMERIC,Value at time step 1
 regression,sine_waves,3,time_step_2,feature,NUMERIC,Value at time step 2

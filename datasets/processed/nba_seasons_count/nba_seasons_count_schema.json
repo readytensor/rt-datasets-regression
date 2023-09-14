@@ -1,0 +1,369 @@
+{
+  "title": "NBA Player Seasons Count Dataset",
+  "description": "This dataset contains comprehensive statistics and information related to NBA players, specifically focusing on their performance during their debut season and its relationship to their subsequent career longevity in the NBA.",
+  "modelCategory": "regression",
+  "schemaVersion": 1.0,
+  "inputDataFormat": {
+    "type": "CSV",
+    "encoding": "utf-8"
+  },
+  "id": {
+    "name": "Name",
+    "description": "Name of the NBA player"
+  },
+  "target": {
+    "name": "Future Seasons Played",
+    "description": "Number of future NBA seasons played by the player after his debut season ",
+    "example": 15
+  },
+  "features": [
+    {
+      "name": "Season",
+      "description": "NBA season",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "1949-50",
+        "1950-51",
+        "1951-52",
+        "1952-53",
+        "1953-54",
+        "1954-55",
+        "1955-56",
+        "1956-57",
+        "1957-58",
+        "1958-59",
+        "1959-60",
+        "1960-61",
+        "1961-62",
+        "1962-63",
+        "1963-64",
+        "1964-65",
+        "1965-66",
+        "1966-67",
+        "1967-68",
+        "1968-69",
+        "1969-70",
+        "1970-71",
+        "1971-72",
+        "1972-73",
+        "1973-74",
+        "1974-75",
+        "1975-76",
+        "1976-77",
+        "1977-78",
+        "1978-79",
+        "1979-80",
+        "1980-81",
+        "1981-82",
+        "1982-83",
+        "1983-84",
+        "1984-85",
+        "1985-86",
+        "1986-87",
+        "1987-88",
+        "1988-89",
+        "1989-90",
+        "1990-91",
+        "1991-92",
+        "1992-93",
+        "1993-94",
+        "1994-95",
+        "1995-96",
+        "1996-97",
+        "1997-98",
+        "1998-99",
+        "1999-00",
+        "2000-01",
+        "2001-02",
+        "2002-03",
+        "2003-04",
+        "2004-05",
+        "2005-06",
+        "2006-07",
+        "2007-08",
+        "2008-09",
+        "2009-10",
+        "2010-11",
+        "2011-12",
+        "2012-13",
+        "2013-14",
+        "2014-15",
+        "2015-16",
+        "2016-17",
+        "2017-18"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Age",
+      "description": "Age of player in rookie season",
+      "dataType": "NUMERIC",
+      "example": 22.0,
+      "nullable": false
+    },
+    {
+      "name": "Tm",
+      "description": "Team the player played for in their rookie season",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "AND",
+        "ATL",
+        "BAL",
+        "BLB",
+        "BOS",
+        "BRK",
+        "BUF",
+        "CAP",
+        "CHA",
+        "CHH",
+        "CHI",
+        "CHO",
+        "CHP",
+        "CHS",
+        "CHZ",
+        "CIN",
+        "CLE",
+        "DAL",
+        "DEN",
+        "DET",
+        "DNN",
+        "FTW",
+        "GSW",
+        "HOU",
+        "IND",
+        "INO",
+        "KCK",
+        "KCO",
+        "LAC",
+        "LAL",
+        "MEM",
+        "MIA",
+        "MIL",
+        "MIN",
+        "MLH",
+        "MNL",
+        "NJN",
+        "NOH",
+        "NOJ",
+        "NOK",
+        "NOP",
+        "NYK",
+        "NYN",
+        "OKC",
+        "ORL",
+        "PHI",
+        "PHO",
+        "PHW",
+        "POR",
+        "ROC",
+        "SAC",
+        "SAS",
+        "SDC",
+        "SDR",
+        "SEA",
+        "SFW",
+        "SHE",
+        "STB",
+        "STL",
+        "SYR",
+        "TOR",
+        "TRI",
+        "UTA",
+        "VAN",
+        "WAS",
+        "WAT",
+        "WSB",
+        "WSC"
+      ],
+      "nullable": false
+    },
+    {
+      "name": "Pos",
+      "description": "Position played",
+      "dataType": "CATEGORICAL",
+      "categories": [
+        "C",
+        "PF",
+        "PG",
+        "SF",
+        "SG"
+      ],
+      "nullable": true
+    },
+    {
+      "name": "G",
+      "description": "Number of regular season games played",
+      "dataType": "NUMERIC",
+      "example": 82,
+      "nullable": false
+    },
+    {
+      "name": "MP",
+      "description": "Minutes played per game",
+      "dataType": "NUMERIC",
+      "example": 18.8,
+      "nullable": true
+    },
+    {
+      "name": "FG",
+      "description": "Field goals per game",
+      "dataType": "NUMERIC",
+      "example": 2.5,
+      "nullable": false
+    },
+    {
+      "name": "FGA",
+      "description": "Field goal attempts per game",
+      "dataType": "NUMERIC",
+      "example": 4.7,
+      "nullable": false
+    },
+    {
+      "name": "FG%",
+      "description": "Field goal percentage",
+      "dataType": "NUMERIC",
+      "example": 0.539,
+      "nullable": true
+    },
+    {
+      "name": "3P",
+      "description": "3-point field goals per game",
+      "dataType": "NUMERIC",
+      "example": 0.0,
+      "nullable": true
+    },
+    {
+      "name": "3PA",
+      "description": "3-point field goal attempts per game",
+      "dataType": "NUMERIC",
+      "example": 0.1,
+      "nullable": true
+    },
+    {
+      "name": "3P%",
+      "description": "3-point field goal percentage",
+      "dataType": "NUMERIC",
+      "example": 0.167,
+      "nullable": true
+    },
+    {
+      "name": "2P",
+      "description": "2-point field goals per game",
+      "dataType": "NUMERIC",
+      "example": 2.5,
+      "nullable": true
+    },
+    {
+      "name": "2PA",
+      "description": "2-point field goal attempts per game",
+      "dataType": "NUMERIC",
+      "example": 4.7,
+      "nullable": true
+    },
+    {
+      "name": "2P%",
+      "description": "2-point field goal percentage",
+      "dataType": "NUMERIC",
+      "example": 0.545,
+      "nullable": true
+    },
+    {
+      "name": "eFG%",
+      "description": "Effective field goal percentage. This statistic adjusts for a fact that a 3-point field goal is worth one more point than a 2-point field goal. ",
+      "dataType": "NUMERIC",
+      "example": 0.54,
+      "nullable": true
+    },
+    {
+      "name": "FT",
+      "description": "Free throws per game",
+      "dataType": "NUMERIC",
+      "example": 1.2,
+      "nullable": false
+    },
+    {
+      "name": "FTA",
+      "description": "Free throw attempts per game",
+      "dataType": "NUMERIC",
+      "example": 2.0,
+      "nullable": false
+    },
+    {
+      "name": "FT%",
+      "description": "Free throw percentage",
+      "dataType": "NUMERIC",
+      "example": 0.611,
+      "nullable": true
+    },
+    {
+      "name": "ORB",
+      "description": "Offensive rebounds per game",
+      "dataType": "NUMERIC",
+      "example": 2.0,
+      "nullable": true
+    },
+    {
+      "name": "DRB",
+      "description": "Defensive rebounds per game",
+      "dataType": "NUMERIC",
+      "example": 2.7,
+      "nullable": true
+    },
+    {
+      "name": "TRB",
+      "description": "Total rebounds per game",
+      "dataType": "NUMERIC",
+      "example": 4.6,
+      "nullable": true
+    },
+    {
+      "name": "AST",
+      "description": "Assists per game",
+      "dataType": "NUMERIC",
+      "example": 0.7,
+      "nullable": false
+    },
+    {
+      "name": "STL",
+      "description": "Steals per game",
+      "dataType": "NUMERIC",
+      "example": 0.6,
+      "nullable": true
+    },
+    {
+      "name": "BLK",
+      "description": "Blocks per game",
+      "dataType": "NUMERIC",
+      "example": 0.6,
+      "nullable": true
+    },
+    {
+      "name": "TOV",
+      "description": "Turnovers per game",
+      "dataType": "NUMERIC",
+      "example": 1.2,
+      "nullable": true
+    },
+    {
+      "name": "PF",
+      "description": "Personal fouls per game",
+      "dataType": "NUMERIC",
+      "example": 2.8,
+      "nullable": false
+    },
+    {
+      "name": "PTS",
+      "description": "Points per game",
+      "dataType": "NUMERIC",
+      "example": 6.4,
+      "nullable": false
+    },
+    {
+      "name": "GS",
+      "description": "Games started",
+      "dataType": "NUMERIC",
+      "example": 1.0,
+      "nullable": true
+    }
+  ]
+}
