@@ -76,11 +76,9 @@ def generate_schemas(
         schema["title"] = dataset_row["title"]
         schema["description"] = dataset_row["description"]
         schema["modelCategory"] = dataset_row["model_category"]
-        schema["schemaVersion"] = 1.0
-        schema["inputDataFormat"] = {
-            "type": "CSV",
-            "encoding": dataset_row["encoding"]
-        }
+        schema["schemaVersion"] = 1.0  
+        schema["inputDataFormat"] = "CSV"
+        schema["encoding"] = dataset_row["encoding"]
 
         schema["id"] = {
             "name": dataset_row["id_name"],

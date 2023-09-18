@@ -3,10 +3,8 @@
   "description": "This dataset was used to develop quantitative structure-activity relationship (QSAR) models to predict acute aquatic toxicity towards the fish Pimephales promelas (fathead minnow).",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "Id",
     "description": "Unique identifier for sample"

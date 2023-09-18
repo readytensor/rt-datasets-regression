@@ -3,10 +3,8 @@
   "description": "This dataset, aggregated from sources like the American Community Survey, clinicaltrials.gov, and cancer.gov, is designed for regression tasks to predict cancer mortality rates in US counties from 2010 to 2016. It incorporates 2013 census data, including county-level features such as population, income, households, and other demographic attributes.",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "Geography",
     "description": "County name (unique identifier)"

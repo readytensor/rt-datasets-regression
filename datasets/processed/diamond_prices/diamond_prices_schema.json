@@ -3,10 +3,8 @@
   "description": "Dataset is based on a case study called \"Sarah Gets a Diamond\". This case was presented in the first year decision analysis course at Darden School of Business (University of Virginia). The task is to predict the price of a diamond given attributes such as carat weight, cut, color, clarity, polish, symmetry and report (grading agency which reported the qualities of the diamond).",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "Id",
     "description": "Unique identifier for sample"

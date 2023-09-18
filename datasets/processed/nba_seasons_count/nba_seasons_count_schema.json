@@ -3,10 +3,8 @@
   "description": "This dataset contains comprehensive statistics and information related to NBA players, specifically focusing on their performance during their debut season and its relationship to their subsequent career longevity in the NBA.",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "Name",
     "description": "Name of the NBA player"

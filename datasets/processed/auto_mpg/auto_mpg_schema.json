@@ -3,10 +3,8 @@
   "description": "The auto-mpg dataset contains information about various car attributes, such as cylinders, horsepower, and weight, and aims to predict the miles-per-gallon (mpg) fuel efficiency of the cars. The regression task is to use these attributes to accurately predict the mpg, providing insights into the relationships between car characteristics and fuel efficiency. ",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "id",
     "description": "Unique identifier for sample"

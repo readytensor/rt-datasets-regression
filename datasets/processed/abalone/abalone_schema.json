@@ -3,10 +3,8 @@
   "description": "Dataset for predicting the age of abalone from physical measurements. The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope -- a boring and time-consuming task. Other measurements, which are easier to obtain, are used to predict the age.",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "Id",
     "description": "Unique identifier for sample"
@@ -21,11 +19,7 @@
       "name": "Sex",
       "description": "Sex / nominal / -- / M, F, and I (infant)",
       "dataType": "CATEGORICAL",
-      "categories": [
-        "F",
-        "I",
-        "M"
-      ],
+      "categories": ["F", "I", "M"],
       "nullable": false
     },
     {

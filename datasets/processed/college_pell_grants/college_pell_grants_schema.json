@@ -3,10 +3,8 @@
   "description": "Modified version for the automl benchmark. Regroups information for about 7800 different US colleges. Including geographical information, stats about the population attending and post graduation career earnings. Dataset is used to predict the percent of students with Pell Grants given various attributes regarding the college and its student population. \n\n\n",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "unit_id",
     "description": "Unique identifier for each college"

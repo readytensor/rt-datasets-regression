@@ -3,10 +3,8 @@
   "description": "This dataset captures time steps from a sine wave to predict subsequent sine values for regression. It includes Gaussian noise, variable intervals between samples, and occasional missing values, making it a complex representation of real-world sequential data scenarios.",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "sample_id",
     "description": "Unique identifier for sample"

@@ -3,10 +3,8 @@
   "description": "The Energy Efficiency dataset consists of 8 features from 768 simulated building shapes in Ecotect, designed for regression tasks to predict both heating and cooling load requirements.",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "Id",
     "description": "Unique identifier for sample"

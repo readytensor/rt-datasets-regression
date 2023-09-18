@@ -3,10 +3,8 @@
   "description": "The House Prices dataset comprises 1,460 samples with 81 attributes detailing property features, designed for regression tasks to predict individual house sale prices based on property characteristics.  It is distinct from the Boston and California House Prices datasets.",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "Id",
     "description": "Unique identifier for sample"

@@ -3,10 +3,8 @@
   "description": "The Computer Activity dataset captures system metrics from a multi-user Sun Sparcstation 20/712 at 5-second intervals, intended for regression analysis to predict system performance based on varied user tasks.",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "id",
     "description": "Unique identifier for sample"

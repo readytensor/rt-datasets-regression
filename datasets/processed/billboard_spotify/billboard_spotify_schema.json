@@ -3,10 +3,8 @@
   "description": "This dataset represents a collection of audio features for songs that made their mark on various Billboard charts spanning the years 1961 through 2022. The dataset is formulated as a regression task to predict the \"danceability\" of a track given other audio features. ",
   "modelCategory": "regression",
   "schemaVersion": 1.0,
-  "inputDataFormat": {
-    "type": "CSV",
-    "encoding": "utf-8"
-  },
+  "inputDataFormat": "CSV",
+  "encoding": "utf-8",
   "id": {
     "name": "id",
     "description": "Unique identifier for each track"
