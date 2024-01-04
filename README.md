@@ -1,6 +1,31 @@
 # Datasets for Regression Base category on Ready Tensor
 
-This repo contains all files related to the datasets used in algorithm evaluation for the Regression - Base category.
+This repo contains files related to the datasets used in model benchmarking for the **Regression** category. There are a total of 15 benchmarking datasets used in this category. Additionally, there is a 16th dataset for smoke testing of models. The following is the list of datasets:
+
+| Dataset                          | Industry                             | Observations | Features | Has Categorical | Missing Values |
+| -------------------------------- | ------------------------------------ | :----------: | :------: | :-------------: | :------------: |
+| Abalone                          | Biosciences                          |    4,177     |    8     |       yes       |       no       |
+| Ailerons                         | Aerospace                            |    13,750    |    40    |       no        |       no       |
+| Aquatic toxicity                 | Environmental Chemistry / Toxicology |     546      |    8     |       no        |       no       |
+| Auto MPG                         | Automotive                           |     398      |    7     |       yes       |      yes       |
+| Billboard Spotify Audio Features | Music / Entertainment                |    8,930     |    18    |       yes       |       no       |
+| Cancer Mortality                 | Medical / Healthcare Research        |    3,047     |    31    |       no        |      yes       |
+| College Pell Grants              | Education                            |    7,062     |    42    |       yes       |      yes       |
+| Computer Activity                | Technology / Computer Science        |    8,192     |    21    |       no        |       no       |
+| Diamond Prices                   | Precious Metals / Industrial Metals  |    6,000     |    7     |       yes       |       no       |
+| Energy Efficiency                | Energy                               |     768      |    8     |       yes       |       no       |
+| Fluid Pressure                   | Fluid Dynamics                       |    2,400     |    4     |       yes       |      yes       |
+| House Prices                     | Housing / Real Estate                |    1,460     |    79    |       yes       |      yes       |
+| NBA Player Seasons Count Dataset | Sports                               |    3,261     |    29    |       yes       |      yes       |
+| NeuralSimNet                     | None (synthetic)                     |    10,000    |    16    |       no        |      yes       |
+| Sine waves                       | None (synthetic)                     |     250      |    10    |       no        |      yes       |
+| Smoke Test Regression            | None (synthetic)                     |     200      |    2     |       yes       |      yes       |
+
+More information about each dataset is provided in the sections below.
+
+---
+
+## Repository Structure
 
 The `datasets` folder contains the main data files and the schema files for all the benchmark datasets under Regression - Base category. Within each dataset folder in `datasets`:
 
@@ -17,13 +42,17 @@ The `datasets` folder contains the main data files and the schema files for all 
 
 `schema_gen` folder contains a schema gen config file (YAML) and a python script which are used to generate the JSON schema files stored in the `processed` folder for each dataset. The generated schema file conforms to the Ready Tensor specification for this category.
 
----
-
-The following is the list of datasets along with a brief description for each and its attribution:
+Note again that the main files for all the datasets are in the `./datasets/processed` folder.
 
 ---
 
-## Abalone
+## Datasets
+
+The following sections provide more information for each of the datasets.
+
+---
+
+### Abalone
 
 #### Alias (in scorecards): abalone
 
@@ -68,7 +97,7 @@ UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: Uni
 
 ---
 
-## Ailerons
+### Ailerons
 
 #### Alias (in scorecards): ailerons
 
@@ -93,7 +122,7 @@ Author: Luis Torgo","Rui Camacho
 
 ---
 
-## Aquatic Toxicity (QSAR)
+### Aquatic Toxicity (QSAR)
 
 #### Alias (in scorecards): aquatic_toxicity
 
@@ -128,7 +157,7 @@ UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: Uni
 
 ---
 
-## Auto MPG
+### Auto MPG
 
 #### Alias (in scorecards): auto_mpg
 
@@ -165,7 +194,7 @@ UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: Uni
 
 ---
 
-## Billboard Spotify Audio Features
+### Billboard Spotify Audio Features
 
 #### Alias (in scorecards): billboard_spotify
 
@@ -187,7 +216,7 @@ For each song listed on these charts, the corresponding audio features were sour
 #### Dataset characteristics
 
 - number of samples = 8,930
-- number of input features = 13
+- number of input features = 18
 - Has categorical features = Yes
 - Has missing values = No
 
@@ -197,7 +226,7 @@ Song data is sourced from the Spotify API. The Billboard charts (list of songs) 
 
 ---
 
-## Cancer Mortality
+### Cancer Mortality
 
 #### Alias (in scorecards): cancer_mortality
 
@@ -221,7 +250,7 @@ https://data.world/nrippner/ols-regression-challenge
 
 ---
 
-## College Pell Grants
+### College Pell Grants
 
 #### Alias (in scorecards): college_pell_grants
 
@@ -245,7 +274,7 @@ https://www.openml.org/search?type=data&sort=runs&id=42727&status=active
 
 ---
 
-## Computer Activity
+### Computer Activity
 
 #### Alias (in scorecards): computer_activity
 
@@ -273,7 +302,7 @@ Contributed by: Michael Revow
 
 ---
 
-## Diamond
+### Diamond
 
 #### Alias (in scorecards): diamond
 
@@ -303,7 +332,7 @@ dataset = get_data('diamond')
 
 ---
 
-## Energy Efficiency
+### Energy Efficiency
 
 #### Alias (in scorecards): energy_efficiency
 
@@ -334,11 +363,11 @@ UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: Uni
 
 ---
 
-## Fluid Pressure
+### Fluid Pressure
 
 #### Alias (in scorecards): fluid_pressure
 
-#### Domain / Industry: Mechanical Engineering / Fluid Dynamics
+#### Domain / Industry: Fluid Dynamics
 
 #### Description
 
@@ -380,7 +409,7 @@ Dataset is synthetically generated by the Ready Tensor team.
 
 ---
 
-## House Prices
+### House Prices
 
 #### Alias (in scorecards): house_prices
 
@@ -409,7 +438,7 @@ data = get_data('house')
 
 ---
 
-## NBA Player Seasons Count
+### NBA Player Seasons Count
 
 #### Alias (in scorecards): nba_seasons_count
 
@@ -446,7 +475,7 @@ Final dataset created by Ready Tensor team by applying the filtering and preproc
 
 ---
 
-## NeuralSimReg
+### NeuralSimReg
 
 #### Alias (in scorecards): neural_sim_reg
 
@@ -481,7 +510,7 @@ Dataset is synthetically generated by the Ready Tensor team.
 
 ---
 
-## Sine Waves
+### Sine Waves
 
 #### Alias (in scorecards): sine_waves
 
@@ -518,7 +547,7 @@ Dataset is synthetically generated by the Ready Tensor team.
 
 ---
 
-## Smoke Test Regression
+### Smoke Test Regression
 
 #### Alias (in scorecards): smoke_test_regression
 
@@ -562,3 +591,5 @@ In essence, this dataset serves as a smoke test, aiming to assess algorithms' fu
 #### Attribution
 
 Dataset is synthetically generated by the Ready Tensor team.
+
+---
